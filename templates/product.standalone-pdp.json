@@ -1,0 +1,9 @@
+{
+  "sections": {
+    "pdp": {
+      "type": "pdp-wisdom",
+      "settings": {}
+    }
+  },
+  "order": ["pdp"]
+}

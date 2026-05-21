@@ -1,0 +1,955 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "rating_stars_MifddJ": {
+          "type": "rating_stars",
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#e8bf0b",
+            "bg_stars_style": "outlined",
+            "bg_star_color": "#ececec",
+            "label": "Rated <strong>4.8 Excellent </strong>50,312+ Reviews",
+            "size": 11,
+            "alignment": "flex-start",
+            "scroll_id": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": "h1",
+            "title_alignment": "left",
+            "uppercase_title": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "text_7PwcYY": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 12,
+            "desktop_text_size": 15,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "Restores your inner frequency and emotional steadiness",
+            "text_2": "Genuine rose quartz — hand-selected, batch-assembled",
+            "text_3": "Supports deep sleep and 3am relief",
+            "icon_scale": 120,
+            "icon_color": "#d59f9d",
+            "icon_1": "check_circle",
+            "filled_icon_1": true,
+            "icon_2": "check_circle",
+            "filled_icon_2": true,
+            "icon_3": "check_circle",
+            "filled_icon_3": true,
+            "width": "100%",
+            "direction": "vertical",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 9
+          }
+        },
+        "text_xNMwAq": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 12,
+            "desktop_text_size": 15,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "Returns you to the woman you recognise in the mirror",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#d59f9d",
+            "icon_1": "check_circle",
+            "filled_icon_1": true,
+            "icon_2": "check_circle",
+            "filled_icon_2": true,
+            "icon_3": "check_circle",
+            "filled_icon_3": true,
+            "width": "100%",
+            "direction": "vertical",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+        "divider_BR8daL": {
+          "type": "divider",
+          "settings": {
+            "color": "#eaeaea",
+            "height": 1,
+            "width": 100,
+            "Full_mobile_width": false,
+            "alignment": "center",
+            "border_radius": 0,
+            "margin_top": 15,
+            "margin_bottom": 0
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "layout": "price_second",
+            "price_color": "accent-1",
+            "compare_price_color": "text",
+            "displayed_badge": "sale",
+            "icon_scale": 140,
+            "custom_badge_text": "[icon_1] SPECIAL OFFER",
+            "icon_1": "redeem",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "margin_top": 6,
+            "margin_bottom": 6
+          }
+        },
+        "divider_j6MH7j": {
+          "type": "divider",
+          "settings": {
+            "color": "#eaeaea",
+            "height": 2,
+            "width": 100,
+            "Full_mobile_width": false,
+            "alignment": "center",
+            "border_radius": 0,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "04ba004e-2f54-4936-8b1c-8bcadf6573f6": {
+          "type": "quantity_selector",
+          "settings": {
+            "full_width_classic": false,
+            "atc_append": "none",
+            "atc_append_heights": "stretch-quantity",
+            "enable_quantity_discounts": true,
+            "style": "vertical",
+            "headline": "Low Stock - Selling Fast",
+            "preselected": "option_2",
+            "display_selected_indicator": true,
+            "border_radius": 10,
+            "border_width": 2,
+            "color_scheme": "accent-1",
+            "enable_variant_selectors": false,
+            "enable_variant_selectors_on_quantity_of_1": true,
+            "update_prices": true,
+            "skip_unavailable": false,
+            "full_width_pickers": false,
+            "hide_pickers_overlay": true,
+            "pickers_label": "Color, Size",
+            "image_width": 70,
+            "space_images": true,
+            "vertical_images_position": "top",
+            "vertical_prices_layout": "vertical",
+            "option_1_quantity": 2,
+            "option_1_badge": "",
+            "option_1_badge_style": "1",
+            "option_1_badge_color": "accent-1",
+            "option_1_label": "BUY 1 GET 1 FREE",
+            "option_1_benefit": "",
+            "option_1_benefit_position": "top",
+            "option_1_benefit_style": "outlined",
+            "option_1_benefit_color": "accent-1",
+            "option_1_caption": "",
+            "option_1_percentage_off_text": "0",
+            "option_1_fixed_amount_off": "35",
+            "option_1_price_text": "[price]",
+            "option_1_compare_price": "compare_price",
+            "option_1_compare_price_text": "[compare_price]",
+            "option_2_quantity": 4,
+            "option_2_badge": "MOST POPULAR",
+            "option_2_badge_style": "2",
+            "option_2_badge_color": "accent-1",
+            "option_2_label": "BUY 2 GET 2 FREE",
+            "option_2_benefit": "",
+            "option_2_benefit_position": "top",
+            "option_2_benefit_style": "outlined",
+            "option_2_benefit_color": "accent-1",
+            "option_2_caption": "",
+            "option_2_percentage_off_text": "0",
+            "option_2_fixed_amount_off": "070",
+            "option_2_price_text": "[price]",
+            "option_2_compare_price": "compare_price",
+            "option_2_compare_price_text": "[compare_price]",
+            "option_3_quantity": 6,
+            "option_3_badge": "",
+            "option_3_badge_style": "3",
+            "option_3_badge_color": "accent-1",
+            "option_3_label": "BUY 3 GET 3 FREE",
+            "option_3_benefit": "",
+            "option_3_benefit_position": "top",
+            "option_3_benefit_style": "outlined",
+            "option_3_benefit_color": "accent-1",
+            "option_3_caption": "",
+            "option_3_percentage_off_text": "",
+            "option_3_fixed_amount_off": "105",
+            "option_3_price_text": "[price]",
+            "option_3_compare_price": "compare_price",
+            "option_3_compare_price_text": "[compare_price]",
+            "option_4_quantity": 0,
+            "option_4_badge": "",
+            "option_4_badge_style": "1",
+            "option_4_badge_color": "accent-1",
+            "option_4_label": "Buy [quantity] sheet",
+            "option_4_benefit": "",
+            "option_4_benefit_position": "top",
+            "option_4_benefit_style": "outlined",
+            "option_4_benefit_color": "accent-1",
+            "option_4_caption": "You save [amount_saved]",
+            "option_4_percentage_off_text": "0",
+            "option_4_fixed_amount_off": "0",
+            "option_4_price_text": "[price]",
+            "option_4_compare_price": "compare_price",
+            "option_4_compare_price_text": "[compare_price]",
+            "margin_top": 18,
+            "margin_bottom": 15
+          }
+        },
+        "text_mfwDaB": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "center",
+            "text_color": "#121212",
+            "text_1": "<strong>With 2 Free Gifts </strong>┃<strong>TODAY ONLY</strong>",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "quantity_gifts_nQYAnH": {
+          "type": "quantity_gifts",
+          "settings": {
+            "unlocked_bg_color": "#ffffff",
+            "unlocked_border_color": "#e8bf0b",
+            "gift_box_color": "accent-2",
+            "gift_box_tie_color": "#e8bf0b",
+            "gift_1": "60-affirmations-of-the-ab",
+            "gift_1_quantity": 1,
+            "gift_1_top_text": "<strong>1 PACK</strong>",
+            "gift_1_bottom_text": "<strong>Exclusive</strong>",
+            "gift_2": "the-way-of-hathor-7-mornings-of-return",
+            "gift_2_quantity": 2,
+            "gift_2_top_text": "<strong>2 PACK</strong>",
+            "gift_2_bottom_text": "<strong>Exclusive</strong>",
+            "gift_3": "",
+            "gift_3_quantity": 3,
+            "gift_3_top_text": "<strong>3 PACK</strong>",
+            "gift_3_bottom_text": "<strong>Exclusive</strong>",
+            "gift_4": "",
+            "gift_4_quantity": 4,
+            "gift_4_top_text": "<strong>4 PACK</strong>",
+            "gift_4_bottom_text": "<strong>Exclusive</strong>",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "skip_cart": false,
+            "uppercase_text": true,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "display_price": false,
+            "enable_custom_color": true,
+            "custom_color": "#d59f9d",
+            "enable_secondary_btn": false,
+            "secondary_btn_label": "Buy It Now",
+            "secondary_btn_enable_custom_color": false,
+            "secondary_btn_custom_color": "#dd1d1d",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "payment_badges_VYCert": {
+          "type": "payment_badges",
+          "settings": {
+            "enabled_payment_types": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "text_pnFbkB": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "center",
+            "text_color": "#000000",
+            "text_1": "30-day money-back guarantee",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#000000",
+            "icon_1": "workspace_premium",
+            "filled_icon_1": false,
+            "icon_2": "",
+            "filled_icon_2": false,
+            "icon_3": "",
+            "filled_icon_3": false,
+            "width": "fit-content",
+            "direction": "vertical",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#292929",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "image_8VqNMn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Dizajn_bez_naslova_-_2026-03-18T222936.433.png",
+            "width": 90,
+            "Full_mobile_width": false,
+            "alignment": "center",
+            "border_radius": 0,
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "image_JKYApk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-02-03_222153.png",
+            "width": 100,
+            "Full_mobile_width": false,
+            "alignment": "center",
+            "border_radius": 0,
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "5fcc0428-e768-4cb7-bea3-eb0274198dd1": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_types": "pills, dropdown, dropdown",
+            "custom_labels": "[name] - [selected]",
+            "skip_unavailable": false,
+            "swatches_size": "medium",
+            "swatches_custom_colors": "disabled",
+            "swatches_custom_colors_list": "#000000, #6D388B, #0000FF, #FFCC00",
+            "full_width_dropdowns": false,
+            "breaks_style": "normal",
+            "breaks_headline": "BUNDLE & SAVE",
+            "breaks_display_selected_indicator": true,
+            "breaks_border_radius": 10,
+            "breaks_border_width": 2,
+            "breaks_color_scheme": "accent-1",
+            "breaks_badges": "[empty], Most popular, [empty]",
+            "breaks_badge_style": "1",
+            "breaks_badge_color": "accent-1",
+            "breaks_displayed_images": "variant_images",
+            "breaks_custom_images": "",
+            "breaks_image_width": 70,
+            "breaks_space_images": true,
+            "breaks_vertical_images_position": "top",
+            "breaks_vertical_prices_layout": "vertical",
+            "breaks_labels": "[name], [name], [name]",
+            "breaks_benefits": "[empty], Free Shipping, Free Shipping",
+            "breaks_benefit_position": "top",
+            "breaks_benefit_style": "outlined",
+            "breaks_benefit_color": "accent-1",
+            "breaks_captions": "Variant 1 caption, Variant 2 caption, Variant 3 caption",
+            "breaks_price_texts": "[price], [price], [price]",
+            "breaks_compare_price_texts": "[compare_price], [compare_price], [compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5": {
+          "type": "sticky_atc",
+          "settings": {
+            "function": "add_to_cart",
+            "display_when": "after_scroll",
+            "button_label": "Add to cart",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "background-1",
+            "star_color": "#ffcc00",
+            "stars_label": "(xxxx Reviews)",
+            "picker_type": "combined",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": false,
+            "desktop_show_price": true,
+            "desktop_show_sale_badge": true,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": false,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": true,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": false,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        },
+        "de158e68-5d0d-4819-a625-e2dabdff87d1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What women have experienced with the Hathor Stone",
+            "heading_size": "small",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Women who complete the 90-day heka practice consistently describe the same shifts — in different words, from different cities, with different lives. The 3am waking stops, or loses its grip. The mirror becomes less strange. Something that had been running underneath everything — the formless anxiety, the low-grade sense of fading — simply quiets. Emotional steadiness returns not dramatically, but noticeably. The woman they had been looking for comes back. Not because anything external changed. Because the Ab, called back through daily ritual, reasserted its frequency.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_RDaXPM": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "The stone and the ritual",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>The Hathor Stone bracelet is handcrafted from genuine rose quartz — individually selected stones, assembled by hand in batches of 200. Each bracelet comes with a personal Ritual Card carrying your complete heka instruction. The morning practice takes sixty seconds: bracelet on the left wrist, right hand over the stone, one breath, your chosen word spoken aloud. That is all. Sixty seconds before your phone. Every day for ninety days. The Ab responds to touch, repetition, and the word spoken with intention — not to effort, not to perfection, simply to consistency.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_TdYymG": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How it works",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>The ancient Egyptians called it heka — the activation of intention through word, object, and repetition. Your rose quartz bracelet is the object. Your chosen word is the heka. Your morning ritual is the repetition. Rose quartz was used by the priestesses of Hathor for over 3,000 years specifically because its frequency falls within the range Egyptian practitioners mapped as the resonant frequency of the Ab at its fullest. The stone does not create the frequency. It holds it between the mornings you speak your word — so nothing is lost in the hours of ordinary life. Over 90 days, the daily practice creates a measurable shift in how you feel inside your own body, your own mornings, your own reflection.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_RkbTyh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long before I feel the return?",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Every woman's return moves at its own pace. Most women notice something in the first seven days — a morning that is fractionally steadier, a night that is fractionally quieter. By days 21 to 30, the shift becomes undeniable. By day 90, the practice is no longer something you do — it is simply part of who you are. We recommend committing to the full 90 days before assessing. The Ab does not respond to urgency. It responds to consistency. That is why we offer a full 90-day guarantee — enough time for the practice to show you what it can do.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_wKKWgT": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "The Hathor Stone Guarantee",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>In line with Nefret's tradition, we extend a 30-day full money-back guarantee to every new owner of the Hathor Stone. If you do not feel a shift in your inner frequency within 90 days of consistent practice, contact us and we will refund you in full. No questions asked. No forms. No conditions. We are not afraid of your skepticism — because we have seen what the practice does when a woman gives it the sixty seconds it asks for. The return is real. We stand behind it completely.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "image_UtVgHn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_2026_M03_18_23_15_43.png",
+            "width": 100,
+            "Full_mobile_width": false,
+            "alignment": "center",
+            "border_radius": 10,
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "reelfy_videos_reelfy_section_pLDikD": {
+          "type": "shopify://apps/reelfy-videos/blocks/reelfy-section/4022ffb0-05c3-4ef3-a409-6df51f4b1b3f",
+          "settings": {
+            "title": "",
+            "subtitle": "",
+            "heading_size": "1",
+            "heading_align": "left",
+            "heading_color": "",
+            "desc_style": "subtitle",
+            "desc_color": "",
+            "custom_class": "",
+            "background_color": "",
+            "padding_top": 36,
+            "padding_bottom": 36,
+            "padding_left_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "rating_stars_MifddJ",
+        "title",
+        "text_7PwcYY",
+        "text_xNMwAq",
+        "divider_BR8daL",
+        "price",
+        "divider_j6MH7j",
+        "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
+        "text_mfwDaB",
+        "quantity_gifts_nQYAnH",
+        "buy_buttons",
+        "payment_badges_VYCert",
+        "text_pnFbkB",
+        "image_8VqNMn",
+        "image_JKYApk",
+        "5fcc0428-e768-4cb7-bea3-eb0274198dd1",
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5",
+        "de158e68-5d0d-4819-a625-e2dabdff87d1",
+        "collapsible_tab_RDaXPM",
+        "collapsible_tab_TdYymG",
+        "collapsible_tab_RkbTyh",
+        "collapsible_tab_wKKWgT",
+        "image_UtVgHn",
+        "reelfy_videos_reelfy_section_pLDikD"
+      ],
+      "custom_css": [],
+      "settings": {
+        "display_id": false,
+        "enable_sticky_info": true,
+        "display_variant_image_first": false,
+        "disable_prepend": true,
+        "hide_variants": false,
+        "variant_image_filtering": "none",
+        "image_zoom": "none",
+        "thumbnails_ratio": "square",
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "video_player": "play_btn",
+        "enable_video_looping": false,
+        "autoplay_videos_pause_btn": false,
+        "video_sound_btn": false,
+        "video_timeline": false,
+        "play_btn_color_scheme": "accent-1",
+        "sound_btn_color_scheme": "inverse",
+        "timeline_color": "accent-1",
+        "media_size": "medium",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "desktop_thumbnails_position": "bottom",
+        "desktop_thumbnails_count": 5,
+        "desktop_vertical_thumbnails_width": 16,
+        "desktop_vertical_thumbnails_hide_arrows": false,
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "desktop_arrows_position": "hidden",
+        "mobile_media_corner_radius": 0,
+        "mobile_spacing_pixels": 0,
+        "mobile_arrows_position": "sides",
+        "mobile_pagination": "dots_overlay",
+        "mobile_thumbnails_position": "hidden",
+        "mobile_thumbnails_count": 5,
+        "mobile_vertical_thumbnails_width": 22,
+        "mobile_vertical_thumbnails_hide_arrows": true,
+        "mobile_scroll_padding_percentage": 0,
+        "mobile_scroll_padding_pixels": 0,
+        "enable_mobile_outher_spacing": false,
+        "mobile_slides_container_width": 100,
+        "mobile_slides_inner_width": 100,
+        "trust_badge_position": "top-right",
+        "trust_badge_size": "medium",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "title": "You may also like",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "rich_text_GVTWPM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hDmDd7": {
+          "type": "heading",
+          "settings": {
+            "title": "4 Ancient Secrets of the <strong>Hathor Stone</strong>",
+            "title_highlight_color": "#d59f9d",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hDmDd7"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "multicolumn_EGdjj4": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Teb8KQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_2026_M03_11_02_45_18.png",
+            "muted_autoplay": true,
+            "title": "Genuine Rose Quartz",
+            "text": "<p>Hand-selected stones, assembled individually in batches of 200. The only material the priestesses of Hathor used for the Ab ritual — for over 3,000 years.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aMaiaU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_2026_M03_11_19_07_56_b838c168-1c49-426d-9ca4-ec58cbb26ee5.png",
+            "muted_autoplay": true,
+            "title": "The Heka Ritual Included",
+            "text": "<p>Every bracelet comes with a personal Ritual Card. Sixty seconds each morning — word, stone, repetition. No meditation. No mantras. Just the oldest women's practice in recorded history.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AEibCJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_2026_M03_11_02_29_34.png",
+            "muted_autoplay": true,
+            "title": "Designed for Your Season",
+            "text": "<p>When the Ab grows quiet and the woman in the mirror begins to feel like a stranger. The practice works through consistency, not effort.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6UWcHB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/S2bc59bb2d1924d5992422fd3e53484acp.webp",
+            "muted_autoplay": true,
+            "title": "Batch-Registered & Guaranteed",
+            "text": "<p>Hand-assembled in batches of 200. Backed by a 30-day full money-back guarantee. If you do not feel the return — we refund you completely. No questions asked.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Teb8KQ",
+        "column_aMaiaU",
+        "column_AEibCJ",
+        "column_6UWcHB"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "button_label": "",
+        "button_link": "",
+        "atc_button_label": "",
+        "atc_product": "",
+        "atc_skip_cart": false,
+        "color_scheme": "background-1",
+        "cards_color_scheme": "bg-overlay",
+        "cards_corner_radius": 20,
+        "stretch_cards": false,
+        "stretched_cards_content_alignment": "center",
+        "image_width": "full",
+        "image_ratio": "square",
+        "media_position": "top",
+        "column_alignment": "center",
+        "desktop_heading_size": 18,
+        "mobile_heading_size": 16,
+        "desktop_text_size": 13,
+        "mobile_text_size": 15,
+        "desktop_text_top_margin": 10,
+        "mobile_text_top_margin": 10,
+        "desktop_container_padding_y": 24,
+        "desktop_container_padding_x": 24,
+        "mobile_container_padding_y": 24,
+        "mobile_container_padding_x": 24,
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 4,
+        "slider_desktop": true,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "1",
+        "slider_mobile": false,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "under",
+        "padding_top": 36,
+        "padding_bottom": 0,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_cards_colors_background": "#f3f3f3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_heading": "#222126",
+        "custom_cards_colors_text": "#2e2a39"
+      }
+    },
+    "results_dxxxQg": {
+      "type": "results",
+      "blocks": {
+        "row_z7BQnF": {
+          "type": "row",
+          "settings": {
+            "percentage": 96,
+            "row_text": "<p><strong>Reported feeling more like themselves within 30 days, </strong>Of consistent morning heka practice</p>"
+          }
+        },
+        "row_BV4mKp": {
+          "type": "row",
+          "settings": {
+            "percentage": 91,
+            "row_text": "<p><strong>Said they would continue wearing the Hathor Stone daily, </strong>As part of their morning ritual</p>"
+          }
+        },
+        "row_jYVDW9": {
+          "type": "row",
+          "settings": {
+            "percentage": 89,
+            "row_text": "<p><strong>Noticed a shift in their sleep quality</strong><br/>Fewer 3am wakings, deeper rest</p>"
+          }
+        },
+        "row_cwN8qD": {
+          "type": "row",
+          "settings": {
+            "percentage": 93,
+            "row_text": "<p><strong>Said they would recommend it to a woman they love, </strong>And would buy it as a gift</p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_z7BQnF",
+        "row_BV4mKp",
+        "row_jYVDW9",
+        "row_cwN8qD"
+      ],
+      "name": "Results",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#000000",
+        "heading_size": "h1",
+        "text": "",
+        "image": "shopify://shop_images/ChatGPT_Image_2026_M03_18_23_28_59.png",
+        "video_muted_autoplay": true,
+        "color_scheme": "background-1",
+        "layout": "results_second",
+        "results_headline": "<strong>3,000-Year Tradition. One Morning. Sixty Seconds.</strong>",
+        "results_title_highlight_color": "#000000",
+        "results_headline_size": "h2",
+        "results_text": "",
+        "results_headline_alignment": "left",
+        "caption": "<p><strong>Claim Your Batch 004 Bracelet</strong></p>",
+        "button_label": "",
+        "link": "",
+        "button_style_secondary": false,
+        "atc_button_label": "",
+        "atc_product": "",
+        "atc_skip_cart": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_accent": "#dd1d1d",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "image_with_text_f6yzrq": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_6AWebF": {
+          "type": "caption",
+          "settings": {
+            "caption": "THE AB RETURN",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_DzCfeF": {
+          "type": "heading",
+          "settings": {
+            "title": "Feel the Difference by Day 30",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h2"
+          }
+        },
+        "text_BqfT6T": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Women who practice the daily heka ritual consistently report the same shifts — in their sleep, their mornings, and the face they see in the mirror.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "caption_6AWebF",
+        "heading_DzCfeF",
+        "text_BqfT6T"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/bust-of-nefertiti-with-a-tall-blue-crown-flanked-by-two-blue-cat-statues-set-against-a-backdrop-of-egyptian-wall-carvings.jpg",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2e2a39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "rich_text_GVTWPM",
+    "multicolumn_EGdjj4",
+    "results_dxxxQg",
+    "image_with_text_f6yzrq"
+  ]
+}

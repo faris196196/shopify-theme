@@ -1,0 +1,1247 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": "h1",
+            "title_alignment": "left",
+            "uppercase_title": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "rating_stars_fciH7i": {
+          "type": "rating_stars",
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#ffcc00",
+            "bg_stars_style": "full",
+            "bg_star_color": "#ececec",
+            "label": "1912 Reviews",
+            "size": 12,
+            "alignment": "flex-start",
+            "scroll_id": "",
+            "margin_top": 15,
+            "margin_bottom": 6
+          }
+        },
+        "price_wf6ymQ": {
+          "type": "price",
+          "settings": {
+            "layout": "price_first",
+            "price_color": "accent-2",
+            "compare_price_color": "outline-button",
+            "displayed_badge": "custom",
+            "icon_scale": 120,
+            "custom_badge_text": "BLACK FRIDAY • SAVE 65%",
+            "icon_1": "redeem",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "margin_top": 9,
+            "margin_bottom": 15
+          }
+        },
+        "text_FcTXFw": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "Release Stress",
+            "text_2": "Reduces Insomnia",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "sentiment_stressed",
+            "filled_icon_1": false,
+            "icon_2": "sentiment_calm",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "fit-content",
+            "direction": "horizontal",
+            "column_gap": 1.5,
+            "enable_bg": true,
+            "bg_color": "#c2dae7",
+            "corner_radius": 40,
+            "padding": 2,
+            "border_size": 1,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "text_BLdTNA": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "Drug-Free",
+            "text_2": "Raises Mood",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "pill",
+            "filled_icon_1": false,
+            "icon_2": "mood",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "fit-content",
+            "direction": "horizontal",
+            "column_gap": 1.5,
+            "enable_bg": true,
+            "bg_color": "#c2dae7",
+            "corner_radius": 40,
+            "padding": 2,
+            "border_size": 1,
+            "border_color": "#c2dae7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "text_kCyRxr": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "Restore Body",
+            "text_2": "Real Frequencies",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "physical_therapy",
+            "filled_icon_1": false,
+            "icon_2": "airwave",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "fit-content",
+            "direction": "horizontal",
+            "column_gap": 1.5,
+            "enable_bg": true,
+            "bg_color": "#c2dae7",
+            "corner_radius": 40,
+            "padding": 2,
+            "border_size": 1,
+            "border_color": "#c2dae7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "5fcc0428-e768-4cb7-bea3-eb0274198dd1": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_types": "pills, dropdown, dropdown",
+            "custom_labels": "[name] - [selected]",
+            "skip_unavailable": false,
+            "swatches_size": "medium",
+            "swatches_custom_colors": "disabled",
+            "swatches_custom_colors_list": "#000000, #6D388B, #0000FF, #FFCC00",
+            "full_width_dropdowns": false,
+            "breaks_style": "normal",
+            "breaks_headline": "BUNDLE & SAVE",
+            "breaks_display_selected_indicator": true,
+            "breaks_border_radius": 10,
+            "breaks_border_width": 2,
+            "breaks_color_scheme": "accent-1",
+            "breaks_badges": "[empty], Most popular, [empty]",
+            "breaks_badge_style": "1",
+            "breaks_badge_color": "accent-1",
+            "breaks_displayed_images": "variant_images",
+            "breaks_custom_images": "",
+            "breaks_image_width": 70,
+            "breaks_space_images": true,
+            "breaks_vertical_images_position": "top",
+            "breaks_vertical_prices_layout": "vertical",
+            "breaks_labels": "[name], [name], [name]",
+            "breaks_benefits": "[empty], Free Shipping, Free Shipping",
+            "breaks_benefit_position": "top",
+            "breaks_benefit_style": "outlined",
+            "breaks_benefit_color": "accent-1",
+            "breaks_captions": "Variant 1 caption, Variant 2 caption, Variant 3 caption",
+            "breaks_price_texts": "[price], [price], [price]",
+            "breaks_compare_price_texts": "[compare_price], [compare_price], [compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "urgency_j7FMnW": {
+          "type": "urgency",
+          "settings": {
+            "urgency": "!BUY ONE GET ONE FREE. TODAY ONLY!",
+            "color_scheme": "accent-1",
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+        "image_4WPVan": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_600_x_300_px_7.png",
+            "width": 100,
+            "Full_mobile_width": false,
+            "alignment": "center",
+            "border_radius": 0,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "quantity_selector_LPPEiN": {
+          "type": "quantity_selector",
+          "settings": {
+            "full_width_classic": false,
+            "atc_append": "none",
+            "atc_append_heights": "stretch-quantity",
+            "enable_quantity_discounts": false,
+            "style": "normal",
+            "headline": "BUNDLE & SAVE",
+            "preselected": "option_1",
+            "display_selected_indicator": true,
+            "border_radius": 10,
+            "border_width": 2,
+            "color_scheme": "accent-1",
+            "enable_variant_selectors": true,
+            "enable_variant_selectors_on_quantity_of_1": false,
+            "update_prices": false,
+            "skip_unavailable": false,
+            "full_width_pickers": false,
+            "hide_pickers_overlay": true,
+            "pickers_label": "",
+            "image_width": 70,
+            "space_images": true,
+            "vertical_images_position": "top",
+            "vertical_prices_layout": "vertical",
+            "option_1_quantity": 1,
+            "option_1_badge": "",
+            "option_1_badge_style": "1",
+            "option_1_badge_color": "accent-1",
+            "option_1_label": "Buy [quantity]",
+            "option_1_benefit": "",
+            "option_1_benefit_position": "top",
+            "option_1_benefit_style": "outlined",
+            "option_1_benefit_color": "accent-1",
+            "option_1_caption": "You save [amount_saved]",
+            "option_1_percentage_off_text": "0",
+            "option_1_fixed_amount_off": "0",
+            "option_1_price_text": "[price]",
+            "option_1_compare_price": "compare_price",
+            "option_1_compare_price_text": "[compare_price]",
+            "option_2_quantity": 2,
+            "option_2_badge": "",
+            "option_2_badge_style": "1",
+            "option_2_badge_color": "accent-1",
+            "option_2_label": "Buy [quantity]",
+            "option_2_benefit": "",
+            "option_2_benefit_position": "top",
+            "option_2_benefit_style": "outlined",
+            "option_2_benefit_color": "accent-1",
+            "option_2_caption": "You save [amount_saved]",
+            "option_2_percentage_off_text": "0",
+            "option_2_fixed_amount_off": "0",
+            "option_2_price_text": "[price]",
+            "option_2_compare_price": "compare_price",
+            "option_2_compare_price_text": "[compare_price]",
+            "option_3_quantity": 3,
+            "option_3_badge": "",
+            "option_3_badge_style": "1",
+            "option_3_badge_color": "accent-1",
+            "option_3_label": "Buy [quantity]",
+            "option_3_benefit": "",
+            "option_3_benefit_position": "top",
+            "option_3_benefit_style": "outlined",
+            "option_3_benefit_color": "accent-1",
+            "option_3_caption": "You save [amount_saved]",
+            "option_3_percentage_off_text": "0",
+            "option_3_fixed_amount_off": "0",
+            "option_3_price_text": "[price]",
+            "option_3_compare_price": "compare_price",
+            "option_3_compare_price_text": "[compare_price]",
+            "option_4_quantity": 4,
+            "option_4_badge": "",
+            "option_4_badge_style": "1",
+            "option_4_badge_color": "accent-1",
+            "option_4_label": "Buy [quantity]",
+            "option_4_benefit": "",
+            "option_4_benefit_position": "top",
+            "option_4_benefit_style": "outlined",
+            "option_4_benefit_color": "accent-1",
+            "option_4_caption": "You save [amount_saved]",
+            "option_4_percentage_off_text": "0",
+            "option_4_fixed_amount_off": "0",
+            "option_4_price_text": "[price]",
+            "option_4_compare_price": "compare_price",
+            "option_4_compare_price_text": "[compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "skip_cart": false,
+            "uppercase_text": true,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "display_price": false,
+            "enable_custom_color": true,
+            "custom_color": "#07b1f3",
+            "enable_secondary_btn": false,
+            "secondary_btn_label": "Buy It Now",
+            "secondary_btn_enable_custom_color": false,
+            "secondary_btn_custom_color": "#dd1d1d",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "payment_badges_VYCert": {
+          "type": "payment_badges",
+          "settings": {
+            "enabled_payment_types": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "text_AjtiBp": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 12,
+            "desktop_text_size": 12,
+            "alignment": "center",
+            "text_color": "#ffffff",
+            "text_1": "🚨 Only 27 Left",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5": {
+          "type": "sticky_atc",
+          "disabled": true,
+          "settings": {
+            "function": "add_to_cart",
+            "display_when": "after_scroll",
+            "button_label": "Add to cart",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "background-1",
+            "star_color": "#ffcc00",
+            "stars_label": "(xxxx Reviews)",
+            "picker_type": "combined",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": false,
+            "desktop_show_price": true,
+            "desktop_show_sale_badge": true,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": false,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": true,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": false,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "rating_stars_fciH7i",
+        "price_wf6ymQ",
+        "text_FcTXFw",
+        "text_BLdTNA",
+        "text_kCyRxr",
+        "5fcc0428-e768-4cb7-bea3-eb0274198dd1",
+        "description",
+        "urgency_j7FMnW",
+        "image_4WPVan",
+        "quantity_selector_LPPEiN",
+        "buy_buttons",
+        "payment_badges_VYCert",
+        "text_AjtiBp",
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5"
+      ],
+      "custom_css": [],
+      "settings": {
+        "display_id": false,
+        "enable_sticky_info": true,
+        "display_variant_image_first": false,
+        "disable_prepend": true,
+        "hide_variants": false,
+        "variant_image_filtering": "none",
+        "image_zoom": "none",
+        "thumbnails_ratio": "square",
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "video_player": "play_btn",
+        "enable_video_looping": false,
+        "autoplay_videos_pause_btn": false,
+        "video_sound_btn": false,
+        "video_timeline": false,
+        "play_btn_color_scheme": "accent-1",
+        "sound_btn_color_scheme": "inverse",
+        "timeline_color": "accent-1",
+        "media_size": "medium",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "desktop_thumbnails_position": "bottom",
+        "desktop_thumbnails_count": 5,
+        "desktop_vertical_thumbnails_width": 16,
+        "desktop_vertical_thumbnails_hide_arrows": false,
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "desktop_arrows_position": "hidden",
+        "mobile_media_corner_radius": 0,
+        "mobile_spacing_pixels": 0,
+        "mobile_arrows_position": "sides",
+        "mobile_pagination": "dots_overlay",
+        "mobile_thumbnails_position": "hidden",
+        "mobile_thumbnails_count": 5,
+        "mobile_vertical_thumbnails_width": 22,
+        "mobile_vertical_thumbnails_hide_arrows": true,
+        "mobile_scroll_padding_percentage": 0,
+        "mobile_scroll_padding_pixels": 0,
+        "enable_mobile_outher_spacing": false,
+        "mobile_slides_container_width": 100,
+        "mobile_slides_inner_width": 100,
+        "trust_badge_position": "top-right",
+        "trust_badge_size": "medium",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "title": "You may also like",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "content_tabs_4hwaDU": {
+      "type": "content-tabs",
+      "blocks": {
+        "tab_RmY4UQ": {
+          "type": "tab",
+          "settings": {
+            "btn_label": "Key Features",
+            "btn_icon": "",
+            "filled_btn_icon": false,
+            "loop": false,
+            "muted_autoplay": false,
+            "btn_color_scheme": "accent-1",
+            "btn_animation": false,
+            "title": "",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1",
+            "text": "<h4>🪷 Restore Your Body's Natural Balance</h4><h4><br/>✚ Reduce Chronic Pain Naturally<br/></h4><h4><br/>🌙 Sleep Deeper, Wake up Refreshed<br/></h4><h4><br/>🧘 Melt Away Stress in Minutes<br/></h4><h4><br/>📶 Real Frequencies, Not Digital Recordings<br/></h4><h4><br/>✂️ Drug-Free Relief That Actually Works</h4>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_skip_cart": false,
+            "product": "",
+            "desktop_media_width": "full",
+            "desktop_media_position": "media_first",
+            "desktop_text_alignment": "left",
+            "mobile_media_position": "media_first",
+            "mobile_text_alignment": "mobile-left"
+          }
+        },
+        "tab_6R9qbw": {
+          "type": "tab",
+          "settings": {
+            "btn_label": "Instructions",
+            "btn_icon": "",
+            "filled_btn_icon": false,
+            "loop": false,
+            "muted_autoplay": false,
+            "btn_color_scheme": "accent-1",
+            "btn_animation": false,
+            "title": "",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1",
+            "text": "<p>Simply <strong>plug in the device</strong> and <strong>select your frequency</strong> – that's it. Our precision device does all the work, generating pure sine waves for maximum healing and comfort.</p><p>Don’t worry about getting it wrong.</p>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_skip_cart": false,
+            "product": "",
+            "desktop_media_width": "full",
+            "desktop_media_position": "media_first",
+            "desktop_text_alignment": "left",
+            "mobile_media_position": "media_first",
+            "mobile_text_alignment": "mobile-left"
+          }
+        },
+        "tab_zX6Nzw": {
+          "type": "tab",
+          "settings": {
+            "btn_label": "What's included?",
+            "btn_icon": "",
+            "filled_btn_icon": false,
+            "loop": false,
+            "muted_autoplay": false,
+            "btn_color_scheme": "accent-1",
+            "btn_animation": false,
+            "title": "",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1",
+            "text": "<p><strong>Forbidden Frequency Tool</strong> — The original manifestation frequency device designed to balance your bio-field, raise your vibration, and realign your energy with your desires.<br/></p><p><strong>Protective Shell for Frequency Device</strong> <em>(Value $15)</em> — Custom-fitted shell to keep your Frequency Tool safe, secure, and stylish wherever you go.</p><p><br/><strong>Power Cable</strong> <em>(Value $10)</em> — Durable, high-efficiency charging cable to keep your frequency sessions running smoothly at all times.</p><p><strong>FREE ADD-ONS:</strong><br/><strong>Complete Frequency Mastery eBook</strong> <em>(Value $70)</em> — Learn how to use each frequency effectively for manifestation, healing, and emotional balance.</p><p><br/><strong>Lifetime Access to Our Manifestation App</strong> <em>(Value $44)</em> — Includes your personal <strong>digital journal</strong>, <strong>affirmations vault</strong>, <strong>guided meditations</strong>, and <strong>frequency tracker</strong> to help you stay consistent and manifest faster.</p>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_skip_cart": false,
+            "product": "",
+            "desktop_media_width": "full",
+            "desktop_media_position": "media_first",
+            "desktop_text_alignment": "left",
+            "mobile_media_position": "media_first",
+            "mobile_text_alignment": "mobile-left"
+          }
+        },
+        "tab_RYQhGr": {
+          "type": "tab",
+          "settings": {
+            "btn_label": "Shipping Information",
+            "btn_icon": "",
+            "filled_btn_icon": false,
+            "loop": false,
+            "muted_autoplay": false,
+            "btn_color_scheme": "accent-1",
+            "btn_animation": false,
+            "title": "",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1",
+            "text": "<p><br/>We ship <strong>FAST!</strong> Every order above <strong>$50</strong> includes <strong>FREE SHIPPING</strong> + tracking number<br/><br/>All packages <strong>leave our facility within 24–48 hours</strong> on business days, getting your order to your home as quickly as possible.<br/><br/></p>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_skip_cart": false,
+            "product": "",
+            "desktop_media_width": "full",
+            "desktop_media_position": "media_first",
+            "desktop_text_alignment": "left",
+            "mobile_media_position": "media_first",
+            "mobile_text_alignment": "mobile-left"
+          }
+        },
+        "tab_GHRkbr": {
+          "type": "tab",
+          "settings": {
+            "btn_label": "60-Day Money Back Guarantee",
+            "btn_icon": "",
+            "filled_btn_icon": false,
+            "loop": false,
+            "muted_autoplay": false,
+            "btn_color_scheme": "accent-1",
+            "btn_animation": false,
+            "title": "",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1",
+            "text": "<p>We stand by our product! That is why <strong>every purchase is backed by our 60-day money-back guarantee policy.</strong> Simply <a href=\"/pages/contact\" title=\"Contact\"><em><strong>contact our support team</strong></em></a> for a hassle-free return.</p>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_skip_cart": false,
+            "product": "",
+            "desktop_media_width": "full",
+            "desktop_media_position": "media_first",
+            "desktop_text_alignment": "left",
+            "mobile_media_position": "media_first",
+            "mobile_text_alignment": "mobile-left"
+          }
+        }
+      },
+      "block_order": [
+        "tab_RmY4UQ",
+        "tab_6R9qbw",
+        "tab_zX6Nzw",
+        "tab_RYQhGr",
+        "tab_GHRkbr"
+      ],
+      "name": "Content tabs",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "background-1",
+        "container_width": "100",
+        "buttons_color_scheme": "accent-2",
+        "button_border_radius": 0,
+        "buttons_style": "outlined",
+        "active_button_animation": "opacity",
+        "header_layout": "vertical",
+        "buttons_desktop_font_size": 15,
+        "desktop_full_size_buttons": false,
+        "buttons_mobile_font_size": 13,
+        "mobile_full_size_buttons": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_tabs_color": "#000000",
+        "custom_tabs_color_label": "#ffffff"
+      }
+    },
+    "rich_text_gGbLpU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JwjyJf": {
+          "type": "heading",
+          "settings": {
+            "title": "Don't just take our word!",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1"
+          }
+        },
+        "rating_stars_jT34QD": {
+          "type": "rating_stars",
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#ffcc00",
+            "bg_stars_style": "full",
+            "bg_star_color": "#ececec",
+            "label": "4.8/5.0 based on 1912 Reviews",
+            "size": 14,
+            "scroll_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_JwjyJf",
+        "rating_stars_jT34QD"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#212121",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "image_slider_6yqjJH": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slide_8XKPRL": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/imgi_29_gempages_581035390589207470-d28f5ae0-de15-4907-af9d-848e633f1aa2.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_xRNG3U": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/imgi_25_gempages_581035390589207470-9dc853e7-c36c-41c9-a407-5a51d99002e8.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_pDR49A": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/imgi_24_gempages_581035390589207470-fb730ab7-aebf-4afb-b146-a7f0d0432b14.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_DCkFan": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/imgi_27_gempages_581035390589207470-67794051-9544-4ae6-8e5a-96275065944b.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_a7BGkJ": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/imgi_26_gempages_581035390589207470-0e43b8f3-371f-4484-b4f7-5619291a7ceb.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_D3GmNm": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_53.png",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_J3px4w": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_52.png",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_NXhtqN": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_51.png",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_gRG867": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/imgi_28_gempages_581035390589207470-a20ca919-b655-4b66-9888-54ca1e72bfdc.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        }
+      },
+      "block_order": [
+        "image_slide_8XKPRL",
+        "image_slide_xRNG3U",
+        "image_slide_pDR49A",
+        "image_slide_DCkFan",
+        "image_slide_a7BGkJ",
+        "image_slide_D3GmNm",
+        "image_slide_J3px4w",
+        "image_slide_NXhtqN",
+        "image_slide_gRG867"
+      ],
+      "name": "Image/Video Slider",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "type": "loop",
+        "drag": "enabled",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "center_mode": false,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_page_width": "normal",
+        "desktop_border_radius": 0,
+        "slides_desktop": 5,
+        "per_move_desktop": 1,
+        "desktop_spacing": 28,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "sides",
+        "mobile_full_page": false,
+        "mobile_border_radius": 0,
+        "slides_mobile": 1,
+        "per_move_mobile": 1,
+        "mobile_spacing": 12,
+        "mobile_side_padding": 0,
+        "mobile_padding_calc": true,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "sides",
+        "padding_top": 0,
+        "padding_bottom": 96,
+        "custom_colors_background": "#212121",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
+    "image_with_text_b7bFYU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Ln3K8N": {
+          "type": "heading",
+          "settings": {
+            "title": "The Language of Frequency",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1"
+          }
+        },
+        "text_KXRzbC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>What you see here isn’t magic — it’s physics. When sound frequency passes through this metal plate, it reorganizes grains of sand into perfect geometric patterns.<br/><br/>Each tone creates a different shape — because every frequency carries a unique vibration that matter responds to.</p><p>Our <strong>Frequency Generator</strong> works on the same principle — but instead of sand, it’s your <strong>body, water, and energy field</strong> that align to those pure tones.<br/><br/>The result: balance, focus, and a state of resonance where manifestation becomes effortless.</p><p><em>(Real frequency. Real vibration. Real transformation.)</em></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ln3K8N",
+        "text_KXRzbC"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "video": "shopify://files/videos/video 1.mp4",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 64,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2e2a39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "image_with_text_ED9waL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3h9Hcz": {
+          "type": "heading",
+          "settings": {
+            "title": "The Science You Can See",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1"
+          }
+        },
+        "text_9Atbm4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>What you’re looking at isn’t theory — it’s proof.<br/><br/>Our <strong>Frequency Generator</strong> emits precise sinusoidal waves — the same kind of frequencies used in sound therapy, brainwave synchronization, and Schumann resonance calibration.</p><p>The screen displays the <em>exact vibration</em> your environment is being tuned to.<br/><br/>You’re not “imagining energy” — you’re witnessing it being measured, stabilized, and broadcast.</p><p>Every setting corresponds to a real, physical frequency that interacts with water molecules, nervous system signals, and even electromagnetic balance in your space.</p><p><strong>Visible frequency. Tangible harmony. Real transformation.</strong></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3h9Hcz",
+        "text_9Atbm4"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "video": "shopify://files/videos/video 2.mp4",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2e2a39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "17628737092da1996a": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_47d1fa9_8AHQaN": {
+          "type": "ai_gen_block_47d1fa9",
+          "settings": {
+            "subtitle": "⭐⭐⭐⭐⭐ 4.95/5 by 1500+ happy customers",
+            "title": "Is It Really That Good? See It For Yourself!",
+            "subtitle_size": 16,
+            "title_size": 36,
+            "header_spacing": 40,
+            "review_1_image": "shopify://shop_images/imgi_70_christina-tiny.jpg",
+            "review_1_rating": 5,
+            "review_1_title": "It feels like my whole body finally exhaled",
+            "review_1_text": "I didn’t really believe in frequency healing, but this little device changed my mind. I’ve had constant tension in my chest and shoulders for years — always in “fight or flight” mode. After a week of using the Frequency Generator on the Schumann 7.83Hz setting, I noticed something strange… my breathing slowed down, and I could actually feel calm again. My sleep got deeper, my mood lighter.",
+            "review_1_name": "Melissa T.",
+            "review_2_image": "shopify://shop_images/imgi_69_m4_1.jpg",
+            "review_2_rating": 5,
+            "review_2_title": "Finally sleeping through the night!",
+            "review_2_text": "I’m 56 and have struggled with insomnia for over a decade. I tried everything — supplements, sound machines, meditation — nothing worked. The first night I turned on the generator beside my bed, I felt an almost magnetic pull into relaxation. Within minutes, I drifted off. It’s been three weeks now, and I’m sleeping 7–8 hours straight for the first time in years. I wake up feeling rested and strangely optimistic. This thing is unbelievable.",
+            "review_2_name": "Robert G.",
+            "review_3_image": "shopify://shop_images/imgi_119_w7-600-tiny_1.jpg",
+            "review_3_rating": 5,
+            "review_3_title": "Even my plants are growing better!",
+            "review_3_text": "I originally bought this to help with focus while working from home. But after keeping it on for a few days, I noticed my indoor plants started growing faster, and my cat wouldn’t leave the room when it was on! My headaches disappeared, and my home just feels... lighter. I don’t know how to explain it, but the energy feels cleaner. It’s become part of my morning ritual.",
+            "review_3_name": "Elena R.",
+            "review_4_image": "shopify://shop_images/imgi_71_Arcady_Static_V2.png",
+            "review_4_rating": 5,
+            "review_4_title": "Pain down, energy up",
+            "review_4_text": "I have mild chronic back pain from years of office work. A friend told me to try this frequency device, and I honestly didn’t expect much. But when I turned it on near my desk, the constant tightness started to ease. Now I use it every day while stretching or meditating. The pain isn’t gone, but it’s softer, and my energy levels are through the roof. I’m sharper, calmer, and happier.",
+            "review_4_name": "Daniel K.",
+            "review_5_rating": 5,
+            "review_5_title": "",
+            "review_5_text": "",
+            "review_5_name": "",
+            "review_6_rating": 5,
+            "review_6_title": "",
+            "review_6_text": "",
+            "review_6_name": "",
+            "card_text_alignment": "center",
+            "card_padding": 26,
+            "card_border_radius": 12,
+            "image_border_radius": 8,
+            "card_gap": 20,
+            "card_shadow_opacity": 10,
+            "card_hover_lift": 8,
+            "review_title_size": 18,
+            "review_text_size": 14,
+            "customer_name_size": 14,
+            "show_arrows": false,
+            "show_dots": false,
+            "autoplay": false,
+            "autoplay_speed": 2,
+            "arrow_size": 44,
+            "arrow_offset": 0,
+            "dot_size": 10,
+            "background_color": "#000000",
+            "accent_color": "#07b1f3",
+            "title_color": "#ffffff",
+            "text_color": "#000000",
+            "card_background": "#ffffff",
+            "arrow_background": "#ffffff",
+            "arrow_hover_background": "#07b1f3",
+            "arrow_color": "#07b1f3",
+            "dot_inactive_color": "#d1d1d1",
+            "container_width": 1100,
+            "section_padding_top": 20,
+            "section_padding_bottom": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_47d1fa9_8AHQaN"
+      ],
+      "settings": {}
+    },
+    "horizontal_ticker_n83iCc": {
+      "type": "horizontal-ticker",
+      "blocks": {
+        "image_UPgBce": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rated_4.5_3.png"
+          }
+        },
+        "image_xNaAAx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_54.png"
+          }
+        },
+        "image_9xCf7T": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rated_4.5_2.png"
+          }
+        },
+        "image_fhxLga": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rated_4.5_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_UPgBce",
+        "image_xNaAAx",
+        "image_9xCf7T",
+        "image_fhxLga"
+      ],
+      "name": "Horizontal Ticker",
+      "settings": {
+        "visibility": "always-display",
+        "speed": 1,
+        "direction": "normal",
+        "stop_on_hover": false,
+        "mobile_spacing": 60,
+        "desktop_spacing": 200,
+        "color_scheme": "accent-2",
+        "mobile_text_size": 26,
+        "desktop_text_size": 18,
+        "italic_text": false,
+        "uppercase_text": false,
+        "bold_text": false,
+        "mobile_image_height": 95,
+        "desktop_image_height": 110,
+        "mobile_reviews_width": 300,
+        "desktop_reviews_width": 400,
+        "hidden_products": "",
+        "enable_specific_display": false,
+        "displayed_products": "",
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 12,
+        "desktop_padding_top": 24,
+        "desktop_padding_bottom": 16,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39"
+      }
+    },
+    "image_slider_MB6aiL": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slide_TCGLEA": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/imgi_33_Untitled_design_3_ed899265-eb39-4916-a635-120d9ffd4e2a.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        }
+      },
+      "block_order": [
+        "image_slide_TCGLEA"
+      ],
+      "name": "Image/Video Slider",
+      "settings": {
+        "display_id": false,
+        "visibility": "desktop-hidden",
+        "title": "Stories From Our Beloved Customers",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "type": "slide",
+        "drag": "enabled",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "center_mode": false,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "desktop_page_width": "normal",
+        "desktop_border_radius": 0,
+        "slides_desktop": 1,
+        "per_move_desktop": 1,
+        "desktop_spacing": 28,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "hidden",
+        "mobile_full_page": true,
+        "mobile_border_radius": 0,
+        "slides_mobile": 1,
+        "per_move_mobile": 1,
+        "mobile_spacing": 12,
+        "mobile_side_padding": 0,
+        "mobile_padding_calc": true,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "hidden",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
+    "image_slider_kqYjbR": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slide_7WkD6w": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/imgi_66_fb_comments_-_desktop_2000_x_600_px_1.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        }
+      },
+      "block_order": [
+        "image_slide_7WkD6w"
+      ],
+      "name": "Image/Video Slider",
+      "settings": {
+        "display_id": false,
+        "visibility": "mobile-hidden",
+        "title": "Stories From Our Beloved Customers",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "type": "slide",
+        "drag": "enabled",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "center_mode": false,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_page_width": "desktop-full-page-no-padding",
+        "desktop_border_radius": 0,
+        "slides_desktop": 1,
+        "per_move_desktop": 1,
+        "desktop_spacing": 28,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "hidden",
+        "mobile_full_page": true,
+        "mobile_border_radius": 0,
+        "slides_mobile": 1,
+        "per_move_mobile": 1,
+        "mobile_spacing": 12,
+        "mobile_side_padding": 0,
+        "mobile_padding_calc": true,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "hidden",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "content_tabs_4hwaDU",
+    "rich_text_gGbLpU",
+    "image_slider_6yqjJH",
+    "image_with_text_b7bFYU",
+    "image_with_text_ED9waL",
+    "17628737092da1996a",
+    "horizontal_ticker_n83iCc",
+    "image_slider_MB6aiL",
+    "image_slider_kqYjbR"
+  ]
+}

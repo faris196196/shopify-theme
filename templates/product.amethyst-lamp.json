@@ -1,0 +1,679 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "rating_stars_9QTMbj": {
+          "type": "rating_stars",
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#00b3ff",
+            "bg_stars_style": "outlined",
+            "bg_star_color": "#ececec",
+            "label": "Excellent <strong>4.9 </strong>| 7,452 reviews",
+            "size": 11,
+            "alignment": "flex-start",
+            "scroll_id": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": "h1",
+            "title_alignment": "left",
+            "uppercase_title": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "text_x4pMR7": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#ffffff",
+            "text_1": "🛌 Creates calm atmosphere for deeper sleep",
+            "text_2": "😌 Quiets busy mind at night",
+            "text_3": "🔮 30 light modes for every mood",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "",
+            "filled_icon_2": false,
+            "icon_3": "",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "vertical",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "quantity_selector_YNHRzt": {
+          "type": "quantity_selector",
+          "settings": {
+            "full_width_classic": false,
+            "atc_append": "none",
+            "atc_append_heights": "stretch-quantity",
+            "enable_quantity_discounts": true,
+            "style": "compact",
+            "headline": "BUNDLE & SAVE + FREE SHIPPING",
+            "preselected": "option_2",
+            "display_selected_indicator": true,
+            "border_radius": 10,
+            "border_width": 2,
+            "color_scheme": "accent-1",
+            "enable_variant_selectors": false,
+            "enable_variant_selectors_on_quantity_of_1": true,
+            "update_prices": true,
+            "skip_unavailable": false,
+            "full_width_pickers": false,
+            "hide_pickers_overlay": true,
+            "pickers_label": "Color, Size",
+            "image_width": 70,
+            "space_images": true,
+            "vertical_images_position": "top",
+            "vertical_prices_layout": "vertical",
+            "option_1_quantity": 1,
+            "option_1_badge": "",
+            "option_1_badge_style": "1",
+            "option_1_badge_color": "accent-1",
+            "option_1_label": "Get 1 For $59.95",
+            "option_1_benefit": "",
+            "option_1_benefit_position": "top",
+            "option_1_benefit_style": "outlined",
+            "option_1_benefit_color": "accent-1",
+            "option_1_caption": "You save [amount_saved]",
+            "option_1_percentage_off_text": "0",
+            "option_1_fixed_amount_off": "0",
+            "option_1_price_text": "[price]",
+            "option_1_compare_price": "compare_price",
+            "option_1_compare_price_text": "[compare_price]",
+            "option_2_quantity": 2,
+            "option_2_badge": "MOST POPULAR",
+            "option_2_badge_style": "2",
+            "option_2_badge_color": "accent-1",
+            "option_2_label": "Get 2 For $109.95",
+            "option_2_benefit": "",
+            "option_2_benefit_position": "top",
+            "option_2_benefit_style": "outlined",
+            "option_2_benefit_color": "accent-1",
+            "option_2_caption": "You save [amount_saved]",
+            "option_2_percentage_off_text": "0",
+            "option_2_fixed_amount_off": "0",
+            "option_2_price_text": "[price]",
+            "option_2_compare_price": "compare_price",
+            "option_2_compare_price_text": "[compare_price]",
+            "option_3_quantity": 0,
+            "option_3_badge": "",
+            "option_3_badge_style": "1",
+            "option_3_badge_color": "accent-1",
+            "option_3_label": "Buy [quantity]",
+            "option_3_benefit": "",
+            "option_3_benefit_position": "top",
+            "option_3_benefit_style": "outlined",
+            "option_3_benefit_color": "accent-1",
+            "option_3_caption": "You save [amount_saved]",
+            "option_3_percentage_off_text": "0",
+            "option_3_fixed_amount_off": "0",
+            "option_3_price_text": "[price]",
+            "option_3_compare_price": "compare_price",
+            "option_3_compare_price_text": "[compare_price]",
+            "option_4_quantity": 0,
+            "option_4_badge": "",
+            "option_4_badge_style": "1",
+            "option_4_badge_color": "accent-1",
+            "option_4_label": "Buy [quantity]",
+            "option_4_benefit": "",
+            "option_4_benefit_position": "top",
+            "option_4_benefit_style": "outlined",
+            "option_4_benefit_color": "accent-1",
+            "option_4_caption": "You save [amount_saved]",
+            "option_4_percentage_off_text": "0",
+            "option_4_fixed_amount_off": "0",
+            "option_4_price_text": "[price]",
+            "option_4_compare_price": "compare_price",
+            "option_4_compare_price_text": "[compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "buy_buttons_bykWpb": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "skip_cart": false,
+            "uppercase_text": true,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "display_price": false,
+            "enable_custom_color": false,
+            "custom_color": "#dd69ff",
+            "enable_secondary_btn": false,
+            "secondary_btn_label": "Buy It Now",
+            "secondary_btn_enable_custom_color": false,
+            "secondary_btn_custom_color": "#dd69ff",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "payment_badges_VYCert": {
+          "type": "payment_badges",
+          "settings": {
+            "enabled_payment_types": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "layout": "price_second",
+            "price_color": "text",
+            "compare_price_color": "accent-2",
+            "displayed_badge": "sale",
+            "icon_scale": 140,
+            "custom_badge_text": "[icon_1] SPECIAL OFFER",
+            "icon_1": "redeem",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "margin_top": 9,
+            "margin_bottom": 15
+          }
+        },
+        "icon_with_text_MYxqKJ": {
+          "type": "icon_with_text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_color": "accent-1",
+            "desktop_icon_size": 72,
+            "desktop_spacing": 12,
+            "desktop_text_size": 14,
+            "mobile_icon_size": 40,
+            "mobile_spacing": 10,
+            "mobile_text_size": 10,
+            "icon_1": "Free Shipping",
+            "icon_1_fill": false,
+            "image_1": "shopify://shop_images/ChatGPT_Image_2026_M02_28_19_12_52-removebg-preview.png",
+            "heading_1": "Free Shipping",
+            "icon_2": "undo",
+            "icon_2_fill": false,
+            "image_2": "shopify://shop_images/ChatGPT_Image_2026_M02_28_19_15_09.png",
+            "heading_2": "60-Nights Trial",
+            "icon_3": "local_shipping",
+            "icon_3_fill": false,
+            "image_3": "shopify://shop_images/ChatGPT_Image_2026_M02_28_19_17_08.png",
+            "heading_3": "Better Sleep",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "collapsible_tab_dieWyh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How it works",
+            "heading_size": "small",
+            "icon": "help",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Transform any space into a healing oasis full of sacred energy with the serene Amethyst halo lamp. The thirty adjustable light modes help soothe the soul, awaken intuition, and instill a comforting sense of trust and peace with the world around you. <strong>Amethyst </strong>is celebrated for its calming presence, bringing <strong>a sense of comfort </strong>that resonates with the mind, body, and spirit. With its design symbolizing the third eye, this lamp is crafted to encourage a deeper connection with your inner self, creating a <strong>peaceful and harmonious atmosphere</strong>. It's an excellent choice for creating a relaxed setting, perfect for peaceful moods and supporting meditation and spiritual exploration. The <strong>Halo </strong>shape represents the infinite energy of a circle–designed to mirror the infinite expansion of your spirit and its capacity to embody love and peace. While the mind and body may be restrictive, your soul is all-knowing, and your consciousness will live on into eternity. For the ultimate balance and peace within a space, place the Amethyst lamp in the optimal <strong>Feng Shui </strong>position near doorways, entrances, or where you may rest. <strong>Affirmation: </strong><em>\"I am at ease with life and make peace with everyone and everything. Peace comes to me effortlessly. \"</em><strong>How to use: </strong>Place your lamp in a room where you seek solace and comfort. Great for reading spaces, offices, nightstands, meditation, and yoga rooms. Also ideal for the living room and hallways to clear energy. The light is adjustable for brightness preference. Absorb the radiant soul healing wherever the Amethyst lamp may glow. </p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_Ab876q": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Size and Materials",
+            "heading_size": "medium",
+            "icon": "star",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p><strong>DIMENSIONS</strong></p><ul><li>Stone Size: 0.7 - 1.5 in (2 - 4 cm)<br/>Lamp Size::<br/>Inner Diameter: 5.9 in (16 cm);<br/>Outer Diameter: 7 in (18 cm);<br/>Height: 7.8 in (20 cm);<br/>Base: 3.9 x 0.9 in (10 x 2.3 cm);<br/>Cable Cord Length: 55 in (140 cm)<br/>Weight: 22.2 - 23.9 oz (630 - 680 g)</li></ul><p><strong>MATERIALS</strong></p><ul><li>Item Type: Natural Stone Lamp<br/>Material: Amethyst and Iron Frame<br/>Color: Purple and Black<br/>Light Mode: Adjustable (Warm, White, Combination)<br/>Package Includes: 1 x Amethyst Lamp with USB Cable Cord</li></ul>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_PyNDmm": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping and Return",
+            "heading_size": "small",
+            "icon": "replay",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p><strong>SHIPPING</strong></p><ul><li>Free Shipping for orders over $50 Internationally. Shipping time can vary based on your location. Shipping time: 8-14 business days.</li></ul><p><strong>RETURNS</strong></p><ul><li>Every order comes with 30-day money-back guarantee.</li></ul>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5": {
+          "type": "sticky_atc",
+          "disabled": true,
+          "settings": {
+            "function": "add_to_cart",
+            "display_when": "after_scroll",
+            "button_label": "Add to cart",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "background-1",
+            "star_color": "#ffcc00",
+            "stars_label": "(xxxx Reviews)",
+            "picker_type": "combined",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": false,
+            "desktop_show_price": true,
+            "desktop_show_sale_badge": true,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": false,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": true,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": false,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        }
+      },
+      "block_order": [
+        "rating_stars_9QTMbj",
+        "title",
+        "text_x4pMR7",
+        "quantity_selector_YNHRzt",
+        "buy_buttons_bykWpb",
+        "payment_badges_VYCert",
+        "price",
+        "icon_with_text_MYxqKJ",
+        "collapsible_tab_dieWyh",
+        "collapsible_tab_Ab876q",
+        "collapsible_tab_PyNDmm",
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5"
+      ],
+      "custom_css": [],
+      "settings": {
+        "display_id": false,
+        "enable_sticky_info": true,
+        "display_variant_image_first": false,
+        "disable_prepend": true,
+        "hide_variants": false,
+        "variant_image_filtering": "none",
+        "image_zoom": "none",
+        "thumbnails_ratio": "square",
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "video_player": "play_btn",
+        "enable_video_looping": false,
+        "autoplay_videos_pause_btn": false,
+        "video_sound_btn": false,
+        "video_timeline": false,
+        "play_btn_color_scheme": "accent-1",
+        "sound_btn_color_scheme": "inverse",
+        "timeline_color": "accent-1",
+        "media_size": "medium",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "desktop_thumbnails_position": "bottom",
+        "desktop_thumbnails_count": 5,
+        "desktop_vertical_thumbnails_width": 16,
+        "desktop_vertical_thumbnails_hide_arrows": false,
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "desktop_arrows_position": "hidden",
+        "mobile_media_corner_radius": 0,
+        "mobile_spacing_pixels": 0,
+        "mobile_arrows_position": "sides",
+        "mobile_pagination": "dots_overlay",
+        "mobile_thumbnails_position": "hidden",
+        "mobile_thumbnails_count": 5,
+        "mobile_vertical_thumbnails_width": 22,
+        "mobile_vertical_thumbnails_hide_arrows": true,
+        "mobile_scroll_padding_percentage": 0,
+        "mobile_scroll_padding_pixels": 0,
+        "enable_mobile_outher_spacing": false,
+        "mobile_slides_container_width": 100,
+        "mobile_slides_inner_width": 100,
+        "trust_badge_position": "top-right",
+        "trust_badge_size": "medium",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "title": "You may also like",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "featured_collection_DGPUk3": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Frequently Bought Together",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "color_scheme": "background-1",
+        "collection": "best-sellers",
+        "products_to_show": 4,
+        "stretch_cards": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "cards_color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "badges": "regular",
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "swatches_option_name": "",
+        "swatches_position": "top",
+        "swatches_desktop_size": 36,
+        "swatches_mobile_size": 24,
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "2",
+        "slider_mobile": false,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff"
+      }
+    },
+    "logo_list_Hz9QJN": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_7eMfbg": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/USA-Today-logo.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_r77FNd": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/PopSugar-Logo-2007.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_MaGamx": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/2024_new_msn_logo_svg.png",
+            "link": "",
+            "target_blank": false
+          }
+        }
+      },
+      "block_order": [
+        "logo_7eMfbg",
+        "logo_r77FNd",
+        "logo_MaGamx"
+      ],
+      "name": "Featured on",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Featured on >",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "gray_logos": false,
+        "color_scheme": "background-1",
+        "layout": "horizontal",
+        "desktop_logo_height": 50,
+        "columns_mobile": 2,
+        "mobile_logo_height": 50,
+        "mobile_slider": true,
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "show_dots": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
+    "icon_bar_TNNK6q": {
+      "type": "icon-bar",
+      "blocks": {
+        "column_Rp7JLB": {
+          "type": "column",
+          "settings": {
+            "icon": "Love it or Get Your Money Back",
+            "filled_icon": false,
+            "image": "shopify://shop_images/image_9.png",
+            "title": "Icon",
+            "text": "<p>Authenticity backed by 60-day money-back guarantee. If you’re not thrilled, we’ll refund you—no questions asked.</p>"
+          }
+        },
+        "column_gQw7RX": {
+          "type": "column",
+          "settings": {
+            "icon": "check_circle",
+            "filled_icon": false,
+            "image": "shopify://shop_images/image_10.png",
+            "title": "Free Shipping Insurance",
+            "text": "<p>Every package is fully insured at no cost to you, ensuring safe delivery every time.</p>"
+          }
+        },
+        "column_fL8XVD": {
+          "type": "column",
+          "settings": {
+            "icon": "check_circle",
+            "filled_icon": false,
+            "image": "shopify://shop_images/image_12.png",
+            "title": "The Most Trusted Crystal Shop",
+            "text": "<p>With over 500,000 happy customers and a 4.9/5 rating, we’re proud to be your go-to for authentic crystals.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_Rp7JLB",
+        "column_gQw7RX",
+        "column_fL8XVD"
+      ],
+      "name": "Icon Bar",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Icon bar",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "background-1",
+        "icon_layout": "horizontal",
+        "icon_size": "medium",
+        "icon_color": "accent-1",
+        "cards_color_scheme": "background-1",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "1",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_cards_colors_background": "#F3F3F3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2E2A39"
+      }
+    },
+    "collapsible_content_bWeRng": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_zmerNi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are the crystals real?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Every single gemstone we sell is genuine.<br/></p><p>We're so confident in the quality of our stones that we offer a <strong>30-day money-back guarantee</strong>.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_brQTkM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How trusted is Conscious Items?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>We've been offering crystal items since 2019 and served more than 200.000 customers in that time.<br/><br/>We have 8000+ customer reviews on our site where we earned 4.9/5 rating</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fF8tYA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I don't like what I ordered?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Don't worry. You can return your order and get your money back within 30 days from the delivery date.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_zmerNi",
+        "collapsible_row_brQTkM",
+        "collapsible_row_fF8tYA"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "caption": "",
+        "title": "Collapsible content",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h0",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "video_muted_autoplay": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "row_heading_size": "medium",
+        "collapse_icon": "carret",
+        "display_top_border": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_contaner_colors_background": "#FFFFFF",
+        "custom_container_gradient_background": "",
+        "custom_contaner_colors_text": "#2E2A39"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "featured_collection_DGPUk3",
+    "logo_list_Hz9QJN",
+    "icon_bar_TNNK6q",
+    "collapsible_content_bWeRng"
+  ]
+}

@@ -1,0 +1,692 @@
+{
+  "sections": {
+
+    "main": {
+      "type": "main-product",
+      "blocks": {
+
+        "testimonial_quote": {
+          "type": "text",
+          "settings": {
+            "text_1": "\"[REPLACE: Your best 1-2 sentence customer review showing transformation. e.g. 'I was spiritually lost for years. After reading this book, everything changed.']\"",
+            "text_2": "— [Customer Name], [Country]  ★★★★★",
+            "text_3": "",
+            "alignment": "left",
+            "desktop_text_size": 13,
+            "mobile_text_size": 13,
+            "text_color": "#555555",
+            "enable_bg": true,
+            "bg_color": "#f7f7f7",
+            "corner_radius": 5,
+            "padding": 5,
+            "border_size": 0,
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": "h1",
+            "title_alignment": "left",
+            "uppercase_title": false,
+            "margin_top": 0,
+            "margin_bottom": 3
+          }
+        },
+
+        "rating_stars": {
+          "type": "rating_stars",
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#f5a623",
+            "bg_stars_style": "full",
+            "bg_star_color": "#ececec",
+            "label": "(700+ Reviews)",
+            "size": 14,
+            "alignment": "flex-start",
+            "scroll_id": "reviews",
+            "margin_top": 9,
+            "margin_bottom": 9
+          }
+        },
+
+        "price": {
+          "type": "price",
+          "settings": {
+            "layout": "price_first",
+            "price_color": "text",
+            "compare_price_color": "text",
+            "displayed_badge": "sale",
+            "custom_badge_text": "SAVE [percent]%",
+            "icon_1": "redeem",
+            "filled_icon_1": false,
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+
+        "description": {
+          "type": "description",
+          "settings": {
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+
+        "variant_picker_v": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_types": "quantity breaks",
+            "skip_unavailable": false,
+            "breaks_style": "normal",
+            "breaks_headline": "Select your bundle",
+            "breaks_display_selected_indicator": true,
+            "breaks_border_radius": 8,
+            "breaks_border_width": 2,
+            "breaks_color_scheme": "text",
+            "breaks_badges": "[empty], FREE SHIPPING, BEST VALUE",
+            "breaks_badge_style": "1",
+            "breaks_badge_color": "inverse",
+            "breaks_displayed_images": "variant_images",
+            "breaks_image_width": 70,
+            "breaks_space_images": true,
+            "breaks_vertical_prices_layout": "horizontal",
+            "margin_top": 0,
+            "margin_bottom": 12
+          }
+        },
+
+        "upsell_addon": {
+          "type": "product_upsell",
+          "settings": {
+            "style": "checkbox",
+            "btn_position": "right",
+            "toggle_element": "checkbox",
+            "add_btn_label": "<strong>Add</strong>",
+            "stacking": "column",
+            "accent_color": "text",
+            "color_scheme": "background-1",
+            "product_list": [],
+            "enable_dynamic_recommendations": false,
+            "prdouct_1_preselected": false,
+            "product_1_desc": "[REPLACE: Describe your subscription add-on — e.g. 'Delivered via email every week. Cancel anytime.']",
+            "show_images": false,
+            "title_size": "1.3",
+            "desc_size": "1.2",
+            "price_position": "next_to_title",
+            "price_size": "1.3",
+            "hide_compare_price": true,
+            "show_border": true,
+            "regular_border_color": "#cccccc",
+            "selected_border_color": "#111111",
+            "border_width": "0.15",
+            "show_custom_bg": false,
+            "corner_radius": 10,
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+
+        "atc_btn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "skip_cart": false,
+            "uppercase_text": true,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "display_price": false,
+            "enable_custom_color": false,
+            "enable_secondary_btn": false,
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+
+        "trust_icons": {
+          "type": "icon_with_text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_color": "text",
+            "desktop_icon_size": 20,
+            "desktop_spacing": 6,
+            "desktop_text_size": 14,
+            "mobile_icon_size": 20,
+            "mobile_spacing": 6,
+            "mobile_text_size": 12,
+            "icon_1": "verified_user",
+            "icon_1_fill": false,
+            "heading_1": "Money-Back Guarantee",
+            "icon_2": "local_fire_department",
+            "icon_2_fill": false,
+            "heading_2": "Selling Out Fast",
+            "icon_3": "local_shipping",
+            "icon_3_fill": false,
+            "heading_3": "Free Shipping on Bundles",
+            "margin_top": 0,
+            "margin_bottom": 21
+          }
+        },
+
+        "faq_tab_1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is this [product] for me?",
+            "icon": "question_mark",
+            "filled_icon": false,
+            "heading_size": "medium",
+            "collapse_icon": "plus",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>If you…</p><ul><li>[REPLACE: Customer struggle 1 — e.g. 'Always felt the call to something deeper']</li><li>[REPLACE: Customer struggle 2 — e.g. 'Questioned religion but never found real answers']</li><li>[REPLACE: Customer struggle 3 — e.g. 'Felt spiritually lost with no one to guide you']</li><li>[REPLACE: Customer struggle 4 — e.g. 'Sensed that reality runs far deeper than what you were taught']</li><li>[REPLACE: Customer struggle 5 — e.g. 'Know there is a higher version of yourself waiting to emerge']</li></ul><p>Then this [product] was made for you.</p>",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+
+        "faq_tab_2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long does shipping take?",
+            "icon": "local_shipping",
+            "filled_icon": false,
+            "heading_size": "medium",
+            "collapse_icon": "plus",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>[REPLACE: Your shipping policy — e.g. 'Your order is shipped worldwide with full tracking. Delivery typically takes 5–14 days depending on your location.']</p>",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+
+      },
+      "block_order": [
+        "testimonial_quote",
+        "title",
+        "rating_stars",
+        "price",
+        "description",
+        "variant_picker_v",
+        "upsell_addon",
+        "atc_btn",
+        "trust_icons",
+        "faq_tab_1",
+        "faq_tab_2"
+      ],
+      "settings": {
+        "display_id": false,
+        "enable_sticky_info": true,
+        "display_variant_image_first": false,
+        "disable_prepend": true,
+        "hide_variants": false,
+        "variant_image_filtering": "none",
+        "image_zoom": "none",
+        "thumbnails_ratio": "square",
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "video_player": "play_btn",
+        "enable_video_looping": false,
+        "media_size": "medium",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "desktop_thumbnails_position": "bottom",
+        "desktop_thumbnails_count": 5,
+        "desktop_vertical_thumbnails_width": 16,
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "desktop_arrows_position": "hidden",
+        "mobile_media_corner_radius": 0,
+        "mobile_spacing_pixels": 0,
+        "mobile_arrows_position": "sides",
+        "mobile_pagination": "dots_overlay",
+        "mobile_thumbnails_position": "hidden",
+        "mobile_thumbnails_count": 5,
+        "mobile_scroll_padding_percentage": 0,
+        "mobile_scroll_padding_pixels": 0,
+        "mobile_slides_container_width": 100,
+        "mobile_slides_inner_width": 100,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36
+      }
+    },
+
+    "lf_rows": {
+      "type": "multirow",
+      "blocks": {
+
+        "row_1": {
+          "type": "row",
+          "settings": {
+            "title": "[REPLACE: Section 1 headline — e.g. 'Reclaim your divine nature the elites have feared & suppressed for centuries']",
+            "title_highlight_color": "#111111",
+            "text": "<p>[REPLACE: 2-3 paragraphs of compelling copy. Describe the hidden problem — what has been kept from your customer and why. Be specific and emotionally resonant.]</p><p>[Second paragraph — go deeper into the root cause or the mechanism of suppression.]</p>",
+            "caption": ""
+          }
+        },
+
+        "row_2": {
+          "type": "row",
+          "settings": {
+            "title": "[REPLACE: Section 2 headline — e.g. 'Master your inner world & the outer world has no choice but to obey']",
+            "title_highlight_color": "#111111",
+            "text": "<p>[REPLACE: Describe the transformation mechanism. How does your product actually create change? What shift happens internally? Make it visceral.]</p><p>[Second paragraph — show the before vs. after. What did the customer believe before, and what do they understand now?]</p>",
+            "caption": ""
+          }
+        },
+
+        "row_3": {
+          "type": "row",
+          "settings": {
+            "title": "[REPLACE: Section 3 headline — e.g. 'Ascend to higher consciousness — see through all illusions & deceptions']",
+            "title_highlight_color": "#111111",
+            "text": "<p>[REPLACE: Speak to the reader's deeper identity. Who do they become after using your product? What world opens up to them that was previously hidden?]</p><p>[Second paragraph — address the reader's hesitation and reframe it as a sign they're ready.]</p>",
+            "caption": ""
+          }
+        }
+
+      },
+      "block_order": ["row_1", "row_2", "row_3"],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image_layout": "alternate",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "heading_size": "h2",
+        "button_style": "secondary",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+
+    "secrets_dark": {
+      "type": "custom-liquid",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "custom_liquid": "<section style=\"background:#0d0d0d;color:#fff;padding:64px 32px;text-align:center;\"><div style=\"max-width:800px;margin:0 auto;\"><h2 style=\"font-family:Georgia,serif;font-size:clamp(22px,4vw,30px);font-weight:700;line-height:1.25;margin-bottom:10px;\">[REPLACE: Headline — e.g. 'Everything they hid from you — all in one book']</h2><p style=\"font-size:14px;color:#aaa;margin-bottom:40px;\">[REPLACE: Subheading — e.g. 'Ancient decoded knowledge. One book. Everything they never wanted you to find.']</p><div style=\"display:grid;grid-template-columns:repeat(2,1fr);gap:0;text-align:left;\"><div style=\"padding:13px 0;border-bottom:1px solid #222;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>[REPLACE: Secret point 1 — e.g. 'The Bible is a map of your brain']</div><div style=\"padding:13px 0;border-bottom:1px solid #222;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>[REPLACE: Secret point 2 — e.g. 'Your pineal gland is deliberately calcified']</div><div style=\"padding:13px 0;border-bottom:1px solid #222;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>[REPLACE: Secret point 3]</div><div style=\"padding:13px 0;border-bottom:1px solid #222;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>[REPLACE: Secret point 4]</div><div style=\"padding:13px 0;border-bottom:1px solid #222;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>[REPLACE: Secret point 5]</div><div style=\"padding:13px 0;border-bottom:1px solid #222;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>[REPLACE: Secret point 6]</div><div style=\"padding:13px 0;border-bottom:1px solid #222;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>[REPLACE: Secret point 7]</div><div style=\"padding:13px 0;border-bottom:1px solid #222;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>[REPLACE: Secret point 8]</div><div style=\"padding:13px 0;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>[REPLACE: Secret point 9]</div><div style=\"padding:13px 0;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>[REPLACE: Secret point 10]</div></div></div></section>",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+
+    "testimonial_ticker": {
+      "type": "horizontal-ticker",
+      "blocks": {
+
+        "rev_1": {
+          "type": "reviews",
+          "settings": {
+            "color_scheme": "background-1",
+            "show_custom_bg": false,
+            "corner_radius": 10,
+            "border_width": 1,
+            "border_color": "#e8e8e8",
+            "avatar_alignment": "top",
+            "avatar_corner_radius": 40,
+            "star_color": "#f5a623",
+            "checkmark_color": "#111111",
+            "checkmark_icon_color": "#ffffff",
+            "author_1": "<em>[Customer Name], [Country]</em> [stars]",
+            "text_1": "<p>\"[REPLACE: Real customer testimonial — 1-2 sentences showing a specific transformation or breakthrough moment.]\"</p>"
+          }
+        },
+
+        "rev_2": {
+          "type": "reviews",
+          "settings": {
+            "color_scheme": "background-1",
+            "show_custom_bg": false,
+            "corner_radius": 10,
+            "border_width": 1,
+            "border_color": "#e8e8e8",
+            "avatar_alignment": "top",
+            "avatar_corner_radius": 40,
+            "star_color": "#f5a623",
+            "checkmark_color": "#111111",
+            "checkmark_icon_color": "#ffffff",
+            "author_1": "<em>[Customer Name], [Country]</em> [stars]",
+            "text_1": "<p>\"[REPLACE: Testimonial with a specific detail — e.g. a page number, a section name, a before/after shift.]\"</p>"
+          }
+        },
+
+        "rev_3": {
+          "type": "reviews",
+          "settings": {
+            "color_scheme": "background-1",
+            "show_custom_bg": false,
+            "corner_radius": 10,
+            "border_width": 1,
+            "border_color": "#e8e8e8",
+            "avatar_alignment": "top",
+            "avatar_corner_radius": 40,
+            "star_color": "#f5a623",
+            "checkmark_color": "#111111",
+            "checkmark_icon_color": "#ffffff",
+            "author_1": "<em>[Customer Name], [Country]</em> [stars]",
+            "text_1": "<p>\"[REPLACE: Life-change testimonial — job, relationship, mindset shift, or clarity breakthrough.]\"</p>"
+          }
+        },
+
+        "rev_4": {
+          "type": "reviews",
+          "settings": {
+            "color_scheme": "background-1",
+            "show_custom_bg": false,
+            "corner_radius": 10,
+            "border_width": 1,
+            "border_color": "#e8e8e8",
+            "avatar_alignment": "top",
+            "avatar_corner_radius": 40,
+            "star_color": "#f5a623",
+            "checkmark_color": "#111111",
+            "checkmark_icon_color": "#ffffff",
+            "author_1": "<em>[Customer Name], [Country]</em> [stars]",
+            "text_1": "<p>\"[REPLACE: Testimonial from a skeptic who became a believer — great for converting fence-sitters.]\"</p>"
+          }
+        },
+
+        "rev_5": {
+          "type": "reviews",
+          "settings": {
+            "color_scheme": "background-1",
+            "show_custom_bg": false,
+            "corner_radius": 10,
+            "border_width": 1,
+            "border_color": "#e8e8e8",
+            "avatar_alignment": "top",
+            "avatar_corner_radius": 40,
+            "star_color": "#f5a623",
+            "checkmark_color": "#111111",
+            "checkmark_icon_color": "#ffffff",
+            "author_1": "<em>[Customer Name], [Country]</em> [stars]",
+            "text_1": "<p>\"[REPLACE: Short punchy testimonial — even just one powerful sentence works if it's visceral.]\"</p>"
+          }
+        },
+
+        "rev_6": {
+          "type": "reviews",
+          "settings": {
+            "color_scheme": "background-1",
+            "show_custom_bg": false,
+            "corner_radius": 10,
+            "border_width": 1,
+            "border_color": "#e8e8e8",
+            "avatar_alignment": "top",
+            "avatar_corner_radius": 40,
+            "star_color": "#f5a623",
+            "checkmark_color": "#111111",
+            "checkmark_icon_color": "#ffffff",
+            "author_1": "<em>[Customer Name], [Country]</em> [stars]",
+            "text_1": "<p>\"[REPLACE: International testimonial — shows the product works across countries and cultures.]\"</p>"
+          }
+        },
+
+        "rev_7": {
+          "type": "reviews",
+          "settings": {
+            "color_scheme": "background-1",
+            "show_custom_bg": false,
+            "corner_radius": 10,
+            "border_width": 1,
+            "border_color": "#e8e8e8",
+            "avatar_alignment": "top",
+            "avatar_corner_radius": 40,
+            "star_color": "#f5a623",
+            "checkmark_color": "#111111",
+            "checkmark_icon_color": "#ffffff",
+            "author_1": "<em>[Customer Name], [Country]</em> [stars]",
+            "text_1": "<p>\"[REPLACE: Anxiety / peace testimonial — shows emotional resolution, not just intellectual insight.]\"</p>"
+          }
+        },
+
+        "rev_8": {
+          "type": "reviews",
+          "settings": {
+            "color_scheme": "background-1",
+            "show_custom_bg": false,
+            "corner_radius": 10,
+            "border_width": 1,
+            "border_color": "#e8e8e8",
+            "avatar_alignment": "top",
+            "avatar_corner_radius": 40,
+            "star_color": "#f5a623",
+            "checkmark_color": "#111111",
+            "checkmark_icon_color": "#ffffff",
+            "author_1": "<em>[Customer Name], [Country]</em> [stars]",
+            "text_1": "<p>\"[REPLACE: Testimonial about a specific feature or chapter — shows depth and specificity of the product.]\"</p>"
+          }
+        }
+
+      },
+      "block_order": ["rev_1","rev_2","rev_3","rev_4","rev_5","rev_6","rev_7","rev_8"],
+      "name": "Testimonial Ticker",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Over 700 people already know",
+        "title_highlight_color": "#111111",
+        "heading_size": "h2",
+        "text": "what you're about to discover",
+        "color_scheme": "background-1",
+        "speed": 5,
+        "direction": "normal",
+        "stop_on_hover": true,
+        "desktop_reviews_width": 300,
+        "mobile_reviews_width": 260,
+        "desktop_spacing": 100,
+        "mobile_spacing": 60,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": ""
+      }
+    },
+
+    "faq_section": {
+      "type": "collapsible-content",
+      "blocks": {
+
+        "faq_q1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "[REPLACE: FAQ 1 — e.g. 'I'm new to this. Is it beginner-friendly?']",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>[REPLACE: Answer — reassure the beginner. Explain how the product meets them exactly where they are, regardless of experience level.]</p>"
+          }
+        },
+
+        "faq_q2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "[REPLACE: FAQ 2 — e.g. 'Do I need to follow a religion to understand this?']",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>[REPLACE: Answer — expand your audience. Show that the product works for people of all beliefs or backgrounds.]</p>"
+          }
+        },
+
+        "faq_q3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "[REPLACE: FAQ 3 — e.g. 'What exactly do I get?']",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>[REPLACE: Answer — be specific. List format, page count, quality, what makes it worth the price vs. cheaper alternatives.]</p>"
+          }
+        },
+
+        "faq_q4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "[REPLACE: FAQ 4 — e.g. 'I'm logical and science-minded. Will this feel too spiritual?']",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>[REPLACE: Answer — bridge the gap for analytical thinkers. Ground the content in evidence, anatomy, history, or science.]</p>"
+          }
+        },
+
+        "faq_q5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "[REPLACE: FAQ 5 — e.g. 'Will this actually change my life or is it just theory?']",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>[REPLACE: Answer — make the bold promise. Back it up with the guarantee and a quote from a real reviewer if possible.]</p>"
+          }
+        },
+
+        "faq_q6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "[REPLACE: FAQ 6 — e.g. 'Is this only for spiritual people?']",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>[REPLACE: Answer — show the product works for first-timers too. Describe who gets the most value in plain language.]</p>"
+          }
+        },
+
+        "faq_q7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "[REPLACE: FAQ 7 — e.g. 'I've already read many books on this topic. Will I still learn something new?']",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>[REPLACE: Answer — position uniqueness. What does your product have that no other book, course, or resource provides?]</p>"
+          }
+        },
+
+        "faq_q8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "[REPLACE: FAQ 8 — e.g. 'Will my anxiety or mental fog actually improve?']",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>[REPLACE: Answer — address a specific pain point. Be empathetic and show how your product resolves the root cause, not just the symptom.]</p>"
+          }
+        }
+
+      },
+      "block_order": [
+        "faq_q1","faq_q2","faq_q3","faq_q4",
+        "faq_q5","faq_q6","faq_q7","faq_q8"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "caption": "",
+        "title": "Frequently Asked Questions",
+        "title_highlight_color": "#111111",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "row_heading_size": "medium",
+        "collapse_icon": "plus",
+        "display_top_border": true,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#111111",
+        "custom_contaner_colors_background": "#ffffff",
+        "custom_container_gradient_background": "",
+        "custom_contaner_colors_text": "#111111"
+      }
+    },
+
+    "trust_footer": {
+      "type": "multicolumn",
+      "blocks": {
+
+        "col_support": {
+          "type": "column",
+          "settings": {
+            "title": "24/7 Customer Support",
+            "text": "<p>We're here whenever you need us. Reach out at <strong>support@[yourdomain].com</strong> — we reply within 24 hours.</p>",
+            "link_label": "",
+            "link": "",
+            "image": null
+          }
+        },
+
+        "col_shipping": {
+          "type": "column",
+          "settings": {
+            "title": "Worldwide Shipping",
+            "text": "<p>We deliver straight to your door no matter where you are. Orders typically arrive within <strong>5–14 business days</strong>. Fully tracked.</p>",
+            "link_label": "",
+            "link": "",
+            "image": null
+          }
+        },
+
+        "col_guarantee": {
+          "type": "column",
+          "settings": {
+            "title": "30-Day Money-Back Guarantee",
+            "text": "<p>If you're not completely satisfied for any reason — <strong>full refund, no questions asked</strong>. Zero risk.</p>",
+            "link_label": "",
+            "link": "",
+            "image": null
+          }
+        }
+
+      },
+      "block_order": ["col_support","col_shipping","col_guarantee"],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "heading_size": "h2",
+        "title_highlight_color": "#111111",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "background-2",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "custom_colors_background": "#f7f7f7",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#111111",
+        "custom_colors_solid_button_background": "#111111",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#111111",
+        "custom_cards_colors_background": "#ffffff",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#111111"
+      }
+    }
+
+  },
+  "order": [
+    "main",
+    "lf_rows",
+    "secrets_dark",
+    "testimonial_ticker",
+    "faq_section",
+    "trust_footer"
+  ]
+}

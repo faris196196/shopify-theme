@@ -1,0 +1,246 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "order": [
+    "slideshow_kmpJT9",
+    "image_with_text_6UUEyL",
+    "image_with_text_74FYLf",
+    "rich_text_RjxJmL",
+    "image_banner_tMRKLA"
+  ],
+  "sections": {
+    "image_banner_tMRKLA": {
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "color_scheme": "background-1",
+        "desktop_content_alignment": "center",
+        "desktop_content_position": "middle-center",
+        "display_id": false,
+        "image": "shopify://shop_images/59d2b70f71391e7e6da2a748aac4c5df.jpg",
+        "image_1_visibility": "always-display",
+        "image_2_visibility": "always-display",
+        "image_height": "medium",
+        "image_overlay_opacity": 0,
+        "mobile_content_alignment": "center",
+        "show_text_below": true,
+        "show_text_box": true,
+        "stack_images_on_mobile": true,
+        "transparent_container_color": "white",
+        "url": "",
+        "visibility": "always-display"
+      },
+      "type": "image-banner"
+    },
+    "image_with_text_6UUEyL": {
+      "block_order": [
+        "heading_JDn8Ri",
+        "text_8fRCn9"
+      ],
+      "blocks": {
+        "heading_JDn8Ri": {
+          "settings": {
+            "heading_size": "h1",
+            "title": "<strong>The Vault of Forbidden Knowledge</strong>",
+            "title_highlight_color": "#ffffff"
+          },
+          "type": "heading"
+        },
+        "text_8fRCn9": {
+          "settings": {
+            "text": "<h3><strong>Uncovering What They Don't Want You to Know</strong></h3><p>The truth isn't just out there, it's being deliberately hidden from you.</p><p>While you sleep, decisions are being made. Agendas are advancing. History is being rewritten. Technology is evolving beyond control. And the powerful few who know the real story are counting on your ignorance.</p><p><strong>But you've always known something was off, haven't you?</strong></p><p>That nagging feeling that the official story doesn't add up. That sense that massive changes are happening just outside your field of vision. That certainty that someone, somewhere, knows exactly what's going on and they're not telling.</p><h3><strong>Your Instincts Are Right. And We Have The Proof.</strong></h3>",
+            "text_style": "body"
+          },
+          "type": "text"
+        }
+      },
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "color_scheme": "background-1",
+        "content_layout": "no-overlap",
+        "custom_colors_background": "#2e2a39",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_text": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": "",
+        "desktop_content_alignment": "left",
+        "desktop_content_position": "top",
+        "desktop_media_width": 50,
+        "desktop_padding_bottom": 36,
+        "desktop_padding_top": 36,
+        "display_id": false,
+        "full_desktop_width": false,
+        "height": "adapt",
+        "layout": "image_first",
+        "mobile_content_alignment": "left",
+        "mobile_direction": "normal",
+        "mobile_full_media_width": false,
+        "mobile_image_quanlity": "2",
+        "mobile_padding_bottom": 16,
+        "mobile_padding_top": 0,
+        "section_color_scheme": "background-1",
+        "video": "shopify://files/videos/pinterest-video (1).mp4",
+        "video_autoplay": true,
+        "video_loop": true,
+        "visibility": "always-display"
+      },
+      "type": "image-with-text"
+    },
+    "image_with_text_74FYLf": {
+      "block_order": [
+        "heading_BL93Mr",
+        "text_6rRECD"
+      ],
+      "blocks": {
+        "heading_BL93Mr": {
+          "settings": {
+            "heading_size": "h1",
+            "title": "<strong>Why This Library Exists</strong>",
+            "title_highlight_color": "#07b1f3"
+          },
+          "type": "heading"
+        },
+        "text_6rRECD": {
+          "settings": {
+            "text": "<p>Every day, crucial information is:</p><ul><li>❌ Deleted from the internet</li><li>❌ Removed from bookstores</li><li>❌ \"Fact-checked\" into oblivion</li><li>❌ Shadow-banned on social media</li><li>❌ Buried by algorithm manipulation</li></ul><p><strong>We rescue this knowledge before it disappears forever.</strong></p><p>Our team of researchers, whistleblowers, and truth-seekers work around the clock to preserve and distribute the information that powerful interests are desperate to suppress.</p>",
+            "text_style": "body"
+          },
+          "type": "text"
+        }
+      },
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "color_scheme": "background-1",
+        "content_layout": "no-overlap",
+        "custom_colors_background": "#2e2a39",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_text": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": "",
+        "desktop_content_alignment": "left",
+        "desktop_content_position": "top",
+        "desktop_media_width": 50,
+        "desktop_padding_bottom": 36,
+        "desktop_padding_top": 36,
+        "display_id": false,
+        "full_desktop_width": false,
+        "height": "adapt",
+        "layout": "image_first",
+        "mobile_content_alignment": "left",
+        "mobile_direction": "normal",
+        "mobile_full_media_width": false,
+        "mobile_image_quanlity": "2",
+        "mobile_padding_bottom": 16,
+        "mobile_padding_top": 0,
+        "section_color_scheme": "background-1",
+        "video": "shopify://files/videos/pinterest-video.mp4",
+        "video_autoplay": true,
+        "video_loop": true,
+        "visibility": "always-display"
+      },
+      "type": "image-with-text"
+    },
+    "rich_text_RjxJmL": {
+      "block_order": [
+        "heading_yyEqL4",
+        "text_cnqxKw"
+      ],
+      "blocks": {
+        "heading_yyEqL4": {
+          "settings": {
+            "heading_size": "h1",
+            "title": "<strong>The Last Library of Real Truth</strong>",
+            "title_highlight_color": "#07b1f3"
+          },
+          "type": "heading"
+        },
+        "text_cnqxKw": {
+          "settings": {
+            "text": "<p>In an age of censorship, shadow bans, and \"fact-checkers\" who serve hidden masters, we've built something they can't control: <strong>A digital vault containing the most explosive, suppressed, and sought-after knowledge of our time.</strong></p><p>Every book. Every document. Every revelation they tried to bury.</p><h3><strong>This isn't conspiracy theory. This is conspiracy FACT.</strong></h3><h2><strong>Inside Our Classified Collection:</strong></h2><h3>🤖 <strong>Artificial Intelligence & The Coming Technocracy</strong></h3><ul><li>The AI takeover timeline they're hiding</li><li>Secret government AI programs exposed</li><li>How to protect your family from algorithmic control</li><li>The truth about job automation they won't admit</li></ul><h3>🌍 <strong>Hidden History & Ancient Mysteries</strong></h3><ul><li>Suppressed archaeological discoveries</li><li>The real story of human origins</li><li>Ancient technologies that \"shouldn't exist\"</li><li>Maps that rewrite everything you learned in school</li></ul><h3>💰 <strong>Financial Secrets & Economic Manipulation</strong></h3><ul><li>The coming economic reset decoded</li><li>How the ultra-wealthy really protect their assets</li><li>Cryptocurrency secrets the banks fear</li><li>The inflation truth they're desperate to hide</li></ul><h3>✨ <strong>Manifestation & Hidden Universal Laws</strong></h3><ul><li>The quantum physics they don't teach in schools</li><li>Ancient manifestation techniques used by secret societies</li><li>Why the ultra-rich all practice these \"forbidden\" methods</li><li>The frequency codes that reshape reality</li><li>CIA documents on consciousness and reality manipulation</li><li>The real reason Law of Attraction only works for some people</li><li>Suppressed Tesla papers on energy and consciousness</li></ul><h3>🏛️ <strong>Deep State & Shadow Governance</strong></h3><ul><li>Leaked documents from three-letter agencies</li><li>The puppet masters behind world leaders</li><li>Secret societies' modern operations exposed</li><li>Military black projects revealed</li></ul><h3>🧬 <strong>Health Truths & Medical Coverups</strong></h3><ul><li>Suppressed cures and hidden treatments</li><li>What's really in your food and water</li><li>Big Pharma's darkest secrets</li><li>Natural remedies they've tried to ban</li></ul><h3>👁️ <strong>Surveillance State & Privacy Wars</strong></h3><ul><li>How you're being tracked right now</li><li>Social credit systems already in place</li><li>Digital ID endgame exposed</li><li>How to become invisible to the system</li></ul>"
+          },
+          "type": "text"
+        }
+      },
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "background-1",
+        "content_alignment": "left",
+        "custom_colors_background": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_text": "#2e2a39",
+        "custom_gradient_background": "",
+        "desktop_content_position": "center",
+        "display_id": false,
+        "full_width": true,
+        "padding_bottom": 52,
+        "padding_top": 40,
+        "visibility": "always-display"
+      },
+      "type": "rich-text"
+    },
+    "slideshow_kmpJT9": {
+      "block_order": [
+        "slide_iezaAi"
+      ],
+      "blocks": {
+        "slide_iezaAi": {
+          "settings": {
+            "atc_button_label": "",
+            "atc_product": "",
+            "atc_skip_cart": false,
+            "box_align": "middle-center",
+            "button_label": "FIND OUT MORE",
+            "button_style_secondary": false,
+            "color_scheme": "background-1",
+            "custom_colors_background": "#ffffff",
+            "custom_colors_outline_button": "#dd1d1d",
+            "custom_colors_solid_button_background": "#dd1d1d",
+            "custom_colors_solid_button_text": "#ffffff",
+            "custom_colors_text": "#2e2a39",
+            "custom_gradient_background": "",
+            "heading": "The Lost Laws Of Manifestation",
+            "heading_size": "h1",
+            "image": "shopify://shop_images/ChatGPT_Image_Aug_21_2025_12_44_15_AM.png",
+            "image_overlay_opacity": 30,
+            "link": "shopify://products/the-lost-laws-of-manifestation-audiobook-free-gifts",
+            "show_text_box": true,
+            "subheading": "Amara Callen",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "title_highlight_color": "#6d180e",
+            "transparent_container_color": "white"
+          },
+          "type": "slide"
+        }
+      },
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "accessibility_info": "Slideshow about our brand",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "desktop_pagination_position": "over",
+        "layout": "full_bleed",
+        "mobile_pagination_position": "under",
+        "show_text_below": false,
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "visibility": "always-display"
+      },
+      "type": "slideshow"
+    }
+  }
+}

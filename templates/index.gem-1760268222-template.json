@@ -1,0 +1,246 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_kmpJT9": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_iezaAi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ChatGPT_Image_Aug_21_2025_12_44_15_AM.png",
+            "image_overlay_opacity": 30,
+            "heading": "The Lost Laws Of Manifestation",
+            "title_highlight_color": "#6d180e",
+            "heading_size": "h1",
+            "subheading": "Amara Callen",
+            "button_label": "FIND OUT MORE",
+            "link": "shopify:\/\/products\/the-lost-laws-of-manifestation-audiobook-free-gifts",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_product": "",
+            "atc_skip_cart": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "color_scheme": "background-1",
+            "transparent_container_color": "white",
+            "text_alignment_mobile": "center",
+            "custom_colors_background": "#ffffff",
+            "custom_gradient_background": "",
+            "custom_colors_text": "#2e2a39",
+            "custom_colors_solid_button_background": "#dd1d1d",
+            "custom_colors_solid_button_text": "#ffffff",
+            "custom_colors_outline_button": "#dd1d1d"
+          }
+        }
+      },
+      "block_order": [
+        "slide_iezaAi"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "visibility": "always-display",
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "desktop_pagination_position": "over",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "mobile_pagination_position": "under",
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "image_with_text_6UUEyL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JDn8Ri": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>The Vault of Forbidden Knowledge<\/strong>",
+            "title_highlight_color": "#ffffff",
+            "heading_size": "h1"
+          }
+        },
+        "text_8fRCn9": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Uncovering What They Don't Want You to Know<\/strong><\/h3><p>The truth isn't just out there, it's being deliberately hidden from you.<\/p><p>While you sleep, decisions are being made. Agendas are advancing. History is being rewritten. Technology is evolving beyond control. And the powerful few who know the real story are counting on your ignorance.<\/p><p><strong>But you've always known something was off, haven't you?<\/strong><\/p><p>That nagging feeling that the official story doesn't add up. That sense that massive changes are happening just outside your field of vision. That certainty that someone, somewhere, knows exactly what's going on and they're not telling.<\/p><h3><strong>Your Instincts Are Right. And We Have The Proof.<\/strong><\/h3>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JDn8Ri",
+        "text_8fRCn9"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "video": "shopify:\/\/files\/videos\/pinterest-video (1).mp4",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2e2a39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "image_with_text_74FYLf": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BL93Mr": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>Why This Library Exists<\/strong>",
+            "title_highlight_color": "#07b1f3",
+            "heading_size": "h1"
+          }
+        },
+        "text_6rRECD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every day, crucial information is:<\/p><ul><li>❌ Deleted from the internet<\/li><li>❌ Removed from bookstores<\/li><li>❌ \"Fact-checked\" into oblivion<\/li><li>❌ Shadow-banned on social media<\/li><li>❌ Buried by algorithm manipulation<\/li><\/ul><p><strong>We rescue this knowledge before it disappears forever.<\/strong><\/p><p>Our team of researchers, whistleblowers, and truth-seekers work around the clock to preserve and distribute the information that powerful interests are desperate to suppress.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BL93Mr",
+        "text_6rRECD"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "video": "shopify:\/\/files\/videos\/pinterest-video.mp4",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2e2a39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "rich_text_RjxJmL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yyEqL4": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>The Last Library of Real Truth<\/strong>",
+            "title_highlight_color": "#07b1f3",
+            "heading_size": "h1"
+          }
+        },
+        "text_cnqxKw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In an age of censorship, shadow bans, and \"fact-checkers\" who serve hidden masters, we've built something they can't control: <strong>A digital vault containing the most explosive, suppressed, and sought-after knowledge of our time.<\/strong><\/p><p>Every book. Every document. Every revelation they tried to bury.<\/p><h3><strong>This isn't conspiracy theory. This is conspiracy FACT.<\/strong><\/h3><h2><strong>Inside Our Classified Collection:<\/strong><\/h2><h3>🤖 <strong>Artificial Intelligence & The Coming Technocracy<\/strong><\/h3><ul><li>The AI takeover timeline they're hiding<\/li><li>Secret government AI programs exposed<\/li><li>How to protect your family from algorithmic control<\/li><li>The truth about job automation they won't admit<\/li><\/ul><h3>🌍 <strong>Hidden History & Ancient Mysteries<\/strong><\/h3><ul><li>Suppressed archaeological discoveries<\/li><li>The real story of human origins<\/li><li>Ancient technologies that \"shouldn't exist\"<\/li><li>Maps that rewrite everything you learned in school<\/li><\/ul><h3>💰 <strong>Financial Secrets & Economic Manipulation<\/strong><\/h3><ul><li>The coming economic reset decoded<\/li><li>How the ultra-wealthy really protect their assets<\/li><li>Cryptocurrency secrets the banks fear<\/li><li>The inflation truth they're desperate to hide<\/li><\/ul><h3>✨ <strong>Manifestation & Hidden Universal Laws<\/strong><\/h3><ul><li>The quantum physics they don't teach in schools<\/li><li>Ancient manifestation techniques used by secret societies<\/li><li>Why the ultra-rich all practice these \"forbidden\" methods<\/li><li>The frequency codes that reshape reality<\/li><li>CIA documents on consciousness and reality manipulation<\/li><li>The real reason Law of Attraction only works for some people<\/li><li>Suppressed Tesla papers on energy and consciousness<\/li><\/ul><h3>🏛️ <strong>Deep State & Shadow Governance<\/strong><\/h3><ul><li>Leaked documents from three-letter agencies<\/li><li>The puppet masters behind world leaders<\/li><li>Secret societies' modern operations exposed<\/li><li>Military black projects revealed<\/li><\/ul><h3>🧬 <strong>Health Truths & Medical Coverups<\/strong><\/h3><ul><li>Suppressed cures and hidden treatments<\/li><li>What's really in your food and water<\/li><li>Big Pharma's darkest secrets<\/li><li>Natural remedies they've tried to ban<\/li><\/ul><h3>👁️ <strong>Surveillance State & Privacy Wars<\/strong><\/h3><ul><li>How you're being tracked right now<\/li><li>Social credit systems already in place<\/li><li>Digital ID endgame exposed<\/li><li>How to become invisible to the system<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yyEqL4",
+        "text_cnqxKw"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "image_banner_tMRKLA": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify:\/\/shop_images\/59d2b70f71391e7e6da2a748aac4c5df.jpg",
+        "image_1_visibility": "always-display",
+        "image_2_visibility": "always-display",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "url": "",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "transparent_container_color": "white",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "slideshow_kmpJT9",
+    "image_with_text_6UUEyL",
+    "image_with_text_74FYLf",
+    "rich_text_RjxJmL",
+    "image_banner_tMRKLA"
+  ]
+}

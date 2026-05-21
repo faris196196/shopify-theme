@@ -1,0 +1,890 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_BheNb3": {
+      "type": "rich-text",
+      "blocks": {
+        "text_f7berb": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>🚨 DISCLAIMER: 27 COPIES LEFT 🚨</h6>"
+          }
+        },
+        "text_zwbjfb": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>The Manifestation Book They’re Trying to Erase</h3>"
+          }
+        },
+        "text_G3QhFG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The elite manifestation methods<br/>Amara Callen leaked — before they could stop her.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_f7berb",
+        "text_zwbjfb",
+        "text_G3QhFG"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "rich_text_aXtiem": {
+      "type": "rich-text",
+      "blocks": {
+        "text_xTGHae": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>WHEN PHYSICAL COPY GETS PUBLISHED YOU GET IT FOR FREE!</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "text_xTGHae"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "urgency_LJHPeN": {
+          "type": "urgency",
+          "settings": {
+            "urgency": "17 PEPOPLE VIEWING THIS RIGHT NOW",
+            "color_scheme": "accent-2",
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": "h1",
+            "title_alignment": "left",
+            "uppercase_title": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "rating_stars_6DDLth": {
+          "type": "rating_stars",
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#ffcc00",
+            "bg_stars_style": "full",
+            "bg_star_color": "#ececec",
+            "label": "4.8 (5,799 Reviews)",
+            "size": 13,
+            "alignment": "flex-start",
+            "scroll_id": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "text_JdncY3": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 12,
+            "desktop_text_size": 12,
+            "alignment": "left",
+            "text_color": "#ffffff",
+            "text_1": "I love this book. I expected it to be too “woo woo,” but it’s grounded in real science. I’m learning more than I thought and it even supports ideas from my own work on journaling and finding purpose.",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "layout": "price_second",
+            "price_color": "text",
+            "compare_price_color": "accent-2",
+            "displayed_badge": "custom",
+            "icon_scale": 140,
+            "custom_badge_text": "[icon_1] 50% OFF",
+            "icon_1": "redeem",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "margin_top": 9,
+            "margin_bottom": 15
+          }
+        },
+        "description_Utgrmz": {
+          "type": "description",
+          "settings": {
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "product_upsell_nx9FcE": {
+          "type": "product_upsell",
+          "settings": {
+            "style": "toggle_switch",
+            "btn_position": "right",
+            "toggle_element": "button",
+            "add_btn_label": "<strong>Add</strong>",
+            "stacking": "row",
+            "accent_color": "accent-2",
+            "color_scheme": "background-1",
+            "product_list": [
+              "manifestation-tools",
+              "the-lost-laws-of-manifestation-audiobook",
+              "manifestation-vault-app"
+            ],
+            "enable_dynamic_recommendations": false,
+            "prdouct_1_preselected": true,
+            "product_1_desc": "",
+            "product_1_percentage_discount": "0",
+            "product_1_fixed_amount_discount": "0",
+            "prdouct_2_preselected": true,
+            "product_2_desc": "",
+            "product_2_percentage_discount": "0",
+            "product_2_fixed_amount_discount": "0",
+            "prdouct_3_preselected": true,
+            "product_3_image": "shopify://shop_images/ChatGPTImageSep3_2025_04_42_17PM.png",
+            "product_3_desc": "This guidance prevents the #1 reason people over 35 give up on manifestation, losing without proof it’s working.",
+            "product_3_percentage_discount": "0",
+            "product_3_fixed_amount_discount": "0",
+            "show_images": true,
+            "images_size": "5",
+            "images_corner_radius": 0,
+            "title_size": "1.4",
+            "title_link": false,
+            "desc_size": "1.2",
+            "price_position": "next_to_title",
+            "price_size": "1.4",
+            "hide_compare_price": false,
+            "show_variant_picker": false,
+            "update_prices": false,
+            "skip_unavailable": false,
+            "container_title": "",
+            "container_title_position": "outside",
+            "container_title_mobile_text_size": 20,
+            "container_title_desktop_text_size": 20,
+            "corner_radius": 0,
+            "show_box_shadow": false,
+            "show_border": false,
+            "regular_border_color": "#e6e6e6",
+            "selected_border_color": "#6d388b",
+            "border_width": "0.2",
+            "show_custom_bg": false,
+            "regular_bg_color": "#f2f2f2",
+            "selected_bg_color": "#f2f2f2",
+            "margin_top": 21,
+            "margin_bottom": 21
+          }
+        },
+        "buy_buttons_bykWpb": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "skip_cart": false,
+            "uppercase_text": true,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "display_price": false,
+            "enable_custom_color": true,
+            "custom_color": "#00b3ff",
+            "enable_secondary_btn": false,
+            "secondary_btn_label": "Buy It Now",
+            "secondary_btn_enable_custom_color": false,
+            "secondary_btn_custom_color": "#dd1d1d",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "text_znJzmM": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 11,
+            "desktop_text_size": 13,
+            "alignment": "center",
+            "text_color": "#ffffff",
+            "text_1": "🚨 DISCLAIMER: 27 COPIES LEFT 🚨",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "payment_badges_VYCert": {
+          "type": "payment_badges",
+          "settings": {
+            "enabled_payment_types": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5": {
+          "type": "sticky_atc",
+          "disabled": true,
+          "settings": {
+            "function": "add_to_cart",
+            "display_when": "after_scroll",
+            "button_label": "Add to cart",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "background-1",
+            "star_color": "#ffcc00",
+            "stars_label": "(xxxx Reviews)",
+            "picker_type": "combined",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": false,
+            "desktop_show_price": true,
+            "desktop_show_sale_badge": true,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": false,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": true,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": false,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        },
+        "text_fk6NV7": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 24,
+            "desktop_text_size": 16,
+            "alignment": "center",
+            "text_color": "#fafafa",
+            "text_1": "<strong>Real People, Real Results.</strong>",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "image_wiUbMn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_23_1.png",
+            "width": 100,
+            "Full_mobile_width": false,
+            "alignment": "center",
+            "border_radius": 0,
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        }
+      },
+      "block_order": [
+        "urgency_LJHPeN",
+        "title",
+        "rating_stars_6DDLth",
+        "text_JdncY3",
+        "price",
+        "description_Utgrmz",
+        "product_upsell_nx9FcE",
+        "buy_buttons_bykWpb",
+        "text_znJzmM",
+        "payment_badges_VYCert",
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5",
+        "text_fk6NV7",
+        "image_wiUbMn"
+      ],
+      "custom_css": [],
+      "settings": {
+        "display_id": false,
+        "enable_sticky_info": true,
+        "display_variant_image_first": false,
+        "disable_prepend": true,
+        "hide_variants": false,
+        "variant_image_filtering": "none",
+        "image_zoom": "none",
+        "thumbnails_ratio": "square",
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "video_player": "play_btn",
+        "enable_video_looping": false,
+        "autoplay_videos_pause_btn": false,
+        "video_sound_btn": false,
+        "video_timeline": false,
+        "play_btn_color_scheme": "accent-1",
+        "sound_btn_color_scheme": "inverse",
+        "timeline_color": "accent-1",
+        "media_size": "small",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "desktop_thumbnails_position": "bottom",
+        "desktop_thumbnails_count": 5,
+        "desktop_vertical_thumbnails_width": 16,
+        "desktop_vertical_thumbnails_hide_arrows": false,
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "desktop_arrows_position": "hidden",
+        "mobile_media_corner_radius": 0,
+        "mobile_spacing_pixels": 0,
+        "mobile_arrows_position": "sides",
+        "mobile_pagination": "dots_overlay",
+        "mobile_thumbnails_position": "hidden",
+        "mobile_thumbnails_count": 5,
+        "mobile_vertical_thumbnails_width": 22,
+        "mobile_vertical_thumbnails_hide_arrows": true,
+        "mobile_scroll_padding_percentage": 0,
+        "mobile_scroll_padding_pixels": 0,
+        "enable_mobile_outher_spacing": false,
+        "mobile_slides_container_width": 100,
+        "mobile_slides_inner_width": 100,
+        "trust_badge_position": "top-right",
+        "trust_badge_size": "medium",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "title": "You may also like",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "facebook_testimonials_MJgqMM": {
+      "type": "facebook-testimonials",
+      "blocks": {
+        "column_twDwFz": {
+          "type": "column",
+          "settings": {
+            "post_author": "Carlos Rodriguez",
+            "post_author_avatar": "shopify://shop_images/images_21_430x_cdcca66f-ecf2-4af6-b58e-2a1ff9345830.jpg",
+            "post_author_verified": true,
+            "post_time": "10h ago",
+            "post_text": "<p>I just finished this book and it is amazing. It woke me up inside, I found myself again but better. I feel new energy and hope, like I've had an awakening, a renewal in my mind, body and spirit. I'm excited to try some things I think I always felt but didn't understand until now. Get this book, you won't regret it!</p>",
+            "post_reactions": "like,wow",
+            "post_reactions_text": "411",
+            "post_comments_text": "26 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_wbB73q": {
+          "type": "column",
+          "settings": {
+            "post_author": "Jennifer Thompson",
+            "post_author_avatar": "shopify://shop_images/openart-a-hyper-realistic-full-body-portrait-of-a-beautiful-19-year-old-lonodon-gi_430x_99a8b6ab-bde8-4986-9a20-6d5ff9b5af0a.webp",
+            "post_author_verified": true,
+            "post_time": "2h ago",
+            "post_text": "<p>The lost laws of manifestation by Amara Callen is one of the most profound books I’ve ever read on personal transformation. It goes far beyond simple “positive thinking.” It blends ancient wisdom with modern science to show how to truly align your energy and intentions. The exercises are practical, the insights are deep, and the auhor’s sincerity shines through every page.</p>",
+            "post_reactions": "like, love,wow",
+            "post_reactions_text": "1.1k",
+            "post_comments_text": "26 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_Ub3CUR": {
+          "type": "column",
+          "settings": {
+            "post_author": "Eliot Wicken",
+            "post_author_avatar": "shopify://shop_images/download_1_430x_6dfdcfb2-fc7f-4549-b51f-c4f6f61107a6.jpg",
+            "post_author_verified": false,
+            "post_time": "14d ago",
+            "post_text": "<p>My Gratitude to Amara Callen for this book that clearly presented the thoughts I needed during a grieving time.<br/>Faith and reality became empowered as I followed the practical applications.<br/>Joy awakened as I aligned with the sacred truths.<br/>This book is a valued read and re-read in my library.<br/><br/></p>",
+            "post_reactions": "wow,like",
+            "post_reactions_text": "2.3k",
+            "post_comments_text": "59 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_dgzAxA": {
+          "type": "column",
+          "settings": {
+            "post_author": "Eden M.",
+            "post_author_verified": false,
+            "post_time": "11h ago",
+            "post_text": "<p>Amazing Book! Such an easy read and has many calls to action! The book includes pages where you can jot down your thoughts and help you get past your own doubts and limiting beliefs to begin manifesting your best life! Love the author, Amara Callen~ She is such an inspiration.</p>",
+            "post_reactions": "like, love, care",
+            "post_reactions_text": "1.1k",
+            "post_comments_text": "26 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_twDwFz",
+        "column_wbB73q",
+        "column_Ub3CUR",
+        "column_dgzAxA"
+      ],
+      "name": "Facebook testimonials",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Life-changing insights",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "background-1",
+        "type": "loop",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": true,
+        "per_move_desktop": 1,
+        "desktop_spacing": 24,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
+        "post_bg_color": "#ffffff",
+        "post_text_color": "#101010",
+        "comments_bg_color": "#f0f2f5",
+        "separators_color": "#a4b0be",
+        "post_border_color": "#dfdfdf",
+        "border_width": 1,
+        "like_label": "Like",
+        "comment_label": "Comment",
+        "reply_label": "Reply",
+        "share_label": "Share",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#f3f3f3",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39"
+      }
+    },
+    "image_with_text_hWym3X": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_p6tWCm": {
+          "type": "heading",
+          "settings": {
+            "title": "What’s up, I’m Amara.",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h2"
+          }
+        },
+        "text_qfkXpJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Amara Callen is a <strong>neuroscience-informed manifestation strategist</strong> who bridges the gap between science and spirit. Her work is built on one central truth, that reality doesn’t respond to what we think, but to who we <em>are</em>.</p><p>For over <strong>nine years</strong>, Amara immersed herself in obsessive study across <strong>500+ scientific and metaphysical sources</strong> from quantum physics and neuroplasticity to Hermetic principles and emotional frequency mapping. What she discovered revolutionized her understanding of success: <em>manifestation isn’t positive thinking, it’s precise brain–frequency alignment.</em></p><h3>From Skeptic to Strategist</h3><p>Amara’s journey began not in meditation halls but in research labs and late-night data dives. A natural skeptic, she was disillusioned by “feel-good spirituality” that lacked evidence. Her analytical mind needed something <em>provable</em>.</p><p>When she began measuring emotional coherence using biofeedback devices, she noticed patterns most spiritual teachers never mentioned. Measurable, physiological shifts in the brain and heart whenever people entered states of genuine alignment, not forced optimism. This realization became the seed of her life’s work: a system that merges <strong>neuroscience, energetic awareness, and emotional intelligence</strong> to create tangible change.</p><h3>The Philosophy: Frequency First, Action After</h3><p>In her acclaimed work <em>The Lost Laws of Manifestation</em>, Amara teaches that thoughts alone don’t create reality, <em>frequency does.</em> We don’t attract what we want; we attract what we are broadcasting.</p><p>“Your frequency is your reality. Not the cause of it, it <em>is</em> it.” — <em>Amara Callen</em></p><p>Her approach demystifies manifestation by grounding it in the language of neurochemistry and quantum resonance. Through her methods, clients learn to identify subconscious loops, emotionally rewire the nervous system, and embody their desired identity before external proof appears.</p><h3>Clients Who Think in Data, Not Daydreams</h3><p>Amara has guided <strong>over 200 high-performing analytical professionals,</strong> engineers, founders, executives, and researchers, teaching them how to use <strong>evidence-backed manifestation protocols</strong> instead of mystical guesswork. Her programs resonate with people who crave results, not rituals.</p><p>Her sessions are described as “neuro-surgery for the subconscious.” Using frameworks like the <em>Identity Shift Blueprint</em> and the <em>Polarity Pivot Technique</em>, Amara helps clients dismantle their old frequency and reconstruct new neural patterns that naturally emit the signal of abundance, clarity, and confidence.</p><h3>The Core Message: Conscious Creation as Science</h3><p>Amara’s work dismantles the myth that manifestation is a mystical gift available only to a chosen few. She argues it’s a biological process. One that can be studied, trained, and optimized.</p><p>Her teachings integrate principles from:</p><ul><li><strong>HeartMath Institute’s research</strong> on electromagnetic coherence<br/></li><li><strong>Cognitive-behavioral neuroscience</strong> on belief formation and neural plasticity<br/></li><li><strong>Hermetic philosophy</strong> on polarity and rhythm<br/></li><li><strong>Quantum physics</strong> on observer-dependent reality<br/></li></ul><p>Through this fusion, Amara created a repeatable system for transformation. One that’s <strong>tactical, grounded, and empirically verifiable</strong>.</p><h3>The Woman Behind the Method</h3><p>Despite her analytical precision, Amara’s voice carries a deep emotional honesty. She speaks about failure, fear, and identity collapse not as flaws but as portals to higher awareness. “Your resistance isn’t a block,” she often says, “it’s your next initiation.”</p><p>Her own transformation came after a period of burnout, when years of overachievement left her disconnected from meaning. That crisis pushed her to test everything she’d learned, not in theory, but in her own nervous system. What emerged was the foundation for <em>The Lost Laws of Manifestation.</em> A book that redefines manifestation as <strong>energetic self-regulation</strong> rather than wishful thinking.</p><h3>Beyond Manifestation: The Sovereign Signal</h3><p>Today, Amara’s mission is to help people awaken what she calls their <strong>Sovereign Signal.</strong> The unique electromagnetic pattern of consciousness that, when aligned, makes life respond with precision and ease.</p><p>Her workshops and programs combine:</p><ul><li><strong>Neural frequency training</strong><br/></li><li><strong>Somatic awareness practices</strong><br/></li><li><strong>Cognitive re-patterning</strong><br/></li><li><strong>Identity shifting protocols</strong><br/></li></ul><p>She’s not here to sell fantasies, she’s here to teach frequency fluency.</p><h3>The Difference</h3><p>Amara’s students describe her as a translator between science and soul. Where most teachers preach “high vibes only,” she brings data, discipline, and depth. Her work cuts through spiritual noise and turns manifestation into something <strong>repeatable, measurable, and grounded in the physics of consciousness</strong>.</p><p>“You don’t attract what you think, you attract what you <em>believe yourself to be</em> at the cellular level.” — <em>Amara Callen</em></p><p>Her motto is simple yet radical:<br/><br/><strong>Outcomes, not vibes. Evidence, not empty affirmations.</strong></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_p6tWCm",
+        "text_qfkXpJ"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/ChatGPT_Image_Sep_3_2025_08_17_26_PM.png",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 45,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2e2a39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "collapsible_content_UFdbgU": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_m6mrkj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this another \"woo-woo\" manifestation program?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>No. <em>The Lost Laws of Manifestation</em> is a neuroscience-based system grounded in actual brain research. Every technique is backed by peer-reviewed studies, not mystical theories.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NKT6W7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How quickly will I see results?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Most readers of <em>The Lost Laws of Manifestation</em> report measurable changes within 7–14 days when following the protocols correctly. Results depend on consistent daily practice.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_zrBznN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I need meditation experience?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Not at all. The system is designed for busy professionals with no meditation background. The longest daily practice is just 10 minutes.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7HLMd7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if this doesn’t work for me?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>You’re protected by our 30-day money-back guarantee. If you don’t see improvements in your manifestation results, you’ll get a full refund, no questions asked.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FMLRVT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this compatible with my religious beliefs?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Yes. This system focuses on brain science and neurological patterns, not spiritual or religious concepts. It’s purely scientific methodology.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_tRymFP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How is this different from other manifestation programs I’ve tried?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p><em>The Lost Laws of Manifestation</em> was designed by Amara Callen specifically to align with your brain’s unique patterns. Generic programs fail because they ignore individual neurological differences.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4Qwtyj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I’m too busy for another self-help program?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>The entire daily protocol takes just 10 minutes. No lengthy meditations or complex rituals—just precise alignment techniques designed for busy professionals.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LwLPbM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I need any special equipment or apps?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>No. Everything works with just the materials provided. You don’t need meditation cushions, crystals, vision boards, or any additional purchases.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cHmdBc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I’m very analytical – will this make sense to me?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Absolutely. <em>The Lost Laws of Manifestation</em> was designed specifically for analytical minds. You’ll understand exactly <strong>why</strong> each technique works, eliminating doubt and maximizing results.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FjRjCT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What format are the materials in?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>All materials are digital (PDF and audio files) for instant access. You can read on any device and listen to audio sessions anywhere.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9cU8HW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is there ongoing support or is this a one-time purchase?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>This is a complete system with everything you need. No monthly fees, upsells, or required coaching calls. You own it permanently.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4DqqLF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I’ve failed at manifestation before?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Previous failures likely happened because you were using methods designed for different brain patterns. Amara Callen’s system is calibrated specifically for how <strong>your brain</strong> processes reality creation.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3GMCLH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I know I’m actually aligned with The Lost Laws of Manifestation?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>You’ll take a simple assessment that analyzes your responses against established neurological patterns. This identifies your specific manifestation type based on your answers.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rpick8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I share this with my spouse/partner?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>The materials are for your personal use. Your partner would need their own copy, as they may have a different manifestation type requiring different protocols.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WiVX6c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I’m skeptical about manifestation in general?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Perfect. <em>The Lost Laws of Manifestation</em> was designed specifically for skeptical, science-minded people. Your analytical nature is actually an advantage for this frequency-based approach.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UwDEcR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long do I have access to the materials?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Lifetime access. Download everything immediately and keep forever. No expiration dates or recurring fees.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4VjJMp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if the 24-hour special pricing expires?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>The price returns to the regular <strong>$197</strong>, and you lose access to the exclusive bonus materials that are only available with this special offer.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_m6mrkj",
+        "collapsible_row_NKT6W7",
+        "collapsible_row_zrBznN",
+        "collapsible_row_7HLMd7",
+        "collapsible_row_FMLRVT",
+        "collapsible_row_tRymFP",
+        "collapsible_row_4Qwtyj",
+        "collapsible_row_LwLPbM",
+        "collapsible_row_cHmdBc",
+        "collapsible_row_FjRjCT",
+        "collapsible_row_9cU8HW",
+        "collapsible_row_4DqqLF",
+        "collapsible_row_3GMCLH",
+        "collapsible_row_rpick8",
+        "collapsible_row_WiVX6c",
+        "collapsible_row_UwDEcR",
+        "collapsible_row_4VjJMp"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "caption": "",
+        "title": "FAQ's",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h0",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": true,
+        "video_muted_autoplay": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "row_heading_size": "medium",
+        "collapse_icon": "plus",
+        "display_top_border": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_contaner_colors_background": "#ffffff",
+        "custom_container_gradient_background": "",
+        "custom_contaner_colors_text": "#2e2a39"
+      }
+    }
+  },
+  "order": [
+    "rich_text_BheNb3",
+    "rich_text_aXtiem",
+    "main",
+    "related-products",
+    "facebook_testimonials_MJgqMM",
+    "image_with_text_hWym3X",
+    "collapsible_content_UFdbgU"
+  ]
+}

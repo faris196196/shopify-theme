@@ -1,0 +1,872 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_BheNb3": {
+      "type": "rich-text",
+      "blocks": {
+        "text_f7berb": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>🚨DISCLAIMER: 19 COPIES LEFT🚨</h6>"
+          }
+        },
+        "text_zwbjfb": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>The Classified Intelligence Report They Tried to Bury</strong></h2>"
+          }
+        },
+        "text_G3QhFG": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>The world-altering predictions<br/><em>The Unknown Analyst</em> wrote in 2012 <br/>before the report was sealed and erased.<br/></h6>"
+          }
+        }
+      },
+      "block_order": [
+        "text_f7berb",
+        "text_zwbjfb",
+        "text_G3QhFG"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "rich_text_aXtiem": {
+      "type": "rich-text",
+      "blocks": {
+        "text_xTGHae": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>WHEN PHYSICAL COPY GETS PUBLISHED YOU GET IT FREE!</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "text_xTGHae"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "urgency_LJHPeN": {
+          "type": "urgency",
+          "settings": {
+            "urgency": "17 PEPOPLE VIEWING THIS RIGHT NOW",
+            "color_scheme": "background-2",
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": "h1",
+            "title_alignment": "left",
+            "uppercase_title": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "rating_stars_6DDLth": {
+          "type": "rating_stars",
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#ffcc00",
+            "bg_stars_style": "full",
+            "bg_star_color": "#ececec",
+            "label": "4.8 (5,799 Reviews)",
+            "size": 13,
+            "alignment": "flex-start",
+            "scroll_id": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "text_JdncY3": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 12,
+            "desktop_text_size": 12,
+            "alignment": "left",
+            "text_color": "#ffffff",
+            "text_1": "“If this really was written in 2012… then nothing about our current world is an accident. This is the most disturbing and accurate book I've ever read.”",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "layout": "price_second",
+            "price_color": "text",
+            "compare_price_color": "outline-button",
+            "displayed_badge": "none",
+            "icon_scale": 140,
+            "custom_badge_text": "[icon_1] 50% OFF",
+            "icon_1": "redeem",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "margin_top": 9,
+            "margin_bottom": 15
+          }
+        },
+        "description_Utgrmz": {
+          "type": "description",
+          "settings": {
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "product_upsell_nx9FcE": {
+          "type": "product_upsell",
+          "disabled": true,
+          "settings": {
+            "style": "toggle_switch",
+            "btn_position": "right",
+            "toggle_element": "button",
+            "add_btn_label": "<strong>Add</strong>",
+            "stacking": "row",
+            "accent_color": "accent-2",
+            "color_scheme": "background-1",
+            "product_list": [],
+            "enable_dynamic_recommendations": false,
+            "prdouct_1_preselected": true,
+            "product_1_desc": "",
+            "product_1_percentage_discount": "0",
+            "product_1_fixed_amount_discount": "0",
+            "prdouct_2_preselected": true,
+            "product_2_desc": "",
+            "product_2_percentage_discount": "0",
+            "product_2_fixed_amount_discount": "0",
+            "prdouct_3_preselected": true,
+            "product_3_image": "shopify://shop_images/ChatGPTImageSep3_2025_04_42_17PM.png",
+            "product_3_desc": "This guidance prevents the #1 reason people over 35 give up on manifestation, losing without proof it’s working.",
+            "product_3_percentage_discount": "0",
+            "product_3_fixed_amount_discount": "0",
+            "show_images": true,
+            "images_size": "5",
+            "images_corner_radius": 0,
+            "title_size": "1.4",
+            "title_link": false,
+            "desc_size": "1.2",
+            "price_position": "next_to_title",
+            "price_size": "1.4",
+            "hide_compare_price": false,
+            "show_variant_picker": false,
+            "update_prices": false,
+            "skip_unavailable": false,
+            "container_title": "",
+            "container_title_position": "outside",
+            "container_title_mobile_text_size": 20,
+            "container_title_desktop_text_size": 20,
+            "corner_radius": 0,
+            "show_box_shadow": false,
+            "show_border": false,
+            "regular_border_color": "#e6e6e6",
+            "selected_border_color": "#6d388b",
+            "border_width": "0.2",
+            "show_custom_bg": false,
+            "regular_bg_color": "#f2f2f2",
+            "selected_bg_color": "#f2f2f2",
+            "margin_top": 21,
+            "margin_bottom": 21
+          }
+        },
+        "buy_buttons_bykWpb": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "skip_cart": false,
+            "uppercase_text": true,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "display_price": false,
+            "enable_custom_color": true,
+            "custom_color": "#dd1d1d",
+            "enable_secondary_btn": false,
+            "secondary_btn_label": "Buy It Now",
+            "secondary_btn_enable_custom_color": false,
+            "secondary_btn_custom_color": "#dd1d1d",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "text_znJzmM": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 11,
+            "desktop_text_size": 13,
+            "alignment": "center",
+            "text_color": "#ffffff",
+            "text_1": "🚨 DISCLAIMER: 19 COPIES LEFT 🚨",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "payment_badges_VYCert": {
+          "type": "payment_badges",
+          "settings": {
+            "enabled_payment_types": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5": {
+          "type": "sticky_atc",
+          "disabled": true,
+          "settings": {
+            "function": "add_to_cart",
+            "display_when": "after_scroll",
+            "button_label": "Add to cart",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "background-1",
+            "star_color": "#ffcc00",
+            "stars_label": "(xxxx Reviews)",
+            "picker_type": "combined",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": false,
+            "desktop_show_price": true,
+            "desktop_show_sale_badge": true,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": false,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": true,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": false,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        },
+        "text_fk6NV7": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 24,
+            "desktop_text_size": 16,
+            "alignment": "center",
+            "text_color": "#fafafa",
+            "text_1": "<strong>Real People, Real Results.</strong>",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "text_RpbLD8": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 18,
+            "desktop_text_size": 23,
+            "alignment": "center",
+            "text_color": "#fafafa",
+            "text_1": "<strong>We Just Didn't Listen But We Have One More Chance Now</strong>",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "text_BwtqLC": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 12,
+            "desktop_text_size": 15,
+            "alignment": "center",
+            "text_color": "#fafafa",
+            "text_1": "In this book you will uncover the things that did not yet happen and that are far worse than the ones shown here",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "reelfy_videos_reelfy_product_ktPqTU": {
+          "type": "shopify://apps/reelfy-videos/blocks/reelfy-product/4022ffb0-05c3-4ef3-a409-6df51f4b1b3f",
+          "settings": {
+            "title": "",
+            "heading_size": "1",
+            "heading_align": "left",
+            "heading_color": "",
+            "custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "urgency_LJHPeN",
+        "title",
+        "rating_stars_6DDLth",
+        "text_JdncY3",
+        "price",
+        "description_Utgrmz",
+        "product_upsell_nx9FcE",
+        "buy_buttons_bykWpb",
+        "text_znJzmM",
+        "payment_badges_VYCert",
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5",
+        "text_fk6NV7",
+        "text_RpbLD8",
+        "text_BwtqLC",
+        "reelfy_videos_reelfy_product_ktPqTU"
+      ],
+      "custom_css": [],
+      "settings": {
+        "display_id": false,
+        "enable_sticky_info": true,
+        "display_variant_image_first": false,
+        "disable_prepend": true,
+        "hide_variants": false,
+        "variant_image_filtering": "none",
+        "image_zoom": "none",
+        "thumbnails_ratio": "square",
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "video_player": "play_btn",
+        "enable_video_looping": false,
+        "autoplay_videos_pause_btn": false,
+        "video_sound_btn": false,
+        "video_timeline": false,
+        "play_btn_color_scheme": "accent-1",
+        "sound_btn_color_scheme": "inverse",
+        "timeline_color": "accent-1",
+        "media_size": "small",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "desktop_thumbnails_position": "bottom",
+        "desktop_thumbnails_count": 5,
+        "desktop_vertical_thumbnails_width": 16,
+        "desktop_vertical_thumbnails_hide_arrows": false,
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "desktop_arrows_position": "hidden",
+        "mobile_media_corner_radius": 0,
+        "mobile_spacing_pixels": 0,
+        "mobile_arrows_position": "sides",
+        "mobile_pagination": "dots_overlay",
+        "mobile_thumbnails_position": "hidden",
+        "mobile_thumbnails_count": 5,
+        "mobile_vertical_thumbnails_width": 22,
+        "mobile_vertical_thumbnails_hide_arrows": true,
+        "mobile_scroll_padding_percentage": 0,
+        "mobile_scroll_padding_pixels": 0,
+        "enable_mobile_outher_spacing": false,
+        "mobile_slides_container_width": 100,
+        "mobile_slides_inner_width": 100,
+        "trust_badge_position": "top-right",
+        "trust_badge_size": "medium",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "title": "You may also like",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "facebook_testimonials_MJgqMM": {
+      "type": "facebook-testimonials",
+      "blocks": {
+        "column_twDwFz": {
+          "type": "column",
+          "settings": {
+            "post_author": "Carlos Rodriguez",
+            "post_author_avatar": "shopify://shop_images/images_21_430x_cdcca66f-ecf2-4af6-b58e-2a1ff9345830.jpg",
+            "post_author_verified": true,
+            "post_time": "10h ago",
+            "post_text": "<p>I just finished <em>The 2012 Blackfile</em> and I’m honestly unsettled. Not because it’s scary… but because it reads like someone in 2012 genuinely predicted everything happening right now. Pandemics, conflicts, AI, geopolitical shifts it’s all in there.</p>",
+            "post_reactions": "like,wow",
+            "post_reactions_text": "411",
+            "post_comments_text": "26 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_wbB73q": {
+          "type": "column",
+          "settings": {
+            "post_author": "Jennifer Thompson",
+            "post_author_avatar": "shopify://shop_images/openart-a-hyper-realistic-full-body-portrait-of-a-beautiful-19-year-old-lonodon-gi_430x_99a8b6ab-bde8-4986-9a20-6d5ff9b5af0a.webp",
+            "post_author_verified": true,
+            "post_time": "2h ago",
+            "post_text": "<p>This book is wild. The writing style is so clinical and precise that it really feels like you’re reading a leaked intelligence document. The chapters about AI and the global conflicts gave me chills because they match the timeline we’re in almost too perfectly.</p>",
+            "post_reactions": "like, love,wow",
+            "post_reactions_text": "1.1k",
+            "post_comments_text": "26 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_Ub3CUR": {
+          "type": "column",
+          "settings": {
+            "post_author": "Eliot Wicken",
+            "post_author_avatar": "shopify://shop_images/download_1_430x_6dfdcfb2-fc7f-4549-b51f-c4f6f61107a6.jpg",
+            "post_author_verified": false,
+            "post_time": "14d ago",
+            "post_text": "<p>I’m not easily impressed, but this book got me. It breaks down world events in a way that makes everything suddenly make sense. The predictions about media manipulation, economic instability, and northern migration hit hard. It’s like someone mapped out the next 20 years in advance. Definitely a book I’ll reread — and keep close.</p>",
+            "post_reactions": "wow,like",
+            "post_reactions_text": "2.3k",
+            "post_comments_text": "59 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_dgzAxA": {
+          "type": "column",
+          "settings": {
+            "post_author": "Eden M.",
+            "post_author_verified": false,
+            "post_time": "11h ago",
+            "post_text": "<p><em>The 2012 Blackfile</em> is the kind of book that leaves you thinking long after you close it. It’s not written like a novel — more like a recovered classified analysis. The chapters about Middle Eastern tension and AI-driven decisions feel disturbingly accurate.</p>",
+            "post_reactions": "like, love, care",
+            "post_reactions_text": "1.1k",
+            "post_comments_text": "26 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_twDwFz",
+        "column_wbB73q",
+        "column_Ub3CUR",
+        "column_dgzAxA"
+      ],
+      "name": "Facebook testimonials",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Life-changing insights",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "background-1",
+        "type": "loop",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": true,
+        "per_move_desktop": 1,
+        "desktop_spacing": 24,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
+        "post_bg_color": "#ffffff",
+        "post_text_color": "#101010",
+        "comments_bg_color": "#f0f2f5",
+        "separators_color": "#a4b0be",
+        "post_border_color": "#dfdfdf",
+        "border_width": 1,
+        "like_label": "Like",
+        "comment_label": "Comment",
+        "reply_label": "Reply",
+        "share_label": "Share",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#f3f3f3",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39"
+      }
+    },
+    "image_with_text_hWym3X": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_p6tWCm": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>What’s up, I’m… well, no one knows.</strong>",
+            "title_highlight_color": "#fafafa",
+            "heading_size": "h2"
+          }
+        },
+        "text_qfkXpJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The author of <em>The 2012 Blackfile™</em> has no verified name, no public history, and no digital footprint.<br/><br/>What we <em>do</em> know is that their work displays a level of geopolitical foresight, technological understanding, and analytical precision far beyond what was publicly available in 2012.</p><p>This isn’t the writing of a hobbyist or conspiracy theorist.<br/><br/>This is the voice of someone trained, someone who understood systems, military dynamics, and emerging technologies before the rest of the world caught up.</p><p>Over the last decade, scattered traces of their existence appeared in encrypted forums, leaked message boards, and early cybersecurity archives. These breadcrumbs paint a fragmented portrait of a person who lived between worlds:</p><p>A strategist without a name.<br/><br/>A scientist without a lab.<br/><br/>A watcher who saw too much too early.</p><h3><strong>From Silence to Signal</strong></h3><p>The Unknown Analyst never introduced themselves through titles or credentials.<br/><br/>Their writings suggest a background in:</p><ul><li>early autonomous systems research<br/></li><li>defense forecasting<br/></li><li>global conflict modeling<br/></li><li>cyber-behavioral analysis<br/></li><li>economic pattern tracking<br/></li></ul><p>Not through self-promotion but through the unmistakable structure of their thinking. Their drafts read like internal briefing notes. Their tone mirrors intelligence assessments. Their models resemble early predictive algorithms. Whoever they were… they knew how to map the future.</p><h3><strong>The Path That Led to the Blackfile</strong></h3><p>The Analyst’s journey appears to have begun after witnessing several classified simulations involving pandemics, energy conflicts, AI acceleration, and nuclear tensions.<br/><br/>These simulations seeded a disturbing realization:</p><p><strong>Humanity was marching into a predictable collapse, and no one was paying attention.</strong></p><p>Instead of publishing theories or academic papers, the Analyst compiled everything into a sealed 2012 report.<br/><br/>They didn’t try to sell it.<br/><br/>They didn’t seek credit.<br/><br/>They documented the future like someone quietly preparing a warning the world would never hear.</p><p>Their tone is not dramatic.<br/><br/>It’s clinical.<br/><br/>Cold.<br/><br/>Terrifying in its accuracy.</p><h3><strong>Why They Stayed Hidden</strong></h3><p>Evidence suggests the Analyst intentionally erased themselves:</p><ul><li>deleted accounts<br/></li><li>wiped email trails<br/></li><li>scrubbed forum posts<br/></li><li>avoided all professional attributions<br/></li></ul><p>Not out of fear, but because they believed the Blackfile was more important than their identity.</p><p>In one surviving message, the Analyst wrote:</p><p>“The name doesn’t matter. Only the timeline does.”</p><p>That’s the closest thing we have to a personal quote.</p><h3><strong>The Philosophy: Pattern Over Ego</strong></h3><p>The Analyst cared about systems, not spotlight.<br/><br/>About trajectories, not theories.<br/><br/>About data, not drama.</p><p>Their approach blends:</p><ul><li>geopolitical logic<br/></li><li>mathematical modeling<br/></li><li>early AI forecasting<br/></li><li>historical collapse cycles<br/></li><li>behavioral economics<br/></li><li>information warfare theory<br/></li></ul><p>It is not sensational.<br/><br/>It is not mystical.<br/><br/>It is alarmingly rational.</p><p>They believed global events follow patterns, and that those patterns could be traced decades ahead.</p><h3><strong>The Message Behind the Work</strong></h3><p>What emerges through the Blackfile is a single, unsettling thesis:</p><p><strong>“The collapse won’t be sudden. It will be orchestrated by systems we trusted.”</strong></p><p>Their writing is a map of emerging realities, pandemics, misinformation, mass migration, AI dominance, geopolitical fracture lines, and the northern shift of human survival.</p><p>The Analyst didn’t claim to be prophetic.<br/><br/>They believed history is predictable if you understand momentum.</p><h3><strong>Where Are They Now?</strong></h3><p>No one knows.<br/><br/>Their traces disappear after 2014.</p><p>Some believe they were silenced.<br/><br/>Some think they went deeper underground.<br/><br/>Others assume they simply vanished into anonymity by choice.</p><p>What remains is the Blackfile, their final contribution before disappearing.</p><p>One document.<br/><br/>Twenty chapters.<br/><br/>A warning written too early…<br/><br/>and released almost too late.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_p6tWCm",
+        "text_qfkXpJ"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/ChatGPT_Image_2026_M03_3_12_43_03.png",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 45,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2e2a39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "collapsible_content_UFdbgU": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_m6mrkj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this another conspiracy book?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>No. <em>The 2012 Blackfile™</em> is presented as a recovered intelligence-style document written in 2012, based on geopolitical modeling, early AI forecasting, and global risk assessments.<br/><br/>It’s not sensational or speculative, it’s analytical, structured, and eerily aligned with current world events.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NKT6W7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How accurate are the predictions inside the book?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p><br/>The Blackfile outlines trends that have since unfolded with alarming precision, pandemics, AI acceleration, global conflicts, misinformation waves, and migration patterns.<br/><br/>It does <strong>not</strong> claim supernatural foresight.<br/><br/>It is the result of early data modeling and pattern analysis.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_zrBznN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the author really anonymous?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Yes.<br/><br/>The text is credited only to <em>“The Unknown Analyst, 2012.”</em><br/><br/>Their identity has never been confirmed, and surviving fragments of their digital footprint suggest they intentionally erased themselves after releasing the report.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7HLMd7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this safe for younger readers?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Yes.<br/><br/>The book deals with global issues, technology, and geopolitical risks, but <strong>does not</strong> include graphic descriptions or violent detail.<br/><br/>It reads like a classified briefing, serious, but not disturbing.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FMLRVT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long is the book?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>The full restored digital edition is approximately <strong>310 pages</strong>, depending on the reading device.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_tRymFP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I need any special knowledge to understand it?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Not at all.<br/><br/>The Blackfile is written clearly, using simple language to explain complex global patterns.<br/><br/>You don’t need a background in geopolitics, technology, or history, the report breaks everything down.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4Qwtyj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What format will I receive the book in?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Instant digital access.<br/><br/>You receive a downloadable file (PDF/EPUB) immediately after purchase.<br/><br/>No shipping or waiting.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LwLPbM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does this book contain classified or harmful information?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>No.<br/><br/>It is a narrative reconstruction of a document that circulated in encrypted forums.<br/><br/>It does not contain instructions, endorsements of harm, or sensitive security details.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cHmdBc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long will I have access to the material?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Lifetime access to the digital edition.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FjRjCT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if the 24-hour special pricing ends?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>if the discount expires, the book returns to its full price.<br/>Special pricing cannot be reactivated once it ends.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_m6mrkj",
+        "collapsible_row_NKT6W7",
+        "collapsible_row_zrBznN",
+        "collapsible_row_7HLMd7",
+        "collapsible_row_FMLRVT",
+        "collapsible_row_tRymFP",
+        "collapsible_row_4Qwtyj",
+        "collapsible_row_LwLPbM",
+        "collapsible_row_cHmdBc",
+        "collapsible_row_FjRjCT"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "caption": "",
+        "title": "FAQ's",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h0",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": true,
+        "video_muted_autoplay": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "row_heading_size": "medium",
+        "collapse_icon": "plus",
+        "display_top_border": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_contaner_colors_background": "#ffffff",
+        "custom_container_gradient_background": "",
+        "custom_contaner_colors_text": "#2e2a39"
+      }
+    }
+  },
+  "order": [
+    "rich_text_BheNb3",
+    "rich_text_aXtiem",
+    "main",
+    "related-products",
+    "facebook_testimonials_MJgqMM",
+    "image_with_text_hWym3X",
+    "collapsible_content_UFdbgU"
+  ]
+}

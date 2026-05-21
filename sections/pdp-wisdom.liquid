@@ -1,0 +1,1198 @@
+{%- assign cv = product.selected_or_first_available_variant -%}
+{%- assign first_image = product.featured_image -%}
+
+<style>
+/* ── Reset & Base ── */
+.w-pdp *{box-sizing:border-box;margin:0;padding:0}
+.w-pdp{font-family:'Inter',Helvetica,Arial,sans-serif;color:#111;background:#fff;overflow-x:hidden}
+.w-pdp a{text-decoration:none;color:inherit}
+.w-pdp img{max-width:100%;display:block}
+
+/* ── Announcement ── */
+.w-ann{background:{{ section.settings.ann_bg }};color:{{ section.settings.ann_text_color }};text-align:center;padding:11px 16px;font-size:13px;font-weight:500;letter-spacing:.3px}
+
+/* ── Hero grid ── */
+.w-hero{display:grid;grid-template-columns:1fr 1fr;gap:0;max-width:1280px;margin:0 auto;padding:32px 48px 60px}
+
+/* Gallery */
+.w-gallery{position:sticky;top:72px;align-self:start}
+.w-gallery-main{width:100%;aspect-ratio:1;background:#f0f0f0;border-radius:4px;overflow:hidden;cursor:zoom-in}
+.w-gallery-main img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
+.w-gallery-main:hover img{transform:scale(1.04)}
+.w-thumbs{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+.w-thumb{width:72px;height:72px;border-radius:4px;overflow:hidden;cursor:pointer;border:2px solid transparent;background:#f0f0f0;transition:border-color .2s}
+.w-thumb.active,.w-thumb:hover{border-color:#111}
+.w-thumb img{width:100%;height:100%;object-fit:cover}
+
+/* Form side */
+.w-form-side{padding-left:48px}
+.w-top-quote{font-size:13.5px;color:#444;font-style:italic;line-height:1.6;margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid #eee}
+.w-top-quote-author{margin-top:8px;font-style:normal;font-size:12px;color:#888;display:flex;align-items:center;gap:6px}
+
+.w-stars{color:#f5a623;letter-spacing:1px}
+.w-title{font-family:Georgia,'Times New Roman',serif;font-size:36px;font-weight:700;line-height:1.1;margin-bottom:4px}
+.w-subtitle{font-size:13px;color:#666;margin-bottom:10px}
+.w-rating-row{display:flex;align-items:center;gap:8px;margin-bottom:16px;font-size:13px;color:#555}
+.w-rating-row a{text-decoration:underline;cursor:pointer}
+
+/* Price */
+.w-price-row{display:flex;align-items:center;gap:12px;margin-bottom:20px;flex-wrap:wrap}
+.w-price-sale{font-size:26px;font-weight:700}
+.w-price-was{font-size:18px;color:#999;text-decoration:line-through}
+.w-save-badge{background:#111;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:20px}
+.w-hidden{display:none}
+
+/* Description / benefits */
+.w-tagline{background:#f7f7f7;border-left:3px solid #111;padding:12px 16px;margin-bottom:18px;font-size:14px;line-height:1.65;color:#333}
+.w-benefits{list-style:none;margin-bottom:22px;display:flex;flex-direction:column;gap:9px}
+.w-benefits li{display:flex;align-items:center;gap:10px;font-size:14px}
+.w-check{width:20px;height:20px;background:#1a7a5e;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.w-check svg{width:11px;height:11px;stroke:#fff;fill:none;stroke-width:2.5}
+
+/* Variant / bundle cards */
+.w-bundle-label{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.7px;margin-bottom:10px;color:#555}
+.w-bundle-options{display:flex;flex-direction:column;gap:10px;margin-bottom:16px}
+.w-bundle-card{border:1.5px solid #ddd;border-radius:8px;padding:13px 15px;cursor:pointer;display:flex;align-items:center;gap:14px;position:relative;transition:border-color .2s,box-shadow .2s;background:#fff;width:100%}
+.w-bundle-card:hover{border-color:#888}
+.w-bundle-card.active{border-color:#111;box-shadow:0 0 0 1px #111}
+.w-bundle-card input[type=radio]{position:absolute;opacity:0;width:0;height:0}
+.w-bthumb{width:52px;height:52px;border-radius:4px;overflow:hidden;background:#eee;flex-shrink:0}
+.w-bthumb img{width:100%;height:100%;object-fit:cover}
+.w-binfo{flex:1;text-align:left}
+.w-bname{font-weight:600;font-size:14px;margin-bottom:2px}
+.w-bsavings{font-size:12px;color:#666}
+.w-bprice-col{text-align:right;flex-shrink:0}
+.w-bprice{font-weight:700;font-size:15px}
+.w-borig{font-size:12px;color:#aaa;text-decoration:line-through}
+.w-bbadge{position:absolute;top:-1px;right:-1px;background:#111;color:#fff;font-size:11px;font-weight:700;padding:3px 9px;border-radius:0 8px 0 8px;letter-spacing:.3px}
+.w-bbadge.green{background:#1a7a5e}
+
+/* ATC */
+.w-atc-btn{display:block;width:100%;background:{{ section.settings.btn_color }};color:{{ section.settings.btn_text_color }};font-size:15px;font-weight:700;letter-spacing:.5px;padding:17px;border:none;border-radius:6px;cursor:pointer;text-transform:uppercase;transition:opacity .2s;margin-bottom:16px}
+.w-atc-btn:hover{opacity:.88}
+.w-atc-btn:disabled{opacity:.5;cursor:default}
+
+/* Trust badges */
+.w-trust-row{display:flex;gap:20px;margin-bottom:20px;flex-wrap:wrap}
+.w-trust-item{display:flex;align-items:center;gap:7px;font-size:12.5px;color:#555}
+.w-trust-item svg{width:18px;height:18px;stroke:#111;fill:none;stroke-width:1.7;flex-shrink:0}
+
+/* In-form FAQ */
+.w-form-faq{border-top:1px solid #eee;margin-top:6px}
+.w-faq-item{border-bottom:1px solid #eee}
+.w-faq-trigger{width:100%;background:none;border:none;padding:13px 0;font-size:14px;font-weight:500;cursor:pointer;display:flex;justify-content:space-between;align-items:center;text-align:left;color:#111;gap:12px}
+.w-faq-trigger svg{width:16px;height:16px;stroke:#111;fill:none;stroke-width:2;flex-shrink:0;transition:transform .25s}
+.w-faq-trigger.open svg{transform:rotate(45deg)}
+.w-faq-body{display:none;font-size:13.5px;color:#555;line-height:1.7;padding-bottom:14px}
+.w-faq-body.open{display:block}
+
+/* ── Long-form ── */
+.w-longform{max-width:860px;margin:0 auto;padding:60px 48px}
+.w-lf-block{margin-bottom:60px;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.w-lf-block.text-only{grid-template-columns:1fr}
+.w-lf-block.img-right .w-lf-img{order:2}
+.w-lf-block.img-right .w-lf-text{order:1}
+.w-lf-img img{border-radius:6px;width:100%;object-fit:cover}
+.w-lf-img-placeholder{width:100%;aspect-ratio:4/3;background:#f0f0f0;border-radius:6px;display:flex;align-items:center;justify-content:center;color:#aaa;font-size:13px}
+.w-lf-heading{font-family:Georgia,'Times New Roman',serif;font-size:26px;font-weight:700;line-height:1.3;margin-bottom:16px}
+.w-lf-body{font-size:15px;line-height:1.82;color:#444}
+
+/* ── Secrets dark grid ── */
+.w-secrets{background:#0d0d0d;color:#fff;padding:64px 48px;text-align:center}
+.w-secrets-heading{font-family:Georgia,'Times New Roman',serif;font-size:30px;font-weight:700;margin-bottom:8px}
+.w-secrets-sub{font-size:14px;color:#aaa;margin-bottom:40px}
+.w-secrets-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0;max-width:700px;margin:0 auto}
+.w-secret-item{padding:14px 0;border-bottom:1px solid #222;display:flex;align-items:center;gap:12px;text-align:left;font-size:14.5px;color:#e0e0e0}
+.w-secret-bullet{width:6px;height:6px;background:#f5a623;border-radius:50%;flex-shrink:0}
+
+/* ── Testimonial marquee ── */
+.w-testi-section{padding:60px 0;background:#fff;overflow:hidden}
+.w-testi-header{text-align:center;margin-bottom:36px;padding:0 48px}
+.w-testi-header h2{font-family:Georgia,'Times New Roman',serif;font-size:30px;font-weight:700;margin-bottom:6px}
+.w-testi-header p{font-size:14px;color:#777}
+.w-marquee-wrap{overflow:hidden;position:relative}
+.w-marquee-wrap::before,.w-marquee-wrap::after{content:"";position:absolute;top:0;width:80px;height:100%;z-index:2;pointer-events:none}
+.w-marquee-wrap::before{left:0;background:linear-gradient(to right,#fff,transparent)}
+.w-marquee-wrap::after{right:0;background:linear-gradient(to left,#fff,transparent)}
+.w-marquee-track{display:flex;gap:16px;width:max-content;animation:wpdp-marquee 38s linear infinite}
+.w-marquee-track:hover{animation-play-state:paused}
+@keyframes wpdp-marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.w-review-card{background:#fff;border:1px solid #e8e8e8;border-radius:10px;padding:20px;width:280px;flex-shrink:0;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.w-review-card .w-stars{font-size:13px;margin-bottom:8px;display:block}
+.w-review-card .w-rtext{font-size:13.5px;color:#333;line-height:1.6;margin-bottom:10px}
+.w-review-card .w-rname{font-size:12px;color:#888;font-weight:600}
+
+/* ── Full FAQ ── */
+.w-full-faq{max-width:780px;margin:0 auto;padding:60px 48px}
+.w-full-faq>h2{font-family:Georgia,'Times New Roman',serif;font-size:30px;font-weight:700;margin-bottom:32px;text-align:center}
+
+/* ── Trust footer ── */
+.w-trust-footer{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #eee;border-bottom:1px solid #eee;max-width:1100px;margin:0 auto;padding:40px 48px}
+.w-tf-item{display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px;padding:0 24px}
+.w-tf-item+.w-tf-item{border-left:1px solid #eee}
+.w-tf-icon svg{width:44px;height:44px;stroke:#111;fill:none;stroke-width:1.4}
+.w-tf-title{font-weight:700;font-size:15px}
+.w-tf-desc{font-size:13px;color:#666;line-height:1.6;max-width:220px}
+
+/* ── Responsive ── */
+@media(max-width:860px){
+  .w-hero{grid-template-columns:1fr;padding:20px}
+  .w-form-side{padding-left:0;padding-top:28px}
+  .w-gallery{position:static}
+  .w-longform{padding:40px 20px}
+  .w-lf-block{grid-template-columns:1fr}
+  .w-lf-block.img-right .w-lf-img,.w-lf-block.img-right .w-lf-text{order:unset}
+  .w-secrets{padding:40px 20px}
+  .w-secrets-grid{grid-template-columns:1fr}
+  .w-testi-header{padding:0 20px}
+  .w-full-faq{padding:40px 20px}
+  .w-trust-footer{grid-template-columns:1fr;padding:30px 20px}
+  .w-tf-item+.w-tf-item{border-left:none;border-top:1px solid #eee;padding-top:28px;margin-top:28px}
+  .w-title{font-size:28px}
+}
+</style>
+
+<div class="w-pdp">
+
+{%- if section.settings.ann_text != blank -%}
+<div class="w-ann">{{ section.settings.ann_text }}</div>
+{%- endif -%}
+
+<!-- ═══════════ HERO ═══════════ -->
+<div class="w-hero">
+
+  <!-- GALLERY -->
+  <div class="w-gallery">
+    <div class="w-gallery-main" id="wMainImg">
+      {%- if first_image -%}
+        <img src="{{ first_image | image_url: width: 900 }}" alt="{{ first_image.alt | escape }}" id="wMainImgTag" loading="eager" />
+      {%- else -%}
+        <div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#aaa;font-size:13px;background:#f7f7f7">Add product images</div>
+      {%- endif -%}
+    </div>
+    {%- if product.images.size > 1 -%}
+    <div class="w-thumbs" id="wThumbs">
+      {%- for img in product.images -%}
+      <div class="w-thumb{% if forloop.first %} active{% endif %}" data-src="{{ img | image_url: width: 900 }}" data-alt="{{ img.alt | escape }}">
+        <img src="{{ img | image_url: width: 160 }}" alt="{{ img.alt | escape }}" loading="lazy" />
+      </div>
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+  </div>
+
+  <!-- FORM SIDE -->
+  <div class="w-form-side">
+
+    {%- if section.settings.top_quote != blank -%}
+    <div class="w-top-quote">
+      <em>"{{ section.settings.top_quote }}"</em>
+      <div class="w-top-quote-author">
+        <span>{{ section.settings.top_quote_author }}</span>
+        <span class="w-stars">★★★★★</span>
+      </div>
+    </div>
+    {%- endif -%}
+
+    <h1 class="w-title">{{ product.title }}</h1>
+    {%- if section.settings.product_subtitle != blank -%}
+    <p class="w-subtitle">{{ section.settings.product_subtitle }}</p>
+    {%- endif -%}
+
+    <div class="w-rating-row">
+      <span class="w-stars" style="font-size:13px">★★★★★</span>
+      <a href="#w-reviews-section">{{ section.settings.review_count }}</a>
+    </div>
+
+    <!-- PRICE -->
+    <div class="w-price-row" id="wPriceRow">
+      <span class="w-price-sale" id="wPriceSale">{{ cv.price | money }}</span>
+      {%- if cv.compare_at_price > cv.price -%}
+      <span class="w-price-was" id="wPriceWas">{{ cv.compare_at_price | money }}</span>
+      {%- assign saved_pct = cv.compare_at_price | minus: cv.price | times: 100 | divided_by: cv.compare_at_price -%}
+      <span class="w-save-badge" id="wSaveBadge">SAVE {{ saved_pct }}%</span>
+      {%- else -%}
+      <span class="w-price-was w-hidden" id="wPriceWas"></span>
+      <span class="w-save-badge w-hidden" id="wSaveBadge"></span>
+      {%- endif -%}
+    </div>
+
+    {%- if section.settings.tagline != blank -%}
+    <div class="w-tagline">{{ section.settings.tagline }}</div>
+    {%- endif -%}
+
+    {%- if section.settings.benefit_1 != blank or section.settings.benefit_2 != blank or section.settings.benefit_3 != blank or section.settings.benefit_4 != blank -%}
+    <ul class="w-benefits">
+      {%- if section.settings.benefit_1 != blank -%}
+      <li><span class="w-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>{{ section.settings.benefit_1 }}</li>
+      {%- endif -%}
+      {%- if section.settings.benefit_2 != blank -%}
+      <li><span class="w-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>{{ section.settings.benefit_2 }}</li>
+      {%- endif -%}
+      {%- if section.settings.benefit_3 != blank -%}
+      <li><span class="w-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>{{ section.settings.benefit_3 }}</li>
+      {%- endif -%}
+      {%- if section.settings.benefit_4 != blank -%}
+      <li><span class="w-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></span>{{ section.settings.benefit_4 }}</li>
+      {%- endif -%}
+    </ul>
+    {%- endif -%}
+
+    <!-- VARIANT / BUNDLE PICKER -->
+    {%- if product.variants.size > 1 -%}
+    {%- assign badges = section.settings.variant_badges | split: "," -%}
+    <p class="w-bundle-label">{{ section.settings.bundle_label }}</p>
+    <div class="w-bundle-options" id="wBundleOptions">
+      {%- for variant in product.variants -%}
+      {%- assign badge = badges[forloop.index0] | strip -%}
+      <button type="button"
+        class="w-bundle-card{% if variant.id == cv.id %} active{% endif %}"
+        data-variant-id="{{ variant.id }}"
+        data-price="{{ variant.price | money }}"
+        data-compare="{{ variant.compare_at_price | money }}"
+        data-has-compare="{% if variant.compare_at_price > variant.price %}true{% else %}false{% endif %}"
+        data-saved-pct="{% if variant.compare_at_price > variant.price %}{{ variant.compare_at_price | minus: variant.price | times: 100 | divided_by: variant.compare_at_price }}{% endif %}"
+        data-available="{{ variant.available }}">
+        {%- if badge != blank and badge != "0" -%}
+        <span class="w-bbadge{% if forloop.last %} green{% endif %}">{{ badge }}</span>
+        {%- endif -%}
+        <div class="w-bthumb">
+          {%- if variant.image -%}
+          <img src="{{ variant.image | image_url: width: 120 }}" alt="{{ variant.image.alt | escape }}" loading="lazy" />
+          {%- elsif first_image -%}
+          <img src="{{ first_image | image_url: width: 120 }}" alt="{{ product.title | escape }}" loading="lazy" />
+          {%- endif -%}
+        </div>
+        <div class="w-binfo">
+          <div class="w-bname">{{ variant.title }}</div>
+          {%- if variant.compare_at_price > variant.price -%}
+          <div class="w-bsavings">You save {{ variant.compare_at_price | minus: variant.price | money }}</div>
+          {%- endif -%}
+        </div>
+        <div class="w-bprice-col">
+          <div class="w-bprice">{{ variant.price | money }}</div>
+          {%- if variant.compare_at_price > variant.price -%}
+          <div class="w-borig">{{ variant.compare_at_price | money }}</div>
+          {%- endif -%}
+        </div>
+      </button>
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+
+    <!-- ADD TO CART -->
+    {%- form 'product', product, id: 'wProductForm' -%}
+    <input type="hidden" name="id" id="wVariantInput" value="{{ cv.id }}" />
+    <button type="submit" name="add" class="w-atc-btn" id="wAtcBtn"
+      {%- unless cv.available -%} disabled {%- endunless -%}>
+      {%- if cv.available -%}{{ section.settings.atc_label }}{%- else -%}Sold Out{%- endif -%}
+    </button>
+    {%- endform -%}
+
+    <!-- TRUST BADGES -->
+    <div class="w-trust-row">
+      <div class="w-trust-item">
+        <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        {{ section.settings.trust_1 }}
+      </div>
+      <div class="w-trust-item">
+        <svg viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+        {{ section.settings.trust_2 }}
+      </div>
+    </div>
+
+    <!-- IN-FORM FAQ -->
+    <div class="w-form-faq">
+      {%- if section.settings.form_faq_q1 != blank -%}
+      <div class="w-faq-item">
+        <button class="w-faq-trigger" data-wfaq="wff1">{{ section.settings.form_faq_q1 }}<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+        <div class="w-faq-body" id="wff1">{{ section.settings.form_faq_a1 }}</div>
+      </div>
+      {%- endif -%}
+      {%- if section.settings.form_faq_q2 != blank -%}
+      <div class="w-faq-item">
+        <button class="w-faq-trigger" data-wfaq="wff2">{{ section.settings.form_faq_q2 }}<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+        <div class="w-faq-body" id="wff2">{{ section.settings.form_faq_a2 }}</div>
+      </div>
+      {%- endif -%}
+    </div>
+
+  </div><!-- /form-side -->
+</div><!-- /hero -->
+
+
+<!-- ═══════════ LONG-FORM COPY ═══════════ -->
+{%- if section.settings.lf1_heading != blank or section.settings.lf2_heading != blank or section.settings.lf3_heading != blank -%}
+<div class="w-longform">
+
+  {%- if section.settings.lf1_heading != blank -%}
+  <div class="w-lf-block{% if section.settings.lf1_image == blank %} text-only{% endif %}">
+    {%- if section.settings.lf1_image != blank -%}
+    <div class="w-lf-img"><img src="{{ section.settings.lf1_image | image_url: width: 700 }}" alt="" loading="lazy" /></div>
+    {%- endif -%}
+    <div class="w-lf-text">
+      <h2 class="w-lf-heading">{{ section.settings.lf1_heading }}</h2>
+      <div class="w-lf-body">{{ section.settings.lf1_body }}</div>
+    </div>
+  </div>
+  {%- endif -%}
+
+  {%- if section.settings.lf2_heading != blank -%}
+  <div class="w-lf-block img-right{% if section.settings.lf2_image == blank %} text-only{% endif %}">
+    {%- if section.settings.lf2_image != blank -%}
+    <div class="w-lf-img"><img src="{{ section.settings.lf2_image | image_url: width: 700 }}" alt="" loading="lazy" /></div>
+    {%- endif -%}
+    <div class="w-lf-text">
+      <h2 class="w-lf-heading">{{ section.settings.lf2_heading }}</h2>
+      <div class="w-lf-body">{{ section.settings.lf2_body }}</div>
+    </div>
+  </div>
+  {%- endif -%}
+
+  {%- if section.settings.lf3_heading != blank -%}
+  <div class="w-lf-block{% if section.settings.lf3_image == blank %} text-only{% endif %}">
+    {%- if section.settings.lf3_image != blank -%}
+    <div class="w-lf-img"><img src="{{ section.settings.lf3_image | image_url: width: 700 }}" alt="" loading="lazy" /></div>
+    {%- endif -%}
+    <div class="w-lf-text">
+      <h2 class="w-lf-heading">{{ section.settings.lf3_heading }}</h2>
+      <div class="w-lf-body">{{ section.settings.lf3_body }}</div>
+    </div>
+  </div>
+  {%- endif -%}
+
+</div>
+{%- endif -%}
+
+
+<!-- ═══════════ SECRETS DARK GRID ═══════════ -->
+{%- if section.settings.secrets_heading != blank -%}
+<section class="w-secrets">
+  <div class="w-secrets-heading">{{ section.settings.secrets_heading }}</div>
+  <div class="w-secrets-sub">{{ section.settings.secrets_sub }}</div>
+  <div class="w-secrets-grid">
+    {%- if section.settings.secret_1 != blank -%}<div class="w-secret-item"><span class="w-secret-bullet"></span>{{ section.settings.secret_1 }}</div>{%- endif -%}
+    {%- if section.settings.secret_2 != blank -%}<div class="w-secret-item"><span class="w-secret-bullet"></span>{{ section.settings.secret_2 }}</div>{%- endif -%}
+    {%- if section.settings.secret_3 != blank -%}<div class="w-secret-item"><span class="w-secret-bullet"></span>{{ section.settings.secret_3 }}</div>{%- endif -%}
+    {%- if section.settings.secret_4 != blank -%}<div class="w-secret-item"><span class="w-secret-bullet"></span>{{ section.settings.secret_4 }}</div>{%- endif -%}
+    {%- if section.settings.secret_5 != blank -%}<div class="w-secret-item"><span class="w-secret-bullet"></span>{{ section.settings.secret_5 }}</div>{%- endif -%}
+    {%- if section.settings.secret_6 != blank -%}<div class="w-secret-item"><span class="w-secret-bullet"></span>{{ section.settings.secret_6 }}</div>{%- endif -%}
+    {%- if section.settings.secret_7 != blank -%}<div class="w-secret-item"><span class="w-secret-bullet"></span>{{ section.settings.secret_7 }}</div>{%- endif -%}
+    {%- if section.settings.secret_8 != blank -%}<div class="w-secret-item"><span class="w-secret-bullet"></span>{{ section.settings.secret_8 }}</div>{%- endif -%}
+    {%- if section.settings.secret_9 != blank -%}<div class="w-secret-item"><span class="w-secret-bullet"></span>{{ section.settings.secret_9 }}</div>{%- endif -%}
+    {%- if section.settings.secret_10 != blank -%}<div class="w-secret-item"><span class="w-secret-bullet"></span>{{ section.settings.secret_10 }}</div>{%- endif -%}
+  </div>
+</section>
+{%- endif -%}
+
+
+<!-- ═══════════ TESTIMONIAL MARQUEE ═══════════ -->
+{%- assign has_reviews = false -%}
+{%- if section.settings.r1_text != blank or section.settings.r2_text != blank or section.settings.r3_text != blank -%}
+  {%- assign has_reviews = true -%}
+{%- endif -%}
+{%- if has_reviews -%}
+<section class="w-testi-section">
+  <div class="w-testi-header">
+    <h2>{{ section.settings.testi_heading }}</h2>
+    <p>{{ section.settings.testi_sub }}</p>
+  </div>
+  <div class="w-marquee-wrap">
+    <div class="w-marquee-track">
+      {%- comment %}Set 1{%- endcomment -%}
+      {%- if section.settings.r1_text != blank -%}
+      <div class="w-review-card"><span class="w-stars">★★★★★</span><p class="w-rtext">"{{ section.settings.r1_text }}"</p><p class="w-rname">{{ section.settings.r1_author }}</p></div>
+      {%- endif -%}
+      {%- if section.settings.r2_text != blank -%}
+      <div class="w-review-card"><span class="w-stars">★★★★★</span><p class="w-rtext">"{{ section.settings.r2_text }}"</p><p class="w-rname">{{ section.settings.r2_author }}</p></div>
+      {%- endif -%}
+      {%- if section.settings.r3_text != blank -%}
+      <div class="w-review-card"><span class="w-stars">★★★★★</span><p class="w-rtext">"{{ section.settings.r3_text }}"</p><p class="w-rname">{{ section.settings.r3_author }}</p></div>
+      {%- endif -%}
+      {%- if section.settings.r4_text != blank -%}
+      <div class="w-review-card"><span class="w-stars">★★★★★</span><p class="w-rtext">"{{ section.settings.r4_text }}"</p><p class="w-rname">{{ section.settings.r4_author }}</p></div>
+      {%- endif -%}
+      {%- if section.settings.r5_text != blank -%}
+      <div class="w-review-card"><span class="w-stars">★★★★★</span><p class="w-rtext">"{{ section.settings.r5_text }}"</p><p class="w-rname">{{ section.settings.r5_author }}</p></div>
+      {%- endif -%}
+      {%- if section.settings.r6_text != blank -%}
+      <div class="w-review-card"><span class="w-stars">★★★★★</span><p class="w-rtext">"{{ section.settings.r6_text }}"</p><p class="w-rname">{{ section.settings.r6_author }}</p></div>
+      {%- endif -%}
+      {%- if section.settings.r7_text != blank -%}
+      <div class="w-review-card"><span class="w-stars">★★★★★</span><p class="w-rtext">"{{ section.settings.r7_text }}"</p><p class="w-rname">{{ section.settings.r7_author }}</p></div>
+      {%- endif -%}
+      {%- if section.settings.r8_text != blank -%}
+      <div class="w-review-card"><span class="w-stars">★★★★★</span><p class="w-rtext">"{{ section.settings.r8_text }}"</p><p class="w-rname">{{ section.settings.r8_author }}</p></div>
+      {%- endif -%}
+      {%- comment %}Set 2 — duplicate for seamless loop{%- endcomment -%}
+      {%- if section.settings.r1_text != blank -%}
+      <div class="w-review-card"><span class="w-stars">★★★★★</span><p class="w-rtext">"{{ section.settings.r1_text }}"</p><p class="w-rname">{{ section.settings.r1_author }}</p></div>
+      {%- endif -%}
+      {%- if section.settings.r2_text != blank -%}
+      <div class="w-review-card"><span class="w-stars">★★★★★</span><p class="w-rtext">"{{ section.settings.r2_text }}"</p><p class="w-rname">{{ section.settings.r2_author }}</p></div>
+      {%- endif -%}
+      {%- if section.settings.r3_text != blank -%}
+      <div class="w-review-card"><span class="w-stars">★★★★★</span><p class="w-rtext">"{{ section.settings.r3_text }}"</p><p class="w-rname">{{ section.settings.r3_author }}</p></div>
+      {%- endif -%}
+      {%- if section.settings.r4_text != blank -%}
+      <div class="w-review-card"><span class="w-stars">★★★★★</span><p class="w-rtext">"{{ section.settings.r4_text }}"</p><p class="w-rname">{{ section.settings.r4_author }}</p></div>
+      {%- endif -%}
+      {%- if section.settings.r5_text != blank -%}
+      <div class="w-review-card"><span class="w-stars">★★★★★</span><p class="w-rtext">"{{ section.settings.r5_text }}"</p><p class="w-rname">{{ section.settings.r5_author }}</p></div>
+      {%- endif -%}
+      {%- if section.settings.r6_text != blank -%}
+      <div class="w-review-card"><span class="w-stars">★★★★★</span><p class="w-rtext">"{{ section.settings.r6_text }}"</p><p class="w-rname">{{ section.settings.r6_author }}</p></div>
+      {%- endif -%}
+      {%- if section.settings.r7_text != blank -%}
+      <div class="w-review-card"><span class="w-stars">★★★★★</span><p class="w-rtext">"{{ section.settings.r7_text }}"</p><p class="w-rname">{{ section.settings.r7_author }}</p></div>
+      {%- endif -%}
+      {%- if section.settings.r8_text != blank -%}
+      <div class="w-review-card"><span class="w-stars">★★★★★</span><p class="w-rtext">"{{ section.settings.r8_text }}"</p><p class="w-rname">{{ section.settings.r8_author }}</p></div>
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+{%- endif -%}
+
+
+<!-- ═══════════ FULL FAQ ═══════════ -->
+{%- if section.settings.faq1_q != blank or section.settings.faq2_q != blank or section.settings.faq3_q != blank -%}
+<section class="w-full-faq" id="w-faq-section">
+  <h2>{{ section.settings.faq_heading }}</h2>
+
+  {%- if section.settings.faq1_q != blank -%}
+  <div class="w-faq-item">
+    <button class="w-faq-trigger" data-wfaq="wfq1">{{ section.settings.faq1_q }}<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+    <div class="w-faq-body" id="wfq1">{{ section.settings.faq1_a }}</div>
+  </div>
+  {%- endif -%}
+  {%- if section.settings.faq2_q != blank -%}
+  <div class="w-faq-item">
+    <button class="w-faq-trigger" data-wfaq="wfq2">{{ section.settings.faq2_q }}<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+    <div class="w-faq-body" id="wfq2">{{ section.settings.faq2_a }}</div>
+  </div>
+  {%- endif -%}
+  {%- if section.settings.faq3_q != blank -%}
+  <div class="w-faq-item">
+    <button class="w-faq-trigger" data-wfaq="wfq3">{{ section.settings.faq3_q }}<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+    <div class="w-faq-body" id="wfq3">{{ section.settings.faq3_a }}</div>
+  </div>
+  {%- endif -%}
+  {%- if section.settings.faq4_q != blank -%}
+  <div class="w-faq-item">
+    <button class="w-faq-trigger" data-wfaq="wfq4">{{ section.settings.faq4_q }}<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+    <div class="w-faq-body" id="wfq4">{{ section.settings.faq4_a }}</div>
+  </div>
+  {%- endif -%}
+  {%- if section.settings.faq5_q != blank -%}
+  <div class="w-faq-item">
+    <button class="w-faq-trigger" data-wfaq="wfq5">{{ section.settings.faq5_q }}<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+    <div class="w-faq-body" id="wfq5">{{ section.settings.faq5_a }}</div>
+  </div>
+  {%- endif -%}
+  {%- if section.settings.faq6_q != blank -%}
+  <div class="w-faq-item">
+    <button class="w-faq-trigger" data-wfaq="wfq6">{{ section.settings.faq6_q }}<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+    <div class="w-faq-body" id="wfq6">{{ section.settings.faq6_a }}</div>
+  </div>
+  {%- endif -%}
+  {%- if section.settings.faq7_q != blank -%}
+  <div class="w-faq-item">
+    <button class="w-faq-trigger" data-wfaq="wfq7">{{ section.settings.faq7_q }}<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+    <div class="w-faq-body" id="wfq7">{{ section.settings.faq7_a }}</div>
+  </div>
+  {%- endif -%}
+  {%- if section.settings.faq8_q != blank -%}
+  <div class="w-faq-item">
+    <button class="w-faq-trigger" data-wfaq="wfq8">{{ section.settings.faq8_q }}<svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+    <div class="w-faq-body" id="wfq8">{{ section.settings.faq8_a }}</div>
+  </div>
+  {%- endif -%}
+
+</section>
+{%- endif -%}
+
+
+<!-- ═══════════ TRUST FOOTER ═══════════ -->
+{%- if section.settings.tf1_title != blank or section.settings.tf2_title != blank or section.settings.tf3_title != blank -%}
+<div class="w-trust-footer">
+  {%- if section.settings.tf1_title != blank -%}
+  <div class="w-tf-item">
+    <div class="w-tf-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+    <div class="w-tf-title">{{ section.settings.tf1_title }}</div>
+    <div class="w-tf-desc">{{ section.settings.tf1_desc }}</div>
+  </div>
+  {%- endif -%}
+  {%- if section.settings.tf2_title != blank -%}
+  <div class="w-tf-item">
+    <div class="w-tf-icon"><svg viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+    <div class="w-tf-title">{{ section.settings.tf2_title }}</div>
+    <div class="w-tf-desc">{{ section.settings.tf2_desc }}</div>
+  </div>
+  {%- endif -%}
+  {%- if section.settings.tf3_title != blank -%}
+  <div class="w-tf-item">
+    <div class="w-tf-icon"><svg viewBox="0 0 24 24"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></div>
+    <div class="w-tf-title">{{ section.settings.tf3_title }}</div>
+    <div class="w-tf-desc">{{ section.settings.tf3_desc }}</div>
+  </div>
+  {%- endif -%}
+</div>
+{%- endif -%}
+
+</div><!-- /w-pdp -->
+
+<script>
+(function(){
+  /* ── Gallery ── */
+  var thumbs = document.querySelectorAll('.w-thumb');
+  var mainImg = document.getElementById('wMainImgTag');
+  if(thumbs.length && mainImg){
+    thumbs.forEach(function(t){
+      t.addEventListener('click', function(){
+        thumbs.forEach(function(x){x.classList.remove('active')});
+        t.classList.add('active');
+        mainImg.src = t.dataset.src;
+        mainImg.alt = t.dataset.alt || '';
+      });
+    });
+  }
+
+  /* ── Variant / bundle picker ── */
+  var bundleCards = document.querySelectorAll('.w-bundle-card');
+  var variantInput = document.getElementById('wVariantInput');
+  var priceSale = document.getElementById('wPriceSale');
+  var priceWas = document.getElementById('wPriceWas');
+  var saveBadge = document.getElementById('wSaveBadge');
+  var atcBtn = document.getElementById('wAtcBtn');
+
+  if(bundleCards.length){
+    bundleCards.forEach(function(card){
+      card.addEventListener('click', function(){
+        bundleCards.forEach(function(c){c.classList.remove('active')});
+        card.classList.add('active');
+
+        var vid = card.dataset.variantId;
+        var price = card.dataset.price;
+        var compare = card.dataset.compare;
+        var hasCompare = card.dataset.hasCompare === 'true';
+        var savedPct = card.dataset.savedPct;
+        var available = card.dataset.available !== 'false';
+
+        if(variantInput) variantInput.value = vid;
+        if(priceSale) priceSale.textContent = price;
+
+        if(hasCompare){
+          if(priceWas){ priceWas.textContent = compare; priceWas.classList.remove('w-hidden'); }
+          if(saveBadge){ saveBadge.textContent = 'SAVE '+savedPct+'%'; saveBadge.classList.remove('w-hidden'); }
+        } else {
+          if(priceWas) priceWas.classList.add('w-hidden');
+          if(saveBadge) saveBadge.classList.add('w-hidden');
+        }
+
+        if(atcBtn){
+          if(available){
+            atcBtn.disabled = false;
+            atcBtn.textContent = atcBtn.dataset.label || 'ADD TO CART';
+          } else {
+            atcBtn.disabled = true;
+            atcBtn.textContent = 'Sold Out';
+          }
+        }
+
+        /* update URL without reload */
+        if(history.replaceState){
+          var url = new URL(window.location.href);
+          url.searchParams.set('variant', vid);
+          history.replaceState(null,'',url.toString());
+        }
+      });
+    });
+    /* store original label */
+    if(atcBtn) atcBtn.dataset.label = atcBtn.textContent;
+  }
+
+  /* ── FAQ accordions ── */
+  document.querySelectorAll('.w-faq-trigger').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var targetId = btn.dataset.wfaq;
+      var body = document.getElementById(targetId);
+      if(!body) return;
+      var isOpen = body.classList.contains('open');
+      /* close all siblings in the same container */
+      var container = btn.closest('.w-full-faq, .w-form-faq');
+      if(container){
+        container.querySelectorAll('.w-faq-body.open').forEach(function(b){ b.classList.remove('open'); });
+        container.querySelectorAll('.w-faq-trigger.open').forEach(function(t){ t.classList.remove('open'); });
+      }
+      if(!isOpen){
+        body.classList.add('open');
+        btn.classList.add('open');
+      }
+    });
+  });
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Wisdom PDP",
+  "tag": "div",
+  "class": "w-pdp-section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Announcement Bar"
+    },
+    {
+      "type": "text",
+      "id": "ann_text",
+      "label": "Announcement text (leave blank to hide)",
+      "default": "🔥 Limited Sale — 33% off ends soon"
+    },
+    {
+      "type": "color",
+      "id": "ann_bg",
+      "label": "Background color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "ann_text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Product Form"
+    },
+    {
+      "type": "text",
+      "id": "top_quote",
+      "label": "Top testimonial quote",
+      "default": "This changed everything for me. I finally understand why nothing was working before."
+    },
+    {
+      "type": "text",
+      "id": "top_quote_author",
+      "label": "Quote author",
+      "default": "Sarah M., United States"
+    },
+    {
+      "type": "text",
+      "id": "product_subtitle",
+      "label": "Product subtitle / format",
+      "default": "English Paperback"
+    },
+    {
+      "type": "text",
+      "id": "review_count",
+      "label": "Review count label",
+      "default": "(1,122 Reviews)"
+    },
+    {
+      "type": "richtext",
+      "id": "tagline",
+      "label": "Tagline box",
+      "default": "<p><strong>This is not a book about positive thinking.</strong> It is a decoded, field-tested manual for rewiring your brain at the frequency level — so results become inevitable, not accidental.</p>"
+    },
+    {
+      "type": "text",
+      "id": "benefit_1",
+      "label": "Benefit 1",
+      "default": "Rewire your subconscious using proven frequency alignment"
+    },
+    {
+      "type": "text",
+      "id": "benefit_2",
+      "label": "Benefit 2",
+      "default": "See through every illusion & deception with clarity"
+    },
+    {
+      "type": "text",
+      "id": "benefit_3",
+      "label": "Benefit 3",
+      "default": "Manifest the reality you were born to live"
+    },
+    {
+      "type": "text",
+      "id": "benefit_4",
+      "label": "Benefit 4",
+      "default": "120+ pages of ancient decoded knowledge"
+    },
+    {
+      "type": "text",
+      "id": "bundle_label",
+      "label": "Bundle picker label",
+      "default": "Select your bundle"
+    },
+    {
+      "type": "text",
+      "id": "variant_badges",
+      "label": "Variant badges (comma-separated, one per variant)",
+      "info": "E.g. blank,FREE SHIPPING,BEST VALUE — leave empty for no badge",
+      "default": ",FREE SHIPPING,BEST VALUE"
+    },
+    {
+      "type": "text",
+      "id": "atc_label",
+      "label": "Add to cart button label",
+      "default": "ADD TO CART"
+    },
+    {
+      "type": "color",
+      "id": "btn_color",
+      "label": "Button background",
+      "default": "#111111"
+    },
+    {
+      "type": "color",
+      "id": "btn_text_color",
+      "label": "Button text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "text",
+      "id": "trust_1",
+      "label": "Trust badge 1",
+      "default": "Money-Back Guarantee"
+    },
+    {
+      "type": "text",
+      "id": "trust_2",
+      "label": "Trust badge 2",
+      "default": "Fast Worldwide Shipping"
+    },
+    {
+      "type": "header",
+      "content": "In-form FAQ"
+    },
+    {
+      "type": "text",
+      "id": "form_faq_q1",
+      "label": "Question 1",
+      "default": "Is this book for me?"
+    },
+    {
+      "type": "textarea",
+      "id": "form_faq_a1",
+      "label": "Answer 1",
+      "default": "If you feel stuck despite doing everything right, if you've tried affirmations and vision boards and nothing stuck — this is for you. This book is for people who want results, not rituals."
+    },
+    {
+      "type": "text",
+      "id": "form_faq_q2",
+      "label": "Question 2",
+      "default": "How long does shipping take?"
+    },
+    {
+      "type": "textarea",
+      "id": "form_faq_a2",
+      "label": "Answer 2",
+      "default": "Your order ships worldwide with full tracking. Delivery is typically 5–14 business days depending on your location."
+    },
+    {
+      "type": "header",
+      "content": "Long-form Section 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "lf1_image",
+      "label": "Section 1 image (optional)"
+    },
+    {
+      "type": "text",
+      "id": "lf1_heading",
+      "label": "Heading",
+      "default": "Reclaim your divine nature — the knowledge the elites have suppressed for centuries"
+    },
+    {
+      "type": "richtext",
+      "id": "lf1_body",
+      "label": "Body copy",
+      "default": "<p>For hundreds of years the most powerful manifestation techniques were deliberately hidden from the public. Not because they didn't work — but because they worked too well. This book collects what was erased, buried, and encoded so that only those who were meant to find it would.</p><p>You are not broken. You were never taught the right system.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Long-form Section 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "lf2_image",
+      "label": "Section 2 image (optional)"
+    },
+    {
+      "type": "text",
+      "id": "lf2_heading",
+      "label": "Heading",
+      "default": "Master your inner world — and the outer world has no choice but to obey"
+    },
+    {
+      "type": "richtext",
+      "id": "lf2_body",
+      "label": "Body copy",
+      "default": "<p>Manifestation is not wishing. It is precise brain-frequency alignment — a repeatable process, not a spiritual lottery. When your internal state is calibrated correctly, external results follow as a natural consequence.</p><p>This book gives you the exact protocol. No guesswork, no crystals, no 30-day challenges.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Long-form Section 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "lf3_image",
+      "label": "Section 3 image (optional)"
+    },
+    {
+      "type": "text",
+      "id": "lf3_heading",
+      "label": "Heading",
+      "default": "Ascend to higher consciousness — see through all illusions and deceptions"
+    },
+    {
+      "type": "richtext",
+      "id": "lf3_body",
+      "label": "Body copy",
+      "default": "<p>The people who get everything they want are not lucky. They are operating from a completely different framework of reality — one that is learnable, codifiable, and transferable. This book is the transfer.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Secrets Dark Section"
+    },
+    {
+      "type": "text",
+      "id": "secrets_heading",
+      "label": "Heading",
+      "default": "Everything they hid from you — all in one book"
+    },
+    {
+      "type": "text",
+      "id": "secrets_sub",
+      "label": "Subheading",
+      "default": "What's inside the pages they tried to erase"
+    },
+    {
+      "type": "text",
+      "id": "secret_1",
+      "label": "Secret 1",
+      "default": "The 7 hidden laws of manifestation"
+    },
+    {
+      "type": "text",
+      "id": "secret_2",
+      "label": "Secret 2",
+      "default": "How frequency alignment actually works"
+    },
+    {
+      "type": "text",
+      "id": "secret_3",
+      "label": "Secret 3",
+      "default": "The subconscious reprogramming protocol"
+    },
+    {
+      "type": "text",
+      "id": "secret_4",
+      "label": "Secret 4",
+      "default": "Ancient decoded knowledge never published before"
+    },
+    {
+      "type": "text",
+      "id": "secret_5",
+      "label": "Secret 5",
+      "default": "Why affirmations don't work — and what does"
+    },
+    {
+      "type": "text",
+      "id": "secret_6",
+      "label": "Secret 6",
+      "default": "The elite morning protocol for reality creation"
+    },
+    {
+      "type": "text",
+      "id": "secret_7",
+      "label": "Secret 7",
+      "default": "How to identify and remove hidden mental blocks"
+    },
+    {
+      "type": "text",
+      "id": "secret_8",
+      "label": "Secret 8",
+      "default": "The neuroscience behind instant state change"
+    },
+    {
+      "type": "text",
+      "id": "secret_9",
+      "label": "Secret 9",
+      "default": "Money, love, purpose — the unified field method"
+    },
+    {
+      "type": "text",
+      "id": "secret_10",
+      "label": "Secret 10",
+      "default": "The final exercise that locks everything in permanently"
+    },
+    {
+      "type": "header",
+      "content": "Testimonial Marquee"
+    },
+    {
+      "type": "text",
+      "id": "testi_heading",
+      "label": "Section heading",
+      "default": "Over 1,000 people already know"
+    },
+    {
+      "type": "text",
+      "id": "testi_sub",
+      "label": "Section subheading",
+      "default": "what you're about to discover"
+    },
+    {
+      "type": "text",
+      "id": "r1_text",
+      "label": "Review 1 text",
+      "default": "I've read hundreds of books on this subject. This is the only one I've re-read three times. It actually works."
+    },
+    {
+      "type": "text",
+      "id": "r1_author",
+      "label": "Review 1 author",
+      "default": "James K., Canada"
+    },
+    {
+      "type": "text",
+      "id": "r2_text",
+      "label": "Review 2 text",
+      "default": "Within two weeks of applying the protocol on page 47, I landed a client I'd been chasing for a year. Coincidence? I don't think so."
+    },
+    {
+      "type": "text",
+      "id": "r2_author",
+      "label": "Review 2 author",
+      "default": "Maria T., United Kingdom"
+    },
+    {
+      "type": "text",
+      "id": "r3_text",
+      "label": "Review 3 text",
+      "default": "I was a skeptic. A complete skeptic. Now I'm the person recommending this to everyone I know."
+    },
+    {
+      "type": "text",
+      "id": "r3_author",
+      "label": "Review 3 author",
+      "default": "Daniel R., Australia"
+    },
+    {
+      "type": "text",
+      "id": "r4_text",
+      "label": "Review 4 text",
+      "default": "The chapter on frequency alignment alone is worth 10x the price of this book."
+    },
+    {
+      "type": "text",
+      "id": "r4_author",
+      "label": "Review 4 author",
+      "default": "Priya S., India"
+    },
+    {
+      "type": "text",
+      "id": "r5_text",
+      "label": "Review 5 text",
+      "default": "My anxiety dropped by half in the first week. I'm not exaggerating."
+    },
+    {
+      "type": "text",
+      "id": "r5_author",
+      "label": "Review 5 author",
+      "default": "Sophie L., France"
+    },
+    {
+      "type": "text",
+      "id": "r6_text",
+      "label": "Review 6 text",
+      "default": "I've been on a spiritual path for 12 years. This book filled gaps I didn't even know existed."
+    },
+    {
+      "type": "text",
+      "id": "r6_author",
+      "label": "Review 6 author",
+      "default": "Marcus O., Germany"
+    },
+    {
+      "type": "text",
+      "id": "r7_text",
+      "label": "Review 7 text",
+      "default": "Finished it in one sitting at 2am. Couldn't put it down. That never happens to me."
+    },
+    {
+      "type": "text",
+      "id": "r7_author",
+      "label": "Review 7 author",
+      "default": "Aisha N., UAE"
+    },
+    {
+      "type": "text",
+      "id": "r8_text",
+      "label": "Review 8 text",
+      "default": "Dense, grounded, practical, and somehow still magical. The rare kind of book."
+    },
+    {
+      "type": "text",
+      "id": "r8_author",
+      "label": "Review 8 author",
+      "default": "Carlos M., Brazil"
+    },
+    {
+      "type": "header",
+      "content": "FAQ Section"
+    },
+    {
+      "type": "text",
+      "id": "faq_heading",
+      "label": "FAQ heading",
+      "default": "Frequently Asked Questions"
+    },
+    {
+      "type": "text",
+      "id": "faq1_q",
+      "label": "FAQ 1 question",
+      "default": "I'm completely new to this. Is the book beginner-friendly?"
+    },
+    {
+      "type": "textarea",
+      "id": "faq1_a",
+      "label": "FAQ 1 answer",
+      "default": "Yes. The book is written so that someone with zero background in manifestation or neuroscience can follow it. Every concept is broken down step by step. No prior experience required."
+    },
+    {
+      "type": "text",
+      "id": "faq2_q",
+      "label": "FAQ 2 question",
+      "default": "What exactly do I get?"
+    },
+    {
+      "type": "textarea",
+      "id": "faq2_a",
+      "label": "FAQ 2 answer",
+      "default": "A physical paperback book shipped directly to your door. Printed on high-quality paper with a matte cover. Select a bundle above to get Volume 1, Volumes 1 & 2, or the complete set."
+    },
+    {
+      "type": "text",
+      "id": "faq3_q",
+      "label": "FAQ 3 question",
+      "default": "What is your return policy?"
+    },
+    {
+      "type": "textarea",
+      "id": "faq3_a",
+      "label": "FAQ 3 answer",
+      "default": "We offer a 30-day money-back guarantee. If you're not satisfied for any reason, contact our support team and we will process a full refund — no questions asked."
+    },
+    {
+      "type": "text",
+      "id": "faq4_q",
+      "label": "FAQ 4 question",
+      "default": "I'm a scientist / engineer. Will this be too 'woo' for me?"
+    },
+    {
+      "type": "textarea",
+      "id": "faq4_a",
+      "label": "FAQ 4 answer",
+      "default": "This book was designed for analytical minds. Every claim is grounded in neuroscience research and practical protocols — not mysticism. If anything, the skeptical reader gets the most out of it."
+    },
+    {
+      "type": "text",
+      "id": "faq5_q",
+      "label": "FAQ 5 question",
+      "default": "Do you ship internationally?"
+    },
+    {
+      "type": "textarea",
+      "id": "faq5_a",
+      "label": "FAQ 5 answer",
+      "default": "Yes. We ship worldwide. All orders include full tracking. US customers get free shipping automatically."
+    },
+    {
+      "type": "text",
+      "id": "faq6_q",
+      "label": "FAQ 6 question",
+      "default": "How is this different from other manifestation books?"
+    },
+    {
+      "type": "textarea",
+      "id": "faq6_a",
+      "label": "FAQ 6 answer",
+      "default": "Most manifestation books tell you to think positively and visualize. This book gives you the actual neural mechanism behind why that works — or doesn't — and exactly how to fix it when it doesn't."
+    },
+    {
+      "type": "text",
+      "id": "faq7_q",
+      "label": "FAQ 7 question",
+      "default": "How long until I see results?"
+    },
+    {
+      "type": "textarea",
+      "id": "faq7_a",
+      "label": "FAQ 7 answer",
+      "default": "Many readers report noticeable mental shifts within 1–2 weeks of applying the protocols. Physical results (opportunities, synchronicities, breakthroughs) typically begin appearing within 30 days."
+    },
+    {
+      "type": "text",
+      "id": "faq8_q",
+      "label": "FAQ 8 question",
+      "default": "Can I buy this as a gift?"
+    },
+    {
+      "type": "textarea",
+      "id": "faq8_a",
+      "label": "FAQ 8 answer",
+      "default": "Absolutely. Just enter the recipient's shipping address at checkout. The book arrives in clean, gift-ready packaging."
+    },
+    {
+      "type": "header",
+      "content": "Trust Footer"
+    },
+    {
+      "type": "text",
+      "id": "tf1_title",
+      "label": "Column 1 title",
+      "default": "30-Day Money-Back Guarantee"
+    },
+    {
+      "type": "textarea",
+      "id": "tf1_desc",
+      "label": "Column 1 description",
+      "default": "Not satisfied? Contact us within 30 days for a full refund. No forms, no hassle."
+    },
+    {
+      "type": "text",
+      "id": "tf2_title",
+      "label": "Column 2 title",
+      "default": "Worldwide Tracked Shipping"
+    },
+    {
+      "type": "textarea",
+      "id": "tf2_desc",
+      "label": "Column 2 description",
+      "default": "Every order ships with full tracking. Free shipping on all US orders."
+    },
+    {
+      "type": "text",
+      "id": "tf3_title",
+      "label": "Column 3 title",
+      "default": "Special Offer — Save Up to 48%"
+    },
+    {
+      "type": "textarea",
+      "id": "tf3_desc",
+      "label": "Column 3 description",
+      "default": "Bundle and save. The more you order, the more you keep in your pocket."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Wisdom PDP"
+    }
+  ]
+}
+{% endschema %}

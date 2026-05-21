@@ -1,0 +1,632 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_jQGWEX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FFJQzE": {
+          "type": "heading",
+          "settings": {
+            "title": "Real Customer Reviews Solesterius",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h0"
+          }
+        },
+        "text_DHjNyq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Want to know if <strong>Solesterius </strong>is the real deal? You’re not alone.</p>"
+          }
+        },
+        "text_Q9LNDy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With over <strong>292,000 happy customers</strong> and a <strong>4.8/5 average rating</strong>, our crystal necklaces are transforming lives daily: but don’t take our word for it.<br/></p>"
+          }
+        },
+        "text_rm7xCN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Read what real babes are saying:<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FFJQzE",
+        "text_DHjNyq",
+        "text_Q9LNDy",
+        "text_rm7xCN"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "rich_text_EbxDYN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xtYWtL": {
+          "type": "heading",
+          "settings": {
+            "title": "✨ Our Most Loved Necklaces (And Why)",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xtYWtL"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "rich_text_WJgKVW": {
+      "type": "rich-text",
+      "blocks": {
+        "text_yxXnaV": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>🔥 The Bad B*tch Necklace For irresistible attraction, dark feminine energy and obsession<br/><br/>💰 The Boss B*tch Necklace For money, abundance & career breakthroughs<br/><br/>💞 The Magnetic Necklace For unconditional love, attraction & self love</h3>"
+          }
+        }
+      },
+      "block_order": [
+        "text_yxXnaV"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "rich_text_J8AU7m": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MUQPdr": {
+          "type": "heading",
+          "settings": {
+            "title": "💬 Verified Reviews from Real Customers",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MUQPdr"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 12,
+        "padding_bottom": 0,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "rich_text_wAFJge": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AhnWmB": {
+          "type": "heading",
+          "settings": {
+            "title": "Receipts don’t lie.",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h0"
+          }
+        },
+        "text_bbq74X": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>⭐ Rated 4.8 by 292,000 babes</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AhnWmB",
+        "text_bbq74X"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 52,
+        "padding_bottom": 0,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "image_slider_qeyTpE": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slide_n9zzQX": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/1-bU1gy-1P2LsRlkbRBSOUiKhnwGgyRGJ_7f180279-cd9a-47f9-8bc5-25f7c3eec401.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_C9ikft": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/18coYEdX3J27XfPDA6cN8TSYcQQz11x8W_614d152b-94f6-4920-b25e-6bf943daf7ed.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_qggBUd": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/1AwEwfqHhqNze1prrBISt0irl5fkKNnSO_ec998f53-92b7-440f-9330-6c31c0d60b40.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_GLbE3w": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/1DFZ4YbLXPt-4baLxlRfpkCmNt5UOJyue_5fa0bc7c-3666-42dd-b8a9-97987b4aa3f2.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_BCUhGg": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/154CHc68v6XWNpONj3LWZp0Z8cZg4mIPp_f3f2ea28-d7e6-49b8-8abb-d22d69d318e6.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_r3eiBh": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/1ABFdzKqVtQZmA8zBQCSVQMaW16z6WCOR_ae79c600-3e4f-4de5-9d1c-5d90e5ad9d74.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_NFiUgR": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/1C6yE9GnWO98RiqQncYpqfZ9wg8ErcCmp_e8061edb-4443-4326-93e2-330100444ae8.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_MafGL9": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/1bVRrkNOWR1UvmJt61PQyQl-zwuR3aFoa_743eb0ac-4f6f-40f7-b852-ada286e046eb.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_hEaCjP": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/14S_v8AU44mFKAysxXGxt3hBd7giDfb-C_227e8b5c-0a9d-4707-b355-4a106e9431aa.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_JbFyMc": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/1bItf3MA93fjIYb-1g-rTdbSZXSm46Sjb_07f41716-6b73-4854-b67e-f2859fc80607.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_WtwmyL": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/19PMbPV5uMnqYwPs9vgce7J6uQGPg59Lh_809fb957-327c-442a-b5a8-e8ac4bb47707.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_6zPgLy": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/14fbAGl0y38sBR1AcUwEAcOeAeOPVxz2Z_85df243c-d08f-40fc-8254-28cdc89bb124.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_aaWXzV": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/18S8ve0Frw3fMz7j_vToPDSpUKbyANbyI_5e6f67d3-a874-4f48-b0aa-241893e1bc50.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_xrdgVD": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/11T-q39kdVxnYcrPNfxhR0W_ANtwCAg68_7d9093fe-4ced-4dd3-a53b-df7fb80b641a.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_dRQjkb": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/1aqAAiBLwc78MIKSd-RyYkQcw_lUF0WGH_5caf5d59-01f3-4b54-91f5-c675afce3316.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_hyPLxh": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/1DJfGs_vbE_M9kzhCcPjN4FEi3sz5kaSE_9761ce76-de7d-4bbf-a728-ed4e0bff1d3c.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_ckDNQG": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/1cVfRw9tVKvZq85skPH-2dCxdt156JmMh_2c45a32b-ff56-445a-b7ca-8730f455de3c.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_bRDWrW": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/1Bn-6nfEGRdrhZfNb8z6jb6cfo03LVKJx_6df2c9a9-d4de-46a3-9d4f-0c11a919b76a.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        },
+        "image_slide_r3MHMa": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/1EI8i73LxdCSR8Fixv92WosJ8ijEiCS9H_2f51d48a-9ddb-4257-8169-d95bb900e7d6.jpg",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        }
+      },
+      "block_order": [
+        "image_slide_n9zzQX",
+        "image_slide_C9ikft",
+        "image_slide_qggBUd",
+        "image_slide_GLbE3w",
+        "image_slide_BCUhGg",
+        "image_slide_r3eiBh",
+        "image_slide_NFiUgR",
+        "image_slide_MafGL9",
+        "image_slide_hEaCjP",
+        "image_slide_JbFyMc",
+        "image_slide_WtwmyL",
+        "image_slide_6zPgLy",
+        "image_slide_aaWXzV",
+        "image_slide_xrdgVD",
+        "image_slide_dRQjkb",
+        "image_slide_hyPLxh",
+        "image_slide_ckDNQG",
+        "image_slide_bRDWrW",
+        "image_slide_r3MHMa"
+      ],
+      "name": "Image/Video Slider",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "type": "loop",
+        "drag": "enabled",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "center_mode": false,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "desktop_page_width": "normal",
+        "desktop_border_radius": 0,
+        "slides_desktop": 3,
+        "per_move_desktop": 1,
+        "desktop_spacing": 28,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "mobile_full_page": false,
+        "mobile_border_radius": 0,
+        "slides_mobile": 2,
+        "per_move_mobile": 1,
+        "mobile_spacing": 12,
+        "mobile_side_padding": 0,
+        "mobile_padding_calc": true,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "sides",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
+    "rich_text_iEHYcA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tYCfey": {
+          "type": "heading",
+          "settings": {
+            "title": "📦Why Customers Trust The Crystal Babes",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tYCfey"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 52,
+        "padding_bottom": 0,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "rich_text_afCFy8": {
+      "type": "rich-text",
+      "blocks": {
+        "text_4CFXMc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✅ Real, ethically sourced crystals<br/>✅ Designed in the USA, ships from our US warehouse<br/>✅ Includes energy rituals & manifestation guides<br/>✅ 14-day return policy, no questions asked<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_4CFXMc"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 52,
+        "padding_bottom": 0,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "rich_text_KTpR7L": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4TMG4p": {
+          "type": "heading",
+          "settings": {
+            "title": "❓Frequently Asked Questions",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h0"
+          }
+        },
+        "text_nPfNNm": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Are these reviews real?</strong><br/>Yes. Every review on this page comes from a verified customer who placed an order through our website.<br/><br/><strong>Is The Crystal Babes a scam?</strong><br/>No. We’re a US-registered company with over 216,000 happy customers, and we’re committed to total transparency. If you're not satisfied, we offer easy returns, no drama.<br/><br/><strong>Do your necklaces actually work?</strong><br/>Our customers say YES, especially when used with intention. Each necklace comes with a manifestation guide, and many babes use the 369 method or full moon rituals to boost results.<br/><br/><strong>Where do you ship from?</strong><br/>We ship directly from our warehouse in the United States. All orders include tracking and fast shipping options.<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4TMG4p",
+        "text_nPfNNm"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 52,
+        "padding_bottom": 0,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "rich_text_h3AQaE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MVtp8W": {
+          "type": "heading",
+          "settings": {
+            "title": "Due to high demand, we only accept 250 orders per day.",
+            "title_highlight_color": "#773f97",
+            "heading_size": "h0"
+          }
+        },
+        "button_j9UmUJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW->",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MVtp8W",
+        "button_j9UmUJ"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 68,
+        "padding_bottom": 52,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_jQGWEX",
+    "rich_text_EbxDYN",
+    "rich_text_WJgKVW",
+    "rich_text_J8AU7m",
+    "rich_text_wAFJge",
+    "image_slider_qeyTpE",
+    "rich_text_iEHYcA",
+    "rich_text_afCFy8",
+    "rich_text_KTpR7L",
+    "rich_text_h3AQaE"
+  ]
+}

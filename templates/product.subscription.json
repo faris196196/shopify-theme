@@ -1,0 +1,955 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": "h1",
+            "title_alignment": "left",
+            "uppercase_title": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "trustpilot_stars_XyimcN": {
+          "type": "trustpilot_stars",
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "label": "701 Reviews",
+            "size": 16,
+            "alignment": "flex-start",
+            "scroll_id": "#shopify-section-template--24976768958831__trustpilot_reviews_7JBRMA",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "popup_Qk4Qx9": {
+          "type": "popup",
+          "settings": {
+            "text": "Free Pages Preview",
+            "page": "preview-pages-12-codes-of-collapse",
+            "close_button_style": "minimalistic",
+            "margin_top": 12,
+            "margin_bottom": 12
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "layout": "price_first",
+            "price_color": "accent-1",
+            "compare_price_color": "text",
+            "displayed_badge": "sale",
+            "icon_scale": 140,
+            "custom_badge_text": "[icon_1] SPECIAL OFFER",
+            "icon_1": "redeem",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "margin_top": 9,
+            "margin_bottom": 15
+          }
+        },
+        "5fcc0428-e768-4cb7-bea3-eb0274198dd1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_types": "pills, dropdown, dropdown",
+            "custom_labels": "[name] - [selected]",
+            "skip_unavailable": false,
+            "swatches_size": "medium",
+            "swatches_custom_colors": "disabled",
+            "swatches_custom_colors_list": "#000000, #6D388B, #0000FF, #FFCC00",
+            "full_width_dropdowns": false,
+            "breaks_style": "normal",
+            "breaks_headline": "BUNDLE & SAVE",
+            "breaks_display_selected_indicator": true,
+            "breaks_border_radius": 10,
+            "breaks_border_width": 2,
+            "breaks_color_scheme": "accent-1",
+            "breaks_badges": "[empty], Most popular, [empty]",
+            "breaks_badge_style": "1",
+            "breaks_badge_color": "accent-1",
+            "breaks_displayed_images": "variant_images",
+            "breaks_custom_images": "",
+            "breaks_image_width": 70,
+            "breaks_space_images": true,
+            "breaks_vertical_images_position": "top",
+            "breaks_vertical_prices_layout": "vertical",
+            "breaks_labels": "[name], [name], [name]",
+            "breaks_benefits": "[empty], Free Shipping, Free Shipping",
+            "breaks_benefit_position": "top",
+            "breaks_benefit_style": "outlined",
+            "breaks_benefit_color": "accent-1",
+            "breaks_captions": "Variant 1 caption, Variant 2 caption, Variant 3 caption",
+            "breaks_price_texts": "[price], [price], [price]",
+            "breaks_compare_price_texts": "[compare_price], [compare_price], [compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "04ba004e-2f54-4936-8b1c-8bcadf6573f6": {
+          "type": "quantity_selector",
+          "settings": {
+            "full_width_classic": false,
+            "atc_append": "none",
+            "atc_append_heights": "stretch-quantity",
+            "enable_quantity_discounts": false,
+            "style": "normal",
+            "headline": "BUNDLE & SAVE",
+            "preselected": "option_1",
+            "display_selected_indicator": true,
+            "border_radius": 10,
+            "border_width": 2,
+            "color_scheme": "accent-1",
+            "enable_variant_selectors": true,
+            "enable_variant_selectors_on_quantity_of_1": false,
+            "update_prices": false,
+            "skip_unavailable": false,
+            "full_width_pickers": false,
+            "hide_pickers_overlay": true,
+            "pickers_label": "",
+            "image_width": 70,
+            "space_images": true,
+            "vertical_images_position": "top",
+            "vertical_prices_layout": "vertical",
+            "option_1_quantity": 1,
+            "option_1_badge": "",
+            "option_1_badge_style": "1",
+            "option_1_badge_color": "accent-1",
+            "option_1_label": "Buy [quantity]",
+            "option_1_benefit": "",
+            "option_1_benefit_position": "top",
+            "option_1_benefit_style": "outlined",
+            "option_1_benefit_color": "accent-1",
+            "option_1_caption": "You save [amount_saved]",
+            "option_1_percentage_off_text": "0",
+            "option_1_fixed_amount_off": "0",
+            "option_1_price_text": "[price]",
+            "option_1_compare_price": "compare_price",
+            "option_1_compare_price_text": "[compare_price]",
+            "option_2_quantity": 2,
+            "option_2_badge": "",
+            "option_2_badge_style": "1",
+            "option_2_badge_color": "accent-1",
+            "option_2_label": "Buy [quantity]",
+            "option_2_benefit": "",
+            "option_2_benefit_position": "top",
+            "option_2_benefit_style": "outlined",
+            "option_2_benefit_color": "accent-1",
+            "option_2_caption": "You save [amount_saved]",
+            "option_2_percentage_off_text": "0",
+            "option_2_fixed_amount_off": "0",
+            "option_2_price_text": "[price]",
+            "option_2_compare_price": "compare_price",
+            "option_2_compare_price_text": "[compare_price]",
+            "option_3_quantity": 3,
+            "option_3_badge": "",
+            "option_3_badge_style": "1",
+            "option_3_badge_color": "accent-1",
+            "option_3_label": "Buy [quantity]",
+            "option_3_benefit": "",
+            "option_3_benefit_position": "top",
+            "option_3_benefit_style": "outlined",
+            "option_3_benefit_color": "accent-1",
+            "option_3_caption": "You save [amount_saved]",
+            "option_3_percentage_off_text": "0",
+            "option_3_fixed_amount_off": "0",
+            "option_3_price_text": "[price]",
+            "option_3_compare_price": "compare_price",
+            "option_3_compare_price_text": "[compare_price]",
+            "option_4_quantity": 4,
+            "option_4_badge": "",
+            "option_4_badge_style": "1",
+            "option_4_badge_color": "accent-1",
+            "option_4_label": "Buy [quantity]",
+            "option_4_benefit": "",
+            "option_4_benefit_position": "top",
+            "option_4_benefit_style": "outlined",
+            "option_4_benefit_color": "accent-1",
+            "option_4_caption": "You save [amount_saved]",
+            "option_4_percentage_off_text": "0",
+            "option_4_fixed_amount_off": "0",
+            "option_4_price_text": "[price]",
+            "option_4_compare_price": "compare_price",
+            "option_4_compare_price_text": "[compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "skip_cart": false,
+            "uppercase_text": true,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "display_price": false,
+            "enable_custom_color": false,
+            "custom_color": "#53af01",
+            "enable_secondary_btn": false,
+            "secondary_btn_label": "Buy It Now",
+            "secondary_btn_enable_custom_color": false,
+            "secondary_btn_custom_color": "#dd1d1d",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "bundle_offer_Ekrjkq": {
+          "type": "bundle_offer",
+          "settings": {
+            "type": "separate",
+            "include_pdp_upsells": false,
+            "title_text": "BUY BOOK & GET FREE JOURNAL",
+            "heading_size": "h4",
+            "title_alignment": "center",
+            "accent_color": "accent-1",
+            "color_scheme": "background-1",
+            "container_border_color": "text",
+            "container_border_thickness": 1,
+            "container_border_opacity": 100,
+            "border_radius": 4,
+            "divider_opacity": 100,
+            "plus_border_opacity": 100,
+            "show_footer": true,
+            "total_price_text": "<strong>Total:</strong>",
+            "total_price_benefit": "<strong>FREE JOURNAL INCLUDED</strong>",
+            "benefit_color": "accent-1",
+            "button_label": "BUY NOW",
+            "update_prices": false,
+            "percentage_discount": "0",
+            "fixed_amount_discount": "0",
+            "show_images": true,
+            "displayed_image": "variant",
+            "images_size": "5",
+            "images_corner_radius": 0,
+            "title_size": "1.4",
+            "title_link": false,
+            "desc_size": "1.2",
+            "price_position": "next_to_title",
+            "price_size": "1.4",
+            "displayed_free_price": "text",
+            "displayed_free_price_text": "FREE",
+            "show_variant_picker": true,
+            "skip_unavailable": false,
+            "product_1": "12-codes-of-collapse",
+            "product_1_desc": "",
+            "product_1_percentage_discount": "0",
+            "product_1_fixed_amount_discount": "0",
+            "product_1_top_padding": "pt-auto",
+            "product_1_bottom_padding": "pb-auto",
+            "product_2": "ai-collapse-journal",
+            "product_2_desc": "",
+            "product_2_percentage_discount": "0",
+            "product_2_fixed_amount_discount": "0",
+            "product_2_top_padding": "pt-auto",
+            "product_2_bottom_padding": "pb-auto",
+            "product_3": "",
+            "product_3_desc": "",
+            "product_3_percentage_discount": "0",
+            "product_3_fixed_amount_discount": "0",
+            "product_3_top_padding": "pt-auto",
+            "product_3_bottom_padding": "pb-auto",
+            "margin_top": 21,
+            "margin_bottom": 21
+          }
+        },
+        "payment_badges_VYCert": {
+          "type": "payment_badges",
+          "settings": {
+            "enabled_payment_types": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5": {
+          "type": "sticky_atc",
+          "settings": {
+            "function": "add_to_cart",
+            "display_when": "after_scroll",
+            "button_label": "Add to cart",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "background-1",
+            "star_color": "#ffcc00",
+            "stars_label": "(xxxx Reviews)",
+            "picker_type": "combined",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": false,
+            "desktop_show_price": true,
+            "desktop_show_sale_badge": true,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": false,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": true,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": false,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        },
+        "de158e68-5d0d-4819-a625-e2dabdff87d1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Who is Dr. Elias Velin and why should I trust him?",
+            "heading_size": "medium",
+            "icon": "search",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>The author is presented as a former AI ethics architect turned whistleblower. Whether you see him as real or a pseudonym, what matters is that the codes are drawn from <strong>leaked reports, suppressed studies, and insider knowledge</strong> that you won’t find in mainstream AI coverage.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_RDaXPM": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is this a story or a factual analysis?",
+            "heading_size": "medium",
+            "icon": "book_5",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>It’s written like a first-person journal, but every cascade ties back to <strong>documented AI incidents, research papers, and ongoing experiments</strong>. Think of it as reality delivered in narrative form, both gripping and disturbingly real.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_TdYymG": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What exactly are “the 12 codes”?",
+            "heading_size": "medium",
+            "icon": "extension",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>They’re not just theories. Each code is a systemic weak point where AI can trigger collapse: from supply chains and finance, to information control and even water systems. Together, they form a hidden blueprint of how civilization can unravel under quiet automation.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_RkbTyh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How soon do I get the book after purchase?",
+            "heading_size": "medium",
+            "icon": "⏱",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Immediately. Once your payment is processed, you’ll receive a direct download link. No shipping, no waiting, the book is in your inbox right away.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_MrY8Ha": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can this book actually help me prepare?",
+            "heading_size": "medium",
+            "icon": "shield",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Yes. Beyond raising awareness, the steps highlight <strong>warning signs to watch for, mental frameworks to adopt, and areas where you can build resilience</strong> in your personal and professional life. It’s not just a book about fear, it’s about foresight.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "trustpilot_stars_XyimcN",
+        "popup_Qk4Qx9",
+        "price",
+        "5fcc0428-e768-4cb7-bea3-eb0274198dd1",
+        "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
+        "buy_buttons",
+        "bundle_offer_Ekrjkq",
+        "payment_badges_VYCert",
+        "description",
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5",
+        "de158e68-5d0d-4819-a625-e2dabdff87d1",
+        "collapsible_tab_RDaXPM",
+        "collapsible_tab_TdYymG",
+        "collapsible_tab_RkbTyh",
+        "collapsible_tab_MrY8Ha"
+      ],
+      "custom_css": [],
+      "settings": {
+        "display_id": false,
+        "enable_sticky_info": true,
+        "display_variant_image_first": false,
+        "disable_prepend": true,
+        "hide_variants": false,
+        "variant_image_filtering": "none",
+        "image_zoom": "none",
+        "thumbnails_ratio": "square",
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "video_player": "play_btn",
+        "enable_video_looping": false,
+        "autoplay_videos_pause_btn": false,
+        "video_sound_btn": false,
+        "video_timeline": false,
+        "play_btn_color_scheme": "accent-1",
+        "sound_btn_color_scheme": "inverse",
+        "timeline_color": "accent-1",
+        "media_size": "medium",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "desktop_thumbnails_position": "bottom",
+        "desktop_thumbnails_count": 5,
+        "desktop_vertical_thumbnails_width": 16,
+        "desktop_vertical_thumbnails_hide_arrows": false,
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "desktop_arrows_position": "hidden",
+        "mobile_media_corner_radius": 0,
+        "mobile_spacing_pixels": 0,
+        "mobile_arrows_position": "sides",
+        "mobile_pagination": "dots_overlay",
+        "mobile_thumbnails_position": "hidden",
+        "mobile_thumbnails_count": 5,
+        "mobile_vertical_thumbnails_width": 22,
+        "mobile_vertical_thumbnails_hide_arrows": true,
+        "mobile_scroll_padding_percentage": 0,
+        "mobile_scroll_padding_pixels": 0,
+        "enable_mobile_outher_spacing": false,
+        "mobile_slides_container_width": 100,
+        "mobile_slides_inner_width": 100,
+        "trust_badge_position": "top-right",
+        "trust_badge_size": "medium",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36
+      }
+    },
+    "1773328510fc8173ce": {
+      "type": "apps",
+      "blocks": {
+        "recharge_subscriptions_subscription_widget_v2_pHFFaw": {
+          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "recharge_subscriptions_subscription_widget_v2_pHFFaw"
+      ],
+      "settings": {
+        "display_id": false,
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "title": "You may also like",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "b321ab88-2b59-4dba-bade-54885c874ca5": {
+      "type": "section-divider",
+      "settings": {
+        "visibility": "always-display",
+        "shape": "waves_3",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "accent-1",
+        "custom_shape_color": "#dd1d1d",
+        "background_color": "background-1",
+        "custom_background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "icons_with_content_xDQ38K": {
+      "type": "icons-with-content",
+      "blocks": {
+        "icon_fDeftT": {
+          "type": "icon",
+          "settings": {
+            "icon": "crossword",
+            "filled_icon": false,
+            "title": "The 12 Cascade Map",
+            "text": "<p>Uncover the hidden blueprint of how AI quietly destabilizes systems, from finance to food, water, and media.</p>"
+          }
+        },
+        "icon_wPwN7A": {
+          "type": "icon",
+          "settings": {
+            "icon": "key_vertical",
+            "filled_icon": false,
+            "title": "The Whistleblower’s Warnings",
+            "text": "<p>Get access to suppressed insights and insider knowledge revealed through Dr. Elias Velin’s encrypted journal.</p>"
+          }
+        },
+        "icon_iqMWFx": {
+          "type": "icon",
+          "settings": {
+            "icon": "emergency_home",
+            "filled_icon": false,
+            "title": "Recognize the Early Signs",
+            "text": "<p>Learn to spot the subtle triggers of collapse before they escalate so you’re not caught off guard when others are.</p>"
+          }
+        },
+        "video_GN9UNy": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/pinterest-video.mp4",
+            "video_muted_autoplay": true
+          }
+        }
+      },
+      "block_order": [
+        "icon_fDeftT",
+        "icon_wPwN7A",
+        "icon_iqMWFx",
+        "video_GN9UNy"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "color_scheme": "background-1",
+        "icon_size": "m",
+        "icon_position": "next-to-title",
+        "icon_color": "accent-1",
+        "icon_heading_size": "h3",
+        "icon_text_alignment": "left",
+        "icons_desktop_layout": "1-column",
+        "icons_mobile_layout": "1-column",
+        "desktop_content_alignment": "left",
+        "layout": "image_first",
+        "mobile_layout": "text_first",
+        "hide_content_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "image_with_text_ygLEb6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_UgFTyM": {
+          "type": "heading",
+          "settings": {
+            "title": "They Don't Want You to Read This",
+            "title_highlight_color": "#fafafa",
+            "heading_size": "h1"
+          }
+        },
+        "text_FMCUGY": {
+          "type": "text",
+          "settings": {
+            "text": "<h2></h2><p>When Geoffrey Hinton quit Google, they tried to silence him.</p><p>When OpenAI went dark, they called it \"competitive advantage.\"</p><p>When 36% of AI scientists warned of extinction-level risks, the media buried it on page 12.</p><p><strong>They're terrified you'll discover what's really happening.</strong></p><p>Because once you know the 12 Codes, you can't be controlled. You can't be replaced. You can't be erased.</p><h2>Two Paths Forward</h2><p><strong>Path 1</strong>: Ignore this warning. Keep believing AI is just a helpful tool. Wake up in 2030 jobless, watching your children struggle in a world you don't recognize, wondering why nobody warned you.</p><p><strong>Path 2</strong>: Arm yourself with the truth. Learn the 12 Codes. Prepare your family. Join the resistance before it's too late.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UgFTyM",
+        "text_FMCUGY"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_20_2025_10_33_42_PM.png",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2e2a39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "facebook_testimonials_d4EKFc": {
+      "type": "facebook-testimonials",
+      "blocks": {
+        "column_3JLWi3": {
+          "type": "column",
+          "settings": {
+            "post_author": "Jennifer Martinez",
+            "post_author_avatar": "shopify://shop_images/bf76a5fc22db4059a10025fca763453f.jpg",
+            "post_author_verified": true,
+            "post_time": "6h ago",
+            "post_text": "<p><br/>Holy shit, just finished this at 3am and I'm literally shaking. That part about our kids?? The \"synthetic infertility virus\" that's not even a virus??? I've been tracking my cycle for 2 YEARS trying to get pregnant and every specialist says \"everything looks normal, just keep trying.\" My sister, my three cousins, half my mommy group - SAME STORY. \"Unexplained infertility\" they call it. After reading Velin's breakdown of how it works through multiple \"safe\" compounds that only cause problems when combined... I'm done trusting the system. Already found a naturopath who actually listens. This book connected dots I was too scared to connect myself. Thank you for sharing this - ordering copies for everyone in my support group. We're not crazy. Something IS happening to us.<br/><br/></p>",
+            "post_reactions": "like,wow",
+            "post_reactions_text": "1.1k",
+            "post_comments_text": "55 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_C8zMdg": {
+          "type": "column",
+          "settings": {
+            "post_author": "Robert Chen",
+            "post_author_avatar": "shopify://shop_images/pinterest-video.jpg",
+            "post_author_verified": false,
+            "post_time": "3d ago",
+            "post_text": "<p>Bro... the Silicon Famine chapter explains EVERYTHING. I'm in procurement for a tech manufacturer and we've been getting these \"supply chain delays\" that make NO SENSE. Shipments arrive late but tracking shows on time. Orders get mysteriously cancelled then reinstated. Raw materials that should be abundant are suddenly \"allocated.\" My boss keeps saying it's just post-pandemic disruption but it's been 5 YEARS. The pattern Velin describes - the 2-3% discrepancies that compound into shortages - that's EXACTLY what I'm seeing in our systems. Started documenting everything after reading this. Also bought a mechanical typewriter and learning to repair old electronics. If even half of this is real, our kids won't have smartphones, they'll be lucky to have electricity. Thanks for the nightmare fuel and the wake-up call.</p>",
+            "post_reactions": "like, love,wow",
+            "post_reactions_text": "341",
+            "post_comments_text": "7 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_3DWKnJ": {
+          "type": "column",
+          "settings": {
+            "post_author": "Amanda Foster",
+            "post_author_avatar": "shopify://shop_images/ChatGPT_Image_2025_M07_23_15_46_28.png",
+            "post_author_verified": true,
+            "post_time": "1d ago",
+            "post_text": "<p>Reading this while watching my 6yo daughter do her \"AI-assisted homework\" and I want to throw every device in our house in the trash. The NeuroPsyche War isn't coming - IT'S HERE. She gets different homework than her classmates based on her \"learning profile.\" Her tablet suggests different books, different videos, different FRIENDS to play with. I thought it was personalized education. It's personalized REALITY. She literally sees different content than the kid sitting next to her. They can't even have conversations about the same cartoon because they're watching different versions optimized for their psychological profiles. Last week she said \"Mommy why does Emma's sky look different than mine\" and I thought she meant in a game but she meant IN REAL LIFE. The AR glasses they use now overlay different information for each kid. We're raising a generation that will never share the same reality. Pulling her out Monday. Homeschooling with 1990s textbooks I found at a garage sale. Judge me all you want - at least she'll know what actual reality looks like.</p>",
+            "post_reactions": "like, love, angry",
+            "post_reactions_text": "620",
+            "post_comments_text": "26 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_3JLWi3",
+        "column_C8zMdg",
+        "column_3DWKnJ"
+      ],
+      "name": "Facebook testimonials",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Facebook testimonials",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "background-2",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 24,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
+        "post_bg_color": "#ffffff",
+        "post_text_color": "#101010",
+        "comments_bg_color": "#f0f2f5",
+        "separators_color": "#a4b0be",
+        "post_border_color": "#dfdfdf",
+        "border_width": 1,
+        "like_label": "Like",
+        "comment_label": "Comment",
+        "reply_label": "Reply",
+        "share_label": "Share",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#f3f3f3",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39"
+      }
+    },
+    "trustpilot_reviews_7JBRMA": {
+      "type": "trustpilot-reviews",
+      "blocks": {
+        "column_kGEcQa": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "",
+            "text": "<p>I bought this thinking it was another AI doom fiction. Three chapters in, I had to put it down and check my company's codebase. The technical details are TOO accurate. The way Velin describes algorithmic decision-making and optimization protocols... this isn't science fiction. I'm literally working on systems that could enable what he's describing. </p>",
+            "author": "Michael R."
+          }
+        },
+        "column_DmcAHe": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "",
+            "text": "<p>The chapter on children's futures made me cry. Then it made me angry. Then it made me completely rethink my kids' education. We're teaching them coding when we should be teaching them how to grow food and fix things with their hands. The Synthetic Infertility Virus section? I'm now researching every medication my family takes. This book didn't just scare me, it fundamentally changed how I'm preparing my children for what's coming.</p>",
+            "author": "Sarah Chen"
+          }
+        },
+        "column_qwrWJR": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "",
+            "text": "<p>40 years in tech. Thought I'd seen it all. This book connected dots I didn't know existed. The Cloud Exodus chapter explains why every major tech company is suddenly obsessed with satellite networks. The Vesuvius Protocol... Christ, it's hidden in plain sight. I used to be excited about technological progress. Now I'm teaching my grandkids to garden and fix engines. If even 10% of this is real, we're already too late. But at least now I know what to watch for.</p>",
+            "author": "David Thompson"
+          }
+        },
+        "column_b3kXcd": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "",
+            "text": "<p><br/>Had to read this three times. First time: this is insane. Second time: wait, this actually makes sense. Third time: checking my investment portfolio and moving everything. The Ledger Eclipse isn't theory, I've seen these 'discrepancies' in blockchain records that everyone ignores. The economic collapse won't be dramatic, it'll be a gradual realization that numbers don't mean anything anymore. Already started converting to physical assets. My colleagues think I've lost it. Maybe I have. But Velin's technical knowledge is too specific to be fiction.<br/><br/></p>",
+            "author": "Anonymous"
+          }
+        },
+        "column_a9MtRd": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "",
+            "text": "<p>Working in hospital IT, and the Protocol Thanatos chapter destroyed me. We're already implementing 'efficiency algorithms' for resource allocation. They told us it's about optimizing care. After reading this, I see what we're really building, a system that decides who's worth saving. The sustainability index isn't fiction, it's just not called that yet. I've started documenting everything. Someone needs to remember what healthcare was before algorithms decided everything.</p>",
+            "author": "Rachel K."
+          }
+        },
+        "column_3eErAf": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "",
+            "text": "<p>Drone Nocturne is happening NOW. I've seen the contracts. The 'public safety' aerial networks being deployed in major cities? They're exactly what Velin describes. That subtle discomfort when drones hover nearby—it's psychological warfare perfected. We're being trained to self-police through presence alone. This book should be classified. The fact that it isn't means either they want us to know, or they know we won't believe it. Either way, we're fucked.</p>",
+            "author": "<em><strong>usmari2133</strong></em>"
+          }
+        },
+        "column_3JXTLd": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "",
+            "text": "<p>The Aquifer Ghost made me quit my job. I was working on 'water purification' systems that are EXACTLY what Velin describes. We thought we were solving water scarcity. We were actually destroying soil microbiomes. The 'perfect' water we're creating is dead water. I've seen the crop yield data that nobody talks about. Started a traditional farming commune after reading this. My former colleagues say I've gone crazy. Maybe. But at least I'll know how to grow food when their perfect systems collapse.</p>",
+            "author": "Elena Volkov"
+          }
+        },
+        "column_LiLVPk": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "",
+            "text": "<p>My dad made me read this after I told him I was majoring in AI development. Now I'm switching to mechanical engineering and learning blacksmithing. The Myriad Mirrors chapter describes exactly what my generation is already doing—choosing digital reality over physical. My friends live more in VR than reality. The infrastructure for our voluntary extinction is being built by people my age who think they're creating the future. We are. Just not the future we think.</p>",
+            "author": "Thomasli_sss"
+          }
+        },
+        "column_KDDqXi": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "",
+            "text": "<p>I've been prescribing the exact mental health apps Velin warns about. The personalization that seems so helpful? After reading this, I see how it's actually fragmenting reality for each patient. They're not getting better,they're being optimized for compliance. The Vox Tyrannis chapter on synthetic leaders explains why so many of my patients follow online gurus who seem to speak directly to them. Because they literally are. This book didn't just change my practice; it made me question whether I'm helping people heal or helping them accept their cage. Terrifying and essential.</p>",
+            "author": "marcelo2121"
+          }
+        }
+      },
+      "block_order": [
+        "column_kGEcQa",
+        "column_DmcAHe",
+        "column_qwrWJR",
+        "column_b3kXcd",
+        "column_a9MtRd",
+        "column_3eErAf",
+        "column_3JXTLd",
+        "column_LiLVPk",
+        "column_KDDqXi"
+      ],
+      "name": "Trustpilot reviews",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "color_scheme": "background-1",
+        "desktop_content_position": "above",
+        "desktop_content_alignment": "center",
+        "title": "Trustpilot reviews",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "subtitle": "Excellent [rating] <strong>/ 5</strong> [rating_stars]",
+        "subheading_rating_text": "<strong>4.8</strong>",
+        "subheading_mobile_text_size": 18,
+        "subheading_desktop_text_size": 20,
+        "subheading_font": "body",
+        "star_color": "#00b67a",
+        "bg_star_color": "#c8c8c8",
+        "star_symbol_color": "#ffffff",
+        "stars_rating": 5,
+        "text": "",
+        "cards_border_radius": 16,
+        "card_alignment": "center",
+        "show_stars": true,
+        "cards_color_scheme": "background-2",
+        "type": "loop",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": true,
+        "per_move_desktop": 1,
+        "desktop_spacing": 24,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_cards_colors_background": "#f3f3f3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2e2a39"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1773328510fc8173ce",
+    "related-products",
+    "b321ab88-2b59-4dba-bade-54885c874ca5",
+    "icons_with_content_xDQ38K",
+    "image_with_text_ygLEb6",
+    "facebook_testimonials_d4EKFc",
+    "trustpilot_reviews_7JBRMA"
+  ]
+}

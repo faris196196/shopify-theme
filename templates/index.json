@@ -1,0 +1,246 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_kmpJT9": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_iezaAi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Aug_21_2025_12_44_15_AM.png",
+            "image_overlay_opacity": 30,
+            "heading": "The Lost Laws Of Manifestation",
+            "title_highlight_color": "#00b3ff",
+            "heading_size": "h1",
+            "subheading": "Amara Callen",
+            "button_label": "FIND OUT MORE",
+            "link": "shopify://products/the-lost-laws-of-manifestation-audiobook-free-gifts",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_product": "",
+            "atc_skip_cart": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "color_scheme": "background-1",
+            "transparent_container_color": "white",
+            "text_alignment_mobile": "center",
+            "custom_colors_background": "#ffffff",
+            "custom_gradient_background": "",
+            "custom_colors_text": "#2e2a39",
+            "custom_colors_solid_button_background": "#dd1d1d",
+            "custom_colors_solid_button_text": "#ffffff",
+            "custom_colors_outline_button": "#dd1d1d"
+          }
+        }
+      },
+      "block_order": [
+        "slide_iezaAi"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "visibility": "always-display",
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "desktop_pagination_position": "over",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "mobile_pagination_position": "under",
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "image_with_text_6UUEyL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JDn8Ri": {
+          "type": "heading",
+          "settings": {
+            "title": "The Vault of Manifestation Mastery",
+            "title_highlight_color": "#ffffff",
+            "heading_size": "h1"
+          }
+        },
+        "text_8fRCn9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Uncovering the Frequency Laws They Don't Want You to Know</strong></p><p>The truth about reality creation isn't just overlooked—it's being systematically suppressed.</p><p>While you struggle, doubt, and question your power, a select few have mastered the exact frequency mechanics that shape reality itself. Ancient wisdom has been fragmented. Quantum truths have been academically gatekept. The direct path to manifestation has been buried under layers of misinformation, keeping you trapped in limitation.</p><p><strong>But you've always sensed there was more, haven't you?</strong></p><p>That persistent knowing that reality isn't fixed. That intuition that your consciousness is far more powerful than you've been taught. That certainty that somewhere, someone has cracked the code to effortless creation—and they're not sharing the real secrets.</p><p><strong>Your Instincts Are Right. And This Book Contains The Truth.</strong></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JDn8Ri",
+        "text_8fRCn9"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "video": "shopify://files/videos/pinterest-video (1).mp4",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2e2a39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "image_with_text_74FYLf": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BL93Mr": {
+          "type": "heading",
+          "settings": {
+            "title": "Why This Knowledge Was Hidden",
+            "title_highlight_color": "#07b1f3",
+            "heading_size": "h1"
+          }
+        },
+        "text_6rRECD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every day, powerful manifestation principles are:</p><ul><li>❌ <strong>Diluted into \"positive thinking\" platitudes</strong></li><li>❌ <strong>Dismissed as pseudoscience by mainstream gatekeepers</strong></li><li>❌ <strong>Fragmented across dozens of incomplete teachings</strong></li><li>❌ <strong>Kept from those deemed \"not ready\" by spiritual elites</strong></li><li>❌ <strong>Buried under toxic positivity and spiritual bypassing</strong></li></ul><p><strong>We've integrated this knowledge before it's lost to oversimplification.</strong></p><p>Amara Callen has spent over a decade synthesizing ancient Hermetic wisdom, quantum physics, neuroscience research, and the teachings of manifestation masters like Neville Goddard into a complete, uncompromising system that actually works.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BL93Mr",
+        "text_6rRECD"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "video": "shopify://files/videos/pinterest-video.mp4",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2e2a39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "rich_text_RjxJmL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yyEqL4": {
+          "type": "heading",
+          "settings": {
+            "title": "The Complete Manifestation Encyclopedia",
+            "title_highlight_color": "#07b1f3",
+            "heading_size": "h1"
+          }
+        },
+        "text_cnqxKw": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>In an age of surface-level \"Law of Attraction\" content and manifestation influencers who've never studied the real mechanics, we've created something they can't replicate: a comprehensive vault containing the deepest, most powerful, and most suppressed manifestation knowledge ever assembled.</strong></p><p>Every principle. Every technique. Every frequency secret they tried to keep hidden.</p><p><strong>This isn't manifestation theory. This is frequency MASTERY.</strong></p><h2>Inside Our Two-Volume Collection:</h2><h3>📕 <strong>Part 1: Foundation & Frequency Mastery</strong></h3><p><strong>Understanding Your Signal</strong></p><ul><li>The Holographic Mirror principle they don't teach</li><li>How your \"Old Frequency\" sabotages every manifestation attempt</li><li>Why emotion—not thought—is your true creative power</li><li>The reality mirror that reflects your exact frequency back to you</li></ul><p><strong>The Alchemy of Transformation</strong></p><ul><li>Hermetic laws of polarity that the elite use daily</li><li>Identity shifting protocols that bypass years of \"inner work\"</li><li>Building unshakeable conviction from ground zero</li><li>The divine paradox of letting go that accelerates results</li></ul><p><strong>The Paradox of Receiving</strong></p><ul><li>Why \"good with it, good without it\" is the master key</li><li>Tuning into your Sovereign Signal beneath collective programming</li><li>Aligned action that flows instead of forces</li><li>Living the infinite game of continuous manifestation</li></ul><h3>📘 <strong>Part 2: Advanced Mastery & Planetary Alignment</strong></h3><p><strong>Mastering the Subtleties</strong></p><ul><li>Quantum mechanics of manifestation decoded for practical use</li><li>Shadow integration that transforms your \"dark side\" into creative fuel</li><li>Navigating collective consciousness without losing your frequency</li><li>Techniques the quantum physics community won't acknowledge</li></ul><p><strong>Advanced Frequency Technologies</strong></p><ul><li>Timeline acceleration methods that collapse manifestation time</li><li>Morphic resonance and group creation power</li><li>Void State mastery for accessing pure potential</li><li>Secrets of reality manipulation through consciousness alone</li></ul><p><strong>The Embodied Creator</strong></p><ul><li>Using your body as a sophisticated frequency antenna</li><li>Relationship mirrors that reveal your exact vibration</li><li>Creating sustainable wealth through circulation systems</li><li>Earth frequency alignment for amplified manifestation power</li></ul><p><strong>Planetary Consciousness Integration</strong></p><ul><li>Connecting with Gaia's creative force for unstoppable momentum</li><li>Elemental manifestation allies you've never been taught</li><li>Seasonal manifestation cycles that 100x your results</li><li>Sacred site activation for breakthrough manifestations</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yyEqL4",
+        "text_cnqxKw"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "image_banner_tMRKLA": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/59d2b70f71391e7e6da2a748aac4c5df.jpg",
+        "image_1_visibility": "always-display",
+        "image_2_visibility": "always-display",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "url": "",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "transparent_container_color": "white",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "slideshow_kmpJT9",
+    "image_with_text_6UUEyL",
+    "image_with_text_74FYLf",
+    "rich_text_RjxJmL",
+    "image_banner_tMRKLA"
+  ]
+}

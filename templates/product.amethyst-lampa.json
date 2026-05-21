@@ -1,0 +1,894 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "rating_stars_jBaRjg": {
+          "type": "rating_stars",
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#ffcc00",
+            "bg_stars_style": "full",
+            "bg_star_color": "#ececec",
+            "label": "4.8 (2.364 Reviews)",
+            "size": 16,
+            "alignment": "flex-start",
+            "scroll_id": "#shopify-section-template--20768053100780__rich_text_KVVBAL",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": "h1",
+            "title_alignment": "left",
+            "uppercase_title": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "text_bMegC6": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 15,
+            "alignment": "left",
+            "text_color": "#fffdfd",
+            "text_1": "<strong>🚨ONLY 17 LEFT</strong>",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "layout": "price_first",
+            "price_color": "accent-1",
+            "compare_price_color": "text",
+            "displayed_badge": "sale",
+            "icon_scale": 140,
+            "custom_badge_text": "[icon_1] SPECIAL OFFER",
+            "icon_1": "redeem",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "margin_top": 9,
+            "margin_bottom": 15
+          }
+        },
+        "5fcc0428-e768-4cb7-bea3-eb0274198dd1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_types": "pills, dropdown, dropdown",
+            "custom_labels": "[name] - [selected]",
+            "skip_unavailable": false,
+            "swatches_size": "medium",
+            "swatches_custom_colors": "disabled",
+            "swatches_custom_colors_list": "#000000, #6D388B, #0000FF, #FFCC00",
+            "full_width_dropdowns": false,
+            "breaks_style": "normal",
+            "breaks_headline": "BUNDLE & SAVE",
+            "breaks_display_selected_indicator": true,
+            "breaks_border_radius": 10,
+            "breaks_border_width": 2,
+            "breaks_color_scheme": "accent-1",
+            "breaks_badges": "[empty], Most popular, [empty]",
+            "breaks_badge_style": "1",
+            "breaks_badge_color": "accent-1",
+            "breaks_displayed_images": "variant_images",
+            "breaks_custom_images": "",
+            "breaks_image_width": 70,
+            "breaks_space_images": true,
+            "breaks_vertical_images_position": "top",
+            "breaks_vertical_prices_layout": "vertical",
+            "breaks_labels": "[name], [name], [name]",
+            "breaks_benefits": "[empty], Free Shipping, Free Shipping",
+            "breaks_benefit_position": "top",
+            "breaks_benefit_style": "outlined",
+            "breaks_benefit_color": "accent-1",
+            "breaks_captions": "Variant 1 caption, Variant 2 caption, Variant 3 caption",
+            "breaks_price_texts": "[price], [price], [price]",
+            "breaks_compare_price_texts": "[compare_price], [compare_price], [compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "04ba004e-2f54-4936-8b1c-8bcadf6573f6": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "full_width_classic": false,
+            "atc_append": "none",
+            "atc_append_heights": "stretch-quantity",
+            "enable_quantity_discounts": false,
+            "style": "normal",
+            "headline": "BUNDLE & SAVE",
+            "preselected": "option_1",
+            "display_selected_indicator": true,
+            "border_radius": 10,
+            "border_width": 2,
+            "color_scheme": "accent-1",
+            "enable_variant_selectors": true,
+            "enable_variant_selectors_on_quantity_of_1": false,
+            "update_prices": false,
+            "skip_unavailable": false,
+            "full_width_pickers": false,
+            "hide_pickers_overlay": true,
+            "pickers_label": "",
+            "image_width": 70,
+            "space_images": true,
+            "vertical_images_position": "top",
+            "vertical_prices_layout": "vertical",
+            "option_1_quantity": 1,
+            "option_1_badge": "",
+            "option_1_badge_style": "1",
+            "option_1_badge_color": "accent-1",
+            "option_1_label": "Buy [quantity]",
+            "option_1_benefit": "",
+            "option_1_benefit_position": "top",
+            "option_1_benefit_style": "outlined",
+            "option_1_benefit_color": "accent-1",
+            "option_1_caption": "You save [amount_saved]",
+            "option_1_percentage_off_text": "0",
+            "option_1_fixed_amount_off": "0",
+            "option_1_price_text": "[price]",
+            "option_1_compare_price": "compare_price",
+            "option_1_compare_price_text": "[compare_price]",
+            "option_2_quantity": 2,
+            "option_2_badge": "",
+            "option_2_badge_style": "1",
+            "option_2_badge_color": "accent-1",
+            "option_2_label": "Buy [quantity]",
+            "option_2_benefit": "",
+            "option_2_benefit_position": "top",
+            "option_2_benefit_style": "outlined",
+            "option_2_benefit_color": "accent-1",
+            "option_2_caption": "You save [amount_saved]",
+            "option_2_percentage_off_text": "0",
+            "option_2_fixed_amount_off": "0",
+            "option_2_price_text": "[price]",
+            "option_2_compare_price": "compare_price",
+            "option_2_compare_price_text": "[compare_price]",
+            "option_3_quantity": 3,
+            "option_3_badge": "",
+            "option_3_badge_style": "1",
+            "option_3_badge_color": "accent-1",
+            "option_3_label": "Buy [quantity]",
+            "option_3_benefit": "",
+            "option_3_benefit_position": "top",
+            "option_3_benefit_style": "outlined",
+            "option_3_benefit_color": "accent-1",
+            "option_3_caption": "You save [amount_saved]",
+            "option_3_percentage_off_text": "0",
+            "option_3_fixed_amount_off": "0",
+            "option_3_price_text": "[price]",
+            "option_3_compare_price": "compare_price",
+            "option_3_compare_price_text": "[compare_price]",
+            "option_4_quantity": 4,
+            "option_4_badge": "",
+            "option_4_badge_style": "1",
+            "option_4_badge_color": "accent-1",
+            "option_4_label": "Buy [quantity]",
+            "option_4_benefit": "",
+            "option_4_benefit_position": "top",
+            "option_4_benefit_style": "outlined",
+            "option_4_benefit_color": "accent-1",
+            "option_4_caption": "You save [amount_saved]",
+            "option_4_percentage_off_text": "0",
+            "option_4_fixed_amount_off": "0",
+            "option_4_price_text": "[price]",
+            "option_4_compare_price": "compare_price",
+            "option_4_compare_price_text": "[compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "product_upsell_fFGWfg": {
+          "type": "product_upsell",
+          "settings": {
+            "style": "toggle_switch",
+            "btn_position": "right",
+            "toggle_element": "button",
+            "add_btn_label": "<strong>Add</strong>",
+            "stacking": "row",
+            "accent_color": "accent-1",
+            "color_scheme": "background-1",
+            "product_list": [
+              "3-free-gifts",
+              "natural-amethyst-quartz-crystal-bead-bracelet-health-bracelet-for-women-weight-loss-fatigue-pressure-fatigue-relief-yoga-jewelry",
+              "healing-amethysts-pendant-necklaces-natural-stone-dalmation-rectangle-shape-charm-necklace-for-men-black-leather-chain-necklaces"
+            ],
+            "enable_dynamic_recommendations": false,
+            "prdouct_1_preselected": true,
+            "product_1_image": "shopify://shop_images/ChatGPT_Image_2025_M10_26_16_57_02.png",
+            "product_1_desc": "",
+            "product_1_percentage_discount": "0",
+            "product_1_fixed_amount_discount": "0",
+            "prdouct_2_preselected": false,
+            "product_2_desc": "",
+            "product_2_percentage_discount": "0",
+            "product_2_fixed_amount_discount": "0",
+            "prdouct_3_preselected": false,
+            "product_3_desc": "",
+            "product_3_percentage_discount": "0",
+            "product_3_fixed_amount_discount": "0",
+            "show_images": true,
+            "images_size": "5",
+            "images_corner_radius": 0,
+            "title_size": "1.4",
+            "title_link": false,
+            "desc_size": "1.2",
+            "price_position": "next_to_title",
+            "price_size": "1.4",
+            "hide_compare_price": false,
+            "show_variant_picker": false,
+            "update_prices": false,
+            "skip_unavailable": false,
+            "container_title": "",
+            "container_title_position": "outside",
+            "container_title_mobile_text_size": 20,
+            "container_title_desktop_text_size": 20,
+            "corner_radius": 0,
+            "show_box_shadow": false,
+            "show_border": false,
+            "regular_border_color": "#e6e6e6",
+            "selected_border_color": "#6d388b",
+            "border_width": "0.2",
+            "show_custom_bg": false,
+            "regular_bg_color": "#f2f2f2",
+            "selected_bg_color": "#f2f2f2",
+            "margin_top": 21,
+            "margin_bottom": 21
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "skip_cart": false,
+            "uppercase_text": true,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "display_price": false,
+            "enable_custom_color": true,
+            "custom_color": "#53af01",
+            "enable_secondary_btn": false,
+            "secondary_btn_label": "Buy It Now",
+            "secondary_btn_enable_custom_color": false,
+            "secondary_btn_custom_color": "#dd1d1d",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "payment_badges_VYCert": {
+          "type": "payment_badges",
+          "settings": {
+            "enabled_payment_types": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5": {
+          "type": "sticky_atc",
+          "settings": {
+            "function": "add_to_cart",
+            "display_when": "after_scroll",
+            "button_label": "Add to cart",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "background-1",
+            "star_color": "#ffcc00",
+            "stars_label": "(xxxx Reviews)",
+            "picker_type": "combined",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": false,
+            "desktop_show_price": true,
+            "desktop_show_sale_badge": true,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": false,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": true,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": false,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        },
+        "collapsible_tab_AhLrV8": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Description",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Transform any space into a healing oasis full of sacred energy with the serene Amethyst halo lamp. It helps soothe the soul, awaken intuition, and instill a comforting sense of trust and peace with the world around you.</p><p><strong>Amethyst </strong>is celebrated for its calming presence, bringing <strong>a sense of comfort </strong>that resonates with the mind, body, and spirit. With its design symbolizing the third eye, this lamp is crafted to encourage a deeper connection with your inner self, creating a <strong>peaceful and harmonious atmosphere</strong>.</p><p> It's an excellent choice for creating a relaxed setting, perfect for peaceful moods and supporting meditation and spiritual exploration. The <strong>Halo </strong>shape represents the infinite energy of a circle–designed to mirror the infinite expansion of your spirit and its capacity to embody love and peace. While the mind and body may be restrictive, your soul is all-knowing, and your consciousness will live on into eternity. For the ultimate balance and peace within a space, place the Amethyst lamp in the optimal <strong>Feng Shui </strong>position near doorways, entrances, or where you may rest. </p><p><strong>Affirmation: </strong><em>\"I am at ease with life and make peace with everyone and everything. Peace comes to me effortlessly.\" </em></p><p><strong>How to use: </strong>Place your lamp in a room where you seek solace and comfort. Great for reading spaces, offices, nightstands, meditation, and yoga rooms. Also ideal for the living room and hallways to clear energy. The light is adjustable for brightness preference. Absorb the radiant soul healing wherever the Amethyst lamp may glow. </p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_GhQthM": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Size & Mateerials",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p><strong>DIMENSIONS</strong></p><ul><li>Stone Size: 0.7 - 1.5 in (2 - 4 cm)<br/>Lamp Size::<br/>Inner Diameter: 5.9 in (16 cm);<br/>Outer Diameter: 7 in (18 cm);<br/>Height: 7.8 in (20 cm);<br/>Base: 3.9 x 0.9 in (10 x 2.3 cm);<br/>Cable Cord Length: 55 in (140 cm)<br/>Weight: 22.2 - 23.9 oz (630 - 680 g)</li></ul><p><strong>MATERIALS</strong></p><ul><li>Item Type: Natural Stone Lamp<br/>Material: Amethyst and Iron Frame<br/>Color: Purple and Black<br/>Package Includes: 1 x Amethyst Lamp with USB Cable Cord</li></ul>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_teRQ8z": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "heading_size": "medium",
+            "icon": "",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<ul><li>FREE US Shipping for orders above $79</li><li>We ship worldwide</li><li>Every shipment is tracked & insured</li></ul><p><strong>RETURNS</strong></p><ul><li>Every order comes with 30-day money-back guarantee.</li></ul>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "rating_stars_jBaRjg",
+        "title",
+        "text_bMegC6",
+        "price",
+        "5fcc0428-e768-4cb7-bea3-eb0274198dd1",
+        "description",
+        "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
+        "product_upsell_fFGWfg",
+        "buy_buttons",
+        "payment_badges_VYCert",
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5",
+        "collapsible_tab_AhLrV8",
+        "collapsible_tab_GhQthM",
+        "collapsible_tab_teRQ8z"
+      ],
+      "custom_css": [],
+      "settings": {
+        "display_id": false,
+        "enable_sticky_info": true,
+        "display_variant_image_first": false,
+        "disable_prepend": true,
+        "hide_variants": false,
+        "variant_image_filtering": "none",
+        "image_zoom": "none",
+        "thumbnails_ratio": "square",
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "video_player": "play_btn",
+        "enable_video_looping": false,
+        "autoplay_videos_pause_btn": false,
+        "video_sound_btn": false,
+        "video_timeline": false,
+        "play_btn_color_scheme": "accent-1",
+        "sound_btn_color_scheme": "inverse",
+        "timeline_color": "accent-1",
+        "media_size": "medium",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "desktop_thumbnails_position": "bottom",
+        "desktop_thumbnails_count": 5,
+        "desktop_vertical_thumbnails_width": 16,
+        "desktop_vertical_thumbnails_hide_arrows": false,
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "desktop_arrows_position": "hidden",
+        "mobile_media_corner_radius": 0,
+        "mobile_spacing_pixels": 0,
+        "mobile_arrows_position": "sides",
+        "mobile_pagination": "dots_overlay",
+        "mobile_thumbnails_position": "hidden",
+        "mobile_thumbnails_count": 5,
+        "mobile_vertical_thumbnails_width": 22,
+        "mobile_vertical_thumbnails_hide_arrows": true,
+        "mobile_scroll_padding_percentage": 0,
+        "mobile_scroll_padding_pixels": 0,
+        "enable_mobile_outher_spacing": false,
+        "mobile_slides_container_width": 100,
+        "mobile_slides_inner_width": 100,
+        "trust_badge_position": "top-right",
+        "trust_badge_size": "medium",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "title": "You may also like",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "rich_text_3GPpfa": {
+      "type": "rich-text",
+      "blocks": {
+        "text_pTMDT8": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>💜 <strong>Amethyst is here to awaken the calm power that already lives within you.</strong></h2><p>It’s the crystal of deep restoration — a key to your inner peace, intuition, and mental clarity.<br/><br/>Instead of igniting chaos, it silences the noise. It reconnects you to the part of yourself that already knows — and always did.</p><h3><strong>NOTE: All our crystals are genuine.</strong></h3><p>Amethyst naturally comes in a range of shades — from pale lilac to deep royal violet, sometimes with soft white or smoky bands.</p><p><strong>You will always receive the crystal that’s meant for your energy.</strong></p><p>If you just want a perfectly colored, synthetic purple gem — please order a plastic one online. We don’t sell imitations.</p><p>We only offer products to customers who understand that every stone we craft comes directly from <strong>Mother Earth</strong>, not a factory.</p><p>Each piece is unique, imperfect, and alive — shaped by time, pressure, and silence.</p><p>You can see the different tones and natural patterns in the picture below — that’s what makes each <strong>Amethyst</strong> piece truly yours.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_pTMDT8"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "image_slider_79RyYb": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slide_MRQjiG": {
+          "type": "image_slide",
+          "settings": {
+            "image": "shopify://shop_images/f3a30910f6bc145292cd15d2c760bb534fd37881413314971e0e2ebcff05ca96_1024x_d5cae206-2324-46b3-9c85-8fd877a3e866.webp",
+            "link": "",
+            "description": "",
+            "desc_alignment": "center",
+            "desc_color_scheme": "background-2"
+          }
+        }
+      },
+      "block_order": [
+        "image_slide_MRQjiG"
+      ],
+      "name": "Image/Video Slider",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "type": "slide",
+        "drag": "enabled",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "center_mode": false,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "desktop_page_width": "normal",
+        "desktop_border_radius": 0,
+        "slides_desktop": 1,
+        "per_move_desktop": 1,
+        "desktop_spacing": 28,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "hidden",
+        "mobile_full_page": false,
+        "mobile_border_radius": 0,
+        "slides_mobile": 1,
+        "per_move_mobile": 1,
+        "mobile_spacing": 12,
+        "mobile_side_padding": 0,
+        "mobile_padding_calc": true,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "hidden",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
+    "rich_text_PKJhQ8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MLTJTg": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1"
+          }
+        },
+        "text_AxxByT": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>💜 <strong>Why is this necklace more expensive?</strong></h3><p>Authentic <strong>Amethyst</strong> of deep violet quality is becoming harder to find — true volcanic-origin stones are now considered semi-precious, and their price continues to rise.</p><p>Be cautious if you see “cheap amethyst” — it’s often <strong>dyed quartz, glass, or synthetic crystal</strong>, not the real thing.</p><p>And trust us — it won’t carry the same <strong>energy, healing frequency, or calming effects AT ALL!</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MLTJTg",
+        "text_AxxByT"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "rich_text_ADbTwJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Hf9MTp": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>Receipts don’t lie.</strong>",
+            "title_highlight_color": "#07b1f3",
+            "heading_size": "h1"
+          }
+        },
+        "text_GmThNT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>⭐ <strong>Rated 4.8 by 292,000 babes</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Hf9MTp",
+        "text_GmThNT"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "testimonials_UrzVVB": {
+      "type": "testimonials",
+      "blocks": {
+        "column_yN4mgL": {
+          "type": "column",
+          "settings": {
+            "star_rating": 5,
+            "title": "",
+            "text": "<p>I placed it in my living room, but now I move it wherever I go. The amethyst energy is simply divine,  it fills the room with calm and harmony every time I turn it on</p>",
+            "author": "<strong>Laura M.</strong>"
+          }
+        },
+        "column_GLPTqN": {
+          "type": "column",
+          "settings": {
+            "star_rating": 5,
+            "title": "",
+            "text": "<p>Sophisticated, serene, and deeply spiritual. It’s not just beautiful, it truly shifts the energy of the space. The light is gentle and soothing, perfect for evening reflection or quiet reading.</p>",
+            "author": "<strong>Michael R.</strong>"
+          }
+        },
+        "column_fC4EQq": {
+          "type": "column",
+          "settings": {
+            "star_rating": 5,
+            "title": "",
+            "text": "<p>What started as a lamp became my evening ritual. Every night I turn it on before journaling. It helps me center my thoughts and release the stress of the day.</p>",
+            "author": "<strong>Evelyn H.</strong>"
+          }
+        },
+        "column_m8Dadf": {
+          "type": "column",
+          "settings": {
+            "star_rating": 4,
+            "title": "",
+            "text": "<p>A perfect balance of art and energy. I’ve always loved modern design with spiritual symbolism. This lamp brings both, light for the eyes, peace for the soul.</p>",
+            "author": "<strong>David L.</strong>"
+          }
+        },
+        "column_aL4BaM": {
+          "type": "column",
+          "settings": {
+            "star_rating": 5,
+            "title": "",
+            "text": "<p>Didn’t expect much when I ordered it, but it honestly moved me. There’s something in the glow that brings deep comfort. My husband, who doesn’t believe in crystals at all, said he sleeps better when it’s on.</p>",
+            "author": "<strong>Sophia G.</strong>"
+          }
+        },
+        "column_mEFwAM": {
+          "type": "column",
+          "settings": {
+            "star_rating": 5,
+            "title": "",
+            "text": "<p>A constant reminder to slow down and breathe. The moment I come home and switch it on, the world quiets down. It’s like having a personal sanctuary of light.</p>",
+            "author": "<strong>Janet P.</strong>"
+          }
+        },
+        "column_zh4Efj": {
+          "type": "column",
+          "settings": {
+            "star_rating": 5,
+            "title": "",
+            "text": "<p>Finally, a product that radiates both quality and soul. The craftsmanship is exquisite, and the soft energy it emits feels cleansing. You can tell it was made with intention.</p>",
+            "author": "<strong>Anthony D.</strong>"
+          }
+        },
+        "column_fdzD4Y": {
+          "type": "column",
+          "settings": {
+            "star_rating": 5,
+            "title": "",
+            "text": "<p>Illuminates not just the room, but your spirit. I use it in my yoga space. It transformed the entire vibe, now the room feels grounded and sacred.</p>",
+            "author": "<strong>Martha S.</strong>"
+          }
+        },
+        "column_GAfM9Y": {
+          "type": "column",
+          "settings": {
+            "star_rating": 5,
+            "title": "",
+            "text": "<p>My little temple of silence. When I’m overwhelmed, I sit beside it and just breathe. The gentle light feels like therapy.</p>",
+            "author": "<strong>Patricia W.</strong>"
+          }
+        },
+        "column_y4i4md": {
+          "type": "column",
+          "settings": {
+            "star_rating": 5,
+            "title": "",
+            "text": "<p>More than decor, you can truly feel its presence. As a therapist, I use it in my practice. Clients often comment how peaceful the energy feels before our sessions begin.</p>",
+            "author": "<strong>Richard K.</strong>"
+          }
+        },
+        "column_iYYLA4": {
+          "type": "column",
+          "settings": {
+            "star_rating": 4,
+            "title": "",
+            "text": "<p>Perfect for evening rituals and deep relaxation. The 30 light modes offer so many moods, from soft golden warmth to a mystical violet glow. My favorite for meditation time.</p>",
+            "author": "<strong>Clara J.</strong>"
+          }
+        },
+        "column_DnN94Q": {
+          "type": "column",
+          "settings": {
+            "star_rating": 5,
+            "title": "",
+            "text": "<p>A symbol of infinity that reminds me how everything is connected. The halo shape and crystals create a constant flow of gentle, circular energy. It’s pure feng shui magic.</p>",
+            "author": "<strong>Elizabeth N.</strong>"
+          }
+        },
+        "column_LQKYpX": {
+          "type": "column",
+          "settings": {
+            "star_rating": 4,
+            "title": "",
+            "text": "<p>Bought it as a gift for my sister and now I want one too. Her reaction was priceless ,she said it felt like her home started breathing again.</p>",
+            "author": "<strong>Liam B.</strong>"
+          }
+        },
+        "column_mX6A3r": {
+          "type": "column",
+          "settings": {
+            "star_rating": 5,
+            "title": "",
+            "text": "<p>My house has never felt this peaceful. The light is soothing, the energy feels healing, and the design fits any room beautifully.</p>",
+            "author": "<strong>Diana C.</strong>"
+          }
+        },
+        "column_Jy8EGU": {
+          "type": "column",
+          "settings": {
+            "star_rating": 5,
+            "title": "",
+            "text": "<p>For those who seek harmony without sacrificing aesthetics. It looks like a designer piece but radiates with spiritual calm. Truly the best of both worlds.</p>",
+            "author": "<strong>Mark F.</strong>"
+          }
+        },
+        "column_HjYEqm": {
+          "type": "column",
+          "settings": {
+            "star_rating": 5,
+            "title": "",
+            "text": "<p>It’s as if the light itself is meditating. I placed it near the window, when the sun sets, the halo glow creates a magical atmosphere that’s hard to describe.</p>",
+            "author": "<strong>Helen T.</strong>"
+          }
+        },
+        "column_Xh3zfH": {
+          "type": "column",
+          "settings": {
+            "star_rating": 4,
+            "title": "",
+            "text": "<p>The most elegant Feng Shui addition to my home. I placed it by the entrance, and now it feels like stepping into peace every time I come home.</p>",
+            "author": "<strong>James P.</strong>"
+          }
+        },
+        "column_hF4j99": {
+          "type": "column",
+          "settings": {
+            "star_rating": 5,
+            "title": "",
+            "text": "<p>My nightly affirmation has finally found its anchor. As the light flickers softly, I repeat: ‘I am at ease with life and make peace with everyone and everything.’ And somehow, peace really does come effortlessly.</p>",
+            "author": "<strong>Rachel M.</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "column_yN4mgL",
+        "column_GLPTqN",
+        "column_fC4EQq",
+        "column_m8Dadf",
+        "column_aL4BaM",
+        "column_mEFwAM",
+        "column_zh4Efj",
+        "column_fdzD4Y",
+        "column_GAfM9Y",
+        "column_y4i4md",
+        "column_iYYLA4",
+        "column_DnN94Q",
+        "column_LQKYpX",
+        "column_mX6A3r",
+        "column_Jy8EGU",
+        "column_HjYEqm",
+        "column_Xh3zfH",
+        "column_hF4j99"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Testimonials",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "background-1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "center",
+        "show_stars": true,
+        "inactive_stars_style": "solid",
+        "star_color": "#ffcc00",
+        "bg_star_color": "#ececec",
+        "show_quotes": true,
+        "quotes_color_scheme": "accent-2",
+        "cards_color_scheme": "bg-overlay",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": true,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "sides",
+        "slider_mobile": true,
+        "enable_mobile_preview": true,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "sides",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_cards_colors_background": "#F3F3F3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2E2A39"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "rich_text_3GPpfa",
+    "image_slider_79RyYb",
+    "rich_text_PKJhQ8",
+    "rich_text_ADbTwJ",
+    "testimonials_UrzVVB"
+  ]
+}

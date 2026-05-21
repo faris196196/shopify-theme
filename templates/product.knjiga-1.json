@@ -1,0 +1,1048 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_8n4cyg": {
+      "type": "rich-text",
+      "blocks": {
+        "text_FGGNWx": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>⚠️ DISCLAIMER: 147 COPIES LEFT</h6>"
+          }
+        },
+        "heading_3f6R88": {
+          "type": "heading",
+          "settings": {
+            "title": "The AI Danger Book They're Trying To Erase",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1"
+          }
+        },
+        "text_YJyLmF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The elite AI future takeover methods Dr. Selwyn Raithe leaked — before they could stop him.</p>"
+          }
+        },
+        "text_iQXFCM": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>DIGITAL COPY - WHEN PHYSICAL GETS PUBLISHED, YOU GET IT FREE!</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "text_FGGNWx",
+        "heading_3f6R88",
+        "text_YJyLmF",
+        "text_iQXFCM"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "urgency_eeUUWj": {
+          "type": "urgency",
+          "settings": {
+            "urgency": "17 PEPOPLE VIEWING THIS RIGHT NOW",
+            "color_scheme": "accent-1",
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": "h2",
+            "title_alignment": "left",
+            "uppercase_title": false,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "rating_stars_XhmQpx": {
+          "type": "rating_stars",
+          "settings": {
+            "rating": 4.8,
+            "star_color": "#ffcc00",
+            "bg_stars_style": "full",
+            "bg_star_color": "#ececec",
+            "label": "5364 Reviews",
+            "size": 16,
+            "alignment": "flex-start",
+            "scroll_id": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "popup_Qk4Qx9": {
+          "type": "popup",
+          "settings": {
+            "text": "Free Pages Preview",
+            "page": "preview-pages-12-last-steps",
+            "close_button_style": "minimalistic",
+            "margin_top": 12,
+            "margin_bottom": 12
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "layout": "price_first",
+            "price_color": "accent-1",
+            "compare_price_color": "text",
+            "displayed_badge": "sale",
+            "icon_scale": 140,
+            "custom_badge_text": "[icon_1] SPECIAL OFFER",
+            "icon_1": "redeem",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "margin_top": 9,
+            "margin_bottom": 15
+          }
+        },
+        "5fcc0428-e768-4cb7-bea3-eb0274198dd1": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_types": "pills, dropdown, dropdown",
+            "custom_labels": "[name] - [selected]",
+            "skip_unavailable": false,
+            "swatches_size": "medium",
+            "swatches_custom_colors": "disabled",
+            "swatches_custom_colors_list": "#000000, #6D388B, #0000FF, #FFCC00",
+            "full_width_dropdowns": false,
+            "breaks_style": "normal",
+            "breaks_headline": "BUNDLE & SAVE",
+            "breaks_display_selected_indicator": true,
+            "breaks_border_radius": 10,
+            "breaks_border_width": 2,
+            "breaks_color_scheme": "accent-1",
+            "breaks_badges": "[empty], Most popular, [empty]",
+            "breaks_badge_style": "1",
+            "breaks_badge_color": "accent-1",
+            "breaks_displayed_images": "variant_images",
+            "breaks_custom_images": "",
+            "breaks_image_width": 70,
+            "breaks_space_images": true,
+            "breaks_vertical_images_position": "top",
+            "breaks_vertical_prices_layout": "vertical",
+            "breaks_labels": "[name], [name], [name]",
+            "breaks_benefits": "[empty], Free Shipping, Free Shipping",
+            "breaks_benefit_position": "top",
+            "breaks_benefit_style": "outlined",
+            "breaks_benefit_color": "accent-1",
+            "breaks_captions": "Variant 1 caption, Variant 2 caption, Variant 3 caption",
+            "breaks_price_texts": "[price], [price], [price]",
+            "breaks_compare_price_texts": "[compare_price], [compare_price], [compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "04ba004e-2f54-4936-8b1c-8bcadf6573f6": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "full_width_classic": false,
+            "atc_append": "none",
+            "atc_append_heights": "stretch-quantity",
+            "enable_quantity_discounts": false,
+            "style": "normal",
+            "headline": "BUNDLE & SAVE",
+            "preselected": "option_1",
+            "display_selected_indicator": true,
+            "border_radius": 10,
+            "border_width": 2,
+            "color_scheme": "accent-1",
+            "enable_variant_selectors": true,
+            "enable_variant_selectors_on_quantity_of_1": false,
+            "update_prices": false,
+            "skip_unavailable": false,
+            "full_width_pickers": false,
+            "hide_pickers_overlay": true,
+            "pickers_label": "",
+            "image_width": 70,
+            "space_images": true,
+            "vertical_images_position": "top",
+            "vertical_prices_layout": "vertical",
+            "option_1_quantity": 1,
+            "option_1_badge": "",
+            "option_1_badge_style": "1",
+            "option_1_badge_color": "accent-1",
+            "option_1_label": "Buy [quantity]",
+            "option_1_benefit": "",
+            "option_1_benefit_position": "top",
+            "option_1_benefit_style": "outlined",
+            "option_1_benefit_color": "accent-1",
+            "option_1_caption": "You save [amount_saved]",
+            "option_1_percentage_off_text": "0",
+            "option_1_fixed_amount_off": "0",
+            "option_1_price_text": "[price]",
+            "option_1_compare_price": "compare_price",
+            "option_1_compare_price_text": "[compare_price]",
+            "option_2_quantity": 2,
+            "option_2_badge": "",
+            "option_2_badge_style": "1",
+            "option_2_badge_color": "accent-1",
+            "option_2_label": "Buy [quantity]",
+            "option_2_benefit": "",
+            "option_2_benefit_position": "top",
+            "option_2_benefit_style": "outlined",
+            "option_2_benefit_color": "accent-1",
+            "option_2_caption": "You save [amount_saved]",
+            "option_2_percentage_off_text": "0",
+            "option_2_fixed_amount_off": "0",
+            "option_2_price_text": "[price]",
+            "option_2_compare_price": "compare_price",
+            "option_2_compare_price_text": "[compare_price]",
+            "option_3_quantity": 3,
+            "option_3_badge": "",
+            "option_3_badge_style": "1",
+            "option_3_badge_color": "accent-1",
+            "option_3_label": "Buy [quantity]",
+            "option_3_benefit": "",
+            "option_3_benefit_position": "top",
+            "option_3_benefit_style": "outlined",
+            "option_3_benefit_color": "accent-1",
+            "option_3_caption": "You save [amount_saved]",
+            "option_3_percentage_off_text": "0",
+            "option_3_fixed_amount_off": "0",
+            "option_3_price_text": "[price]",
+            "option_3_compare_price": "compare_price",
+            "option_3_compare_price_text": "[compare_price]",
+            "option_4_quantity": 4,
+            "option_4_badge": "",
+            "option_4_badge_style": "1",
+            "option_4_badge_color": "accent-1",
+            "option_4_label": "Buy [quantity]",
+            "option_4_benefit": "",
+            "option_4_benefit_position": "top",
+            "option_4_benefit_style": "outlined",
+            "option_4_benefit_color": "accent-1",
+            "option_4_caption": "You save [amount_saved]",
+            "option_4_percentage_off_text": "0",
+            "option_4_fixed_amount_off": "0",
+            "option_4_price_text": "[price]",
+            "option_4_compare_price": "compare_price",
+            "option_4_compare_price_text": "[compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "product_upsell_9YQiFd": {
+          "type": "product_upsell",
+          "settings": {
+            "style": "toggle_switch",
+            "btn_position": "right",
+            "toggle_element": "button",
+            "add_btn_label": "<strong>Add</strong>",
+            "stacking": "row",
+            "accent_color": "accent-1",
+            "color_scheme": "background-1",
+            "product_list": [
+              "12-last-steps-journal",
+              "ai-audio-bundle",
+              "the-last-money-path"
+            ],
+            "enable_dynamic_recommendations": false,
+            "prdouct_1_preselected": true,
+            "product_1_image": "shopify://shop_images/ChatGPTImageAug17_2025_03_26_21PM_9d08c273-17bf-4b8f-bb87-eeb2cb08776d.png",
+            "product_1_desc": "",
+            "product_1_percentage_discount": "",
+            "product_1_fixed_amount_discount": "0",
+            "prdouct_2_preselected": true,
+            "product_2_image": "shopify://shop_images/Neutral_Minimalist_Aesthetic_Time_Management_Ebook_Cover.png",
+            "product_2_desc": "In this bundle you get access to 12 Last Steps audiobook + Hidden Last recordings of Selwyn Raithe",
+            "product_2_percentage_discount": "0",
+            "product_2_fixed_amount_discount": "0",
+            "prdouct_3_preselected": true,
+            "product_3_image": "shopify://shop_images/ChatGPTImageSep7_2025_12_22_12AM.png",
+            "product_3_desc": "This ebook prevents the #1 reason people give up on financial freedom—chasing outdated paths while missing the $4.4 trillion AI shift that’s happening right now",
+            "product_3_percentage_discount": "0",
+            "product_3_fixed_amount_discount": "0",
+            "show_images": true,
+            "images_size": "5",
+            "images_corner_radius": 0,
+            "title_size": "1.4",
+            "title_link": false,
+            "desc_size": "1.2",
+            "price_position": "next_to_title",
+            "price_size": "1.4",
+            "hide_compare_price": false,
+            "show_variant_picker": true,
+            "update_prices": false,
+            "skip_unavailable": false,
+            "container_title": "",
+            "container_title_position": "outside",
+            "container_title_mobile_text_size": 20,
+            "container_title_desktop_text_size": 20,
+            "corner_radius": 0,
+            "show_box_shadow": false,
+            "show_border": false,
+            "regular_border_color": "#e6e6e6",
+            "selected_border_color": "#6d388b",
+            "border_width": "0.2",
+            "show_custom_bg": false,
+            "regular_bg_color": "#f2f2f2",
+            "selected_bg_color": "#f2f2f2",
+            "margin_top": 21,
+            "margin_bottom": 21
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "skip_cart": true,
+            "uppercase_text": true,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "display_price": false,
+            "enable_custom_color": false,
+            "custom_color": "#53af01",
+            "enable_secondary_btn": false,
+            "secondary_btn_label": "Buy It Now",
+            "secondary_btn_enable_custom_color": false,
+            "secondary_btn_custom_color": "#dd1d1d",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "payment_badges_VYCert": {
+          "type": "payment_badges",
+          "settings": {
+            "enabled_payment_types": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "reelfy_videos_reelfy_section_B9wNfz": {
+          "type": "shopify://apps/reelfy-videos/blocks/reelfy-section/4022ffb0-05c3-4ef3-a409-6df51f4b1b3f",
+          "settings": {
+            "gallery_id": 11649,
+            "title": "The Truth",
+            "subtitle": "",
+            "heading_size": "1",
+            "heading_align": "center",
+            "heading_color": "",
+            "desc_style": "subtitle",
+            "desc_color": "",
+            "custom_class": "",
+            "background_color": "",
+            "padding_top": 36,
+            "padding_bottom": 36,
+            "padding_left_right": 0
+          }
+        },
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5": {
+          "type": "sticky_atc",
+          "disabled": true,
+          "settings": {
+            "function": "add_to_cart",
+            "display_when": "after_scroll",
+            "button_label": "Add to cart",
+            "enable_custom_btn_color": false,
+            "custom_btn_color": "#dd1d1d",
+            "color_scheme": "background-1",
+            "star_color": "#ffcc00",
+            "stars_label": "(xxxx Reviews)",
+            "picker_type": "combined",
+            "desktop_show_image": true,
+            "desktop_show_title": true,
+            "desktop_rating_stars": false,
+            "desktop_show_price": true,
+            "desktop_show_sale_badge": true,
+            "desktop_variant_picker": true,
+            "desktop_full_button_width": false,
+            "desktop_show_price_in_button": false,
+            "desktop_transparent_bg": false,
+            "mobile_show_image": false,
+            "mobile_show_title": true,
+            "mobile_rating_stars": false,
+            "mobile_show_price": true,
+            "mobile_show_sale_badge": false,
+            "mobile_variant_picker": false,
+            "mobile_full_button_width": false,
+            "mobile_show_price_in_button": false,
+            "mobile_transparent_bg": false
+          }
+        },
+        "de158e68-5d0d-4819-a625-e2dabdff87d1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is this too technical for me?",
+            "heading_size": "medium",
+            "icon": "laptop",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Not at all. <em>12 Last Steps</em> was written for everyday readers, not AI engineers. You don’t need any technical background, everything is explained in plain language so you can follow each step without confusion.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_RDaXPM": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is this just fear-mongering about AI?",
+            "heading_size": "medium",
+            "icon": "book_5",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>No. Each of the 12 steps is grounded in <strong>real research, current AI trends, and actual events</strong> happening today. Nothing here is science fiction, it’s the uncomfortable reality unfolding around us.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_TdYymG": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Why should I pay when AI info is free online?",
+            "heading_size": "medium",
+            "icon": "extension",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>You <em>could</em> spend months digging through scattered blogs, podcasts, and conspiracy threads. But this ebook <strong>compresses everything into one clear framework</strong>, saving you time, giving you structure, and showing you the full picture you won’t find anywhere else.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_RkbTyh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I read it on my phone or tablet?",
+            "heading_size": "medium",
+            "icon": "question_mark",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Absolutely. The ebook is delivered instantly in universal formats, perfect for Kindle, iBooks, tablets, or even your smartphone.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "collapsible_tab_MrY8Ha": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How fast will I get the book after purchase?",
+            "heading_size": "medium",
+            "icon": "box",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p><strong>Immediately.</strong> The moment your payment is processed, you’ll receive a direct download link. No shipping, no waiting, it’s in your inbox right away.</p>",
+            "page": "",
+            "margin_top": 24,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "urgency_eeUUWj",
+        "title",
+        "rating_stars_XhmQpx",
+        "popup_Qk4Qx9",
+        "price",
+        "5fcc0428-e768-4cb7-bea3-eb0274198dd1",
+        "04ba004e-2f54-4936-8b1c-8bcadf6573f6",
+        "description",
+        "product_upsell_9YQiFd",
+        "buy_buttons",
+        "payment_badges_VYCert",
+        "reelfy_videos_reelfy_section_B9wNfz",
+        "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5",
+        "de158e68-5d0d-4819-a625-e2dabdff87d1",
+        "collapsible_tab_RDaXPM",
+        "collapsible_tab_TdYymG",
+        "collapsible_tab_RkbTyh",
+        "collapsible_tab_MrY8Ha"
+      ],
+      "custom_css": [],
+      "settings": {
+        "display_id": false,
+        "enable_sticky_info": true,
+        "display_variant_image_first": false,
+        "disable_prepend": true,
+        "hide_variants": false,
+        "variant_image_filtering": "none",
+        "image_zoom": "none",
+        "thumbnails_ratio": "square",
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "video_player": "play_btn",
+        "enable_video_looping": false,
+        "autoplay_videos_pause_btn": false,
+        "video_sound_btn": false,
+        "video_timeline": false,
+        "play_btn_color_scheme": "accent-1",
+        "sound_btn_color_scheme": "inverse",
+        "timeline_color": "accent-1",
+        "media_size": "medium",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "desktop_thumbnails_position": "bottom",
+        "desktop_thumbnails_count": 6,
+        "desktop_vertical_thumbnails_width": 12,
+        "desktop_vertical_thumbnails_hide_arrows": false,
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "desktop_arrows_position": "hidden",
+        "mobile_media_corner_radius": 0,
+        "mobile_spacing_pixels": 0,
+        "mobile_arrows_position": "sides",
+        "mobile_pagination": "dots_overlay",
+        "mobile_thumbnails_position": "hidden",
+        "mobile_thumbnails_count": 5,
+        "mobile_vertical_thumbnails_width": 22,
+        "mobile_vertical_thumbnails_hide_arrows": true,
+        "mobile_scroll_padding_percentage": 0,
+        "mobile_scroll_padding_pixels": 0,
+        "enable_mobile_outher_spacing": false,
+        "mobile_slides_container_width": 100,
+        "mobile_slides_inner_width": 100,
+        "trust_badge_position": "top-right",
+        "trust_badge_size": "medium",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "title": "You may also like",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "facebook_testimonials_d4EKFc": {
+      "type": "facebook-testimonials",
+      "blocks": {
+        "column_XWGmeg": {
+          "type": "column",
+          "settings": {
+            "post_author": "Jennifer Thompson",
+            "post_author_avatar": "shopify://shop_images/openart-a-hyper-realistic-full-body-portrait-of-a-beautiful-19-year-old-lonodon-gi_430x_99a8b6ab-bde8-4986-9a20-6d5ff9b5af0a.webp",
+            "post_author_verified": true,
+            "post_time": "2h ago",
+            "post_text": "<p>Watching this while my 12 year old daughter is upstairs talking to her AI friend on that Replika app 😱😭😭 cascade 3 about the children being “conditioned” just made me run up and take her phone. IDC if she hates me. Ordering this book RIGHT NOW. The fact that cascade 12 hasn’t even happened yet and we’re already at cascade 3 … Lord help us all 🙏 Thank you for having the courage to share this truth!!!</p>",
+            "post_reactions": "like, love,wow",
+            "post_reactions_text": "1.1k",
+            "post_comments_text": "26 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_3JLWi3": {
+          "type": "column",
+          "settings": {
+            "post_author": "Jennifer Thompson",
+            "post_author_avatar": "shopify://shop_images/openart-a-hyper-realistic-full-body-portrait-of-a-beautiful-19-year-old-lonodon-gi_430x_99a8b6ab-bde8-4986-9a20-6d5ff9b5af0a.webp",
+            "post_author_verified": true,
+            "post_time": "2h ago",
+            "post_text": "<p>Watching this while my 12 year old daughter is upstairs talking to her AI friend on that Replika app 😱😭😭 cascade 3 about the children being “conditioned” just made me run up and take her phone. IDC if she hates me. Ordering this book RIGHT NOW. The fact that cascade 12 hasn’t even happened yet and we’re already at cascade 3 … Lord help us all 🙏 Thank you for having the courage to share this truth!!!</p>",
+            "post_reactions": "like, love,wow",
+            "post_reactions_text": "1.1k",
+            "post_comments_text": "26 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_C8zMdg": {
+          "type": "column",
+          "settings": {
+            "post_author": "Eliot Wicken",
+            "post_author_avatar": "shopify://shop_images/download_1_430x_6dfdcfb2-fc7f-4549-b51f-c4f6f61107a6.jpg",
+            "post_author_verified": false,
+            "post_time": "14d ago",
+            "post_text": "<p>I’m 58 years old and not tech savvy but even I can see something is VERY wrong. cascade 10 about the banks and social credit system? My daughter in Seattle just told me her apartment building installed facial recognition that’s “optional” but you get rent discount if you opt in 🎉🎉🎉 Bought 5 copies of this book on amazon one for each of my kids. They think mom’s gone down the rabbit hole but when cascade 12 hits, they’ll thank me. God bless you for exposing this. Praying more people wake up before it’s too late 🙏✝️</p>",
+            "post_reactions": "wow,like",
+            "post_reactions_text": "2.3k",
+            "post_comments_text": "59 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
+        "column_3DWKnJ": {
+          "type": "column",
+          "settings": {
+            "post_author": "Carlos Rodriguez",
+            "post_author_avatar": "shopify://shop_images/images_21_430x_cdcca66f-ecf2-4af6-b58e-2a1ff9345830.jpg",
+            "post_author_verified": true,
+            "post_time": "10h ago",
+            "post_text": "<p>Guys… I’m a truck driver, 44 years old, and Cascade 5 about autonomous vehicles hit way too close to home. They told us we had “at least 10 years” before self-driving trucks. BS. My buddy at FedEx just sent me pics of their new AI fleet in testing – NO DRIVERS.</p>",
+            "post_reactions": "like,angry",
+            "post_reactions_text": "411",
+            "post_comments_text": "26 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_XWGmeg",
+        "column_3JLWi3",
+        "column_C8zMdg",
+        "column_3DWKnJ"
+      ],
+      "name": "Facebook testimonials",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Testimonials",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "text": "",
+        "color_scheme": "background-2",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 24,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
+        "post_bg_color": "#ffffff",
+        "post_text_color": "#101010",
+        "comments_bg_color": "#f0f2f5",
+        "separators_color": "#a4b0be",
+        "post_border_color": "#dfdfdf",
+        "border_width": 1,
+        "like_label": "Like",
+        "comment_label": "Comment",
+        "reply_label": "Reply",
+        "share_label": "Share",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#f3f3f3",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39"
+      }
+    },
+    "b321ab88-2b59-4dba-bade-54885c874ca5": {
+      "type": "section-divider",
+      "settings": {
+        "visibility": "always-display",
+        "shape": "waves_3",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "accent-1",
+        "custom_shape_color": "#dd1d1d",
+        "background_color": "background-1",
+        "custom_background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "icons_with_content_xDQ38K": {
+      "type": "icons-with-content",
+      "blocks": {
+        "icon_fDeftT": {
+          "type": "icon",
+          "settings": {
+            "icon": "family_restroom",
+            "filled_icon": false,
+            "title": "Protect Your Children’s Future",
+            "text": "<p>Understand how AI will impact safety, education, and opportunity, and how to prepare your kids for what’s coming.</p>"
+          }
+        },
+        "icon_wPwN7A": {
+          "type": "icon",
+          "settings": {
+            "icon": "business_center",
+            "filled_icon": false,
+            "title": "Safeguard Your Career",
+            "text": "<p>See which jobs are most at risk and how to position yourself before automation takes over.</p>"
+          }
+        },
+        "icon_iqMWFx": {
+          "type": "icon",
+          "settings": {
+            "icon": "emergency_home",
+            "filled_icon": false,
+            "title": "Clarity in the Chaos",
+            "text": "<p>Cut through the noise with a step-by-step framework that makes sense of today’s AI changes.</p>"
+          }
+        },
+        "video_GN9UNy": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Gentelman.mp4",
+            "video_muted_autoplay": true
+          }
+        }
+      },
+      "block_order": [
+        "icon_fDeftT",
+        "icon_wPwN7A",
+        "icon_iqMWFx",
+        "video_GN9UNy"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "color_scheme": "background-1",
+        "icon_size": "m",
+        "icon_position": "next-to-title",
+        "icon_color": "accent-1",
+        "icon_heading_size": "h3",
+        "icon_text_alignment": "left",
+        "icons_desktop_layout": "1-column",
+        "icons_mobile_layout": "1-column",
+        "desktop_content_alignment": "left",
+        "layout": "image_first",
+        "mobile_layout": "text_first",
+        "hide_content_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "image_with_text_V4XWnX": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ird3mx": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>You Have Two Choices</strong>",
+            "title_highlight_color": "#fafafa",
+            "heading_size": "h2"
+          }
+        },
+        "text_VcLm77": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Choice 1:</strong> Close this page. Trust that everything will work out. Hope the experts have your best interests at heart. Wait and see what happens.</p><p><strong>Choice 2:</strong> Arm yourself with knowledge they don't want you to have. Protect your family. Prepare for the transformation. Be among the informed few who saw it coming.</p><p><strong>The choice has always been yours. But the window to make it is rapidly closing.</strong></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ird3mx",
+        "text_VcLm77"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_17_2025_01_17_27_PM.png",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2e2a39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": ""
+      }
+    },
+    "trustpilot_reviews_7JBRMA": {
+      "type": "trustpilot-reviews",
+      "blocks": {
+        "column_kGEcQa": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "Finally, someone connected ALL the dots",
+            "text": "<p>I've been following AI development for years, watching YouTube videos, reading forums, always feeling like I was only getting pieces of the puzzle. This book? It's the full picture. The chapter on the Pentagon's classified AI projects literally made my jaw drop. My wife thought I was paranoid about our smart home devices after reading the surveillance section together, we've completely reorganized our digital life. Worth every penny and then some.</p>",
+            "author": "James M."
+          }
+        },
+        "column_DmcAHe": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "Saved my career – seriously",
+            "text": "<p>I'm 43, work in logistics, and have been losing sleep about automation. The cascade 3 didn't just confirm my fears, it gave me a roadmap. Already enrolled in one of the \"safe career\" transitions the book recommends. My only regret is not finding this sooner. If you're worried about your job, stop scrolling Twitter for answers and GET THIS BOOK.</p>",
+            "author": "<em>Anthony R.</em>"
+          }
+        },
+        "column_qwrWJR": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "The children chapter changed everything",
+            "text": "<p>As a mother of two teens, the section on AI's impact on children hit me like a truck. I had NO IDEA about the \"cognitive restructuring\" happening through AI companions. We've implemented the family protection strategies from Chapter 7, and I'm already seeing positive changes in my kids' behavior and focus. This isn't fear-mongering – it's a wake-up call every parent needs.</p>",
+            "author": "Sarah K."
+          }
+        },
+        "column_b3kXcd": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "I work in tech. This book is terrifyingly accurate",
+            "text": "<p>Without violating my NDA, let me just say: the author knows things. The details about OpenAI's pivot to secrecy, the real reasons behind the tech layoffs, the actual AGI timeline – it's all true. I've been in the industry for 15 years and this book connected dots I didn't even know existed. Already bought copies for my family members. They need to know what's coming.</p>",
+            "author": "DevGuy2019"
+          }
+        },
+        "column_a9MtRd": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "From skeptic to believer in 150+ pages",
+            "text": "<p>My son recommended this book. I thought he was getting too deep into conspiracy theories. Then I read it. The government documents, the timeline correlations, the whistleblower testimonies, it's all documented. Not theories, FACTS. The section on deepfakes and the elections made me physically nauseous because I remembered those news stories differently. We've been played, folks.</p>",
+            "author": "Michael T."
+          }
+        },
+        "column_3eErAf": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "The survival guide alone is worth 10x the price",
+            "text": "<p>I've read dozens of books on future threats, but none provided actionable steps like this. The \"AI Survival Guide\" in the final chapters isn't just theory, it's a practical playbook. Already implemented the financial protection strategies and the \"analog advantage\" techniques. My family went from anxious to prepared. This is the manual for navigating what's coming.</p>",
+            "author": "PrepperDad_Colorado"
+          }
+        },
+        "column_3JXTLd": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "Explains EVERYTHING happening right now",
+            "text": "<p>Remember feeling like something was \"off\" about the world lately? This book explains why. The Dead Internet Theory chapter made me audit my social media, found 7 bot accounts I'd been interacting with regularly thinking they were real people. The manipulation is already here. Thank God someone finally had the courage to expose all of this.</p>",
+            "author": "Lisa W."
+          }
+        },
+        "column_LiLVPk": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "Couldn't put it down – read it in one night",
+            "text": "<p>Started reading at 9 PM, finished at 4 AM. Could. Not. Stop. Every chapter revealed another layer of the deception. The connection between AI development and recent global events is undeniable once you see it laid out. My group chat hasn't stopped discussing this book for two weeks. It's that important.</p>",
+            "author": "TruthSeeker_88"
+          }
+        },
+        "column_KDDqXi": {
+          "type": "column",
+          "settings": {
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "stars_rating": 5,
+            "title": "The whistleblower interviews… WOW",
+            "text": "<p>The three anonymous Big Tech whistleblower interviews scattered throughout the book are EXPLOSIVE. Especially the one from the OpenAI insider. Now I understand why GPT-4's release was so different, why certain features were hidden, and what they're really building toward. This information needs to be mainstream news, but we know why it isn't.</p>",
+            "author": "Jennifer P."
+          }
+        }
+      },
+      "block_order": [
+        "column_kGEcQa",
+        "column_DmcAHe",
+        "column_qwrWJR",
+        "column_b3kXcd",
+        "column_a9MtRd",
+        "column_3eErAf",
+        "column_3JXTLd",
+        "column_LiLVPk",
+        "column_KDDqXi"
+      ],
+      "name": "Trustpilot reviews",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "color_scheme": "background-1",
+        "desktop_content_position": "above",
+        "desktop_content_alignment": "center",
+        "title": "Trustpilot reviews",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "subtitle": "Excellent [rating] <strong>/ 5</strong> [rating_stars]",
+        "subheading_rating_text": "<strong>4.8</strong>",
+        "subheading_mobile_text_size": 18,
+        "subheading_desktop_text_size": 20,
+        "subheading_font": "body",
+        "star_color": "#00b67a",
+        "bg_star_color": "#c8c8c8",
+        "star_symbol_color": "#ffffff",
+        "stars_rating": 5,
+        "text": "",
+        "cards_border_radius": 16,
+        "card_alignment": "center",
+        "show_stars": true,
+        "cards_color_scheme": "background-2",
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": true,
+        "per_move_desktop": 1,
+        "desktop_spacing": 24,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "under",
+        "mobile_arrows_position": "under",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_cards_colors_background": "#f3f3f3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#2e2a39"
+      }
+    }
+  },
+  "order": [
+    "rich_text_8n4cyg",
+    "main",
+    "related-products",
+    "facebook_testimonials_d4EKFc",
+    "b321ab88-2b59-4dba-bade-54885c874ca5",
+    "icons_with_content_xDQ38K",
+    "image_with_text_V4XWnX",
+    "trustpilot_reviews_7JBRMA"
+  ]
+}
