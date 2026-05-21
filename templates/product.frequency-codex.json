@@ -1,0 +1,692 @@
+{
+  "sections": {
+
+    "main": {
+      "type": "main-product",
+      "blocks": {
+
+        "testimonial_quote": {
+          "type": "text",
+          "settings": {
+            "text_1": "\"I've read dozens of books on consciousness. Nothing came close to this. After the first chapter on cymatics I had to put it down and just sit with what I'd understood.\"",
+            "text_2": "— Marcus T., United States  ★★★★★",
+            "text_3": "",
+            "alignment": "left",
+            "desktop_text_size": 13,
+            "mobile_text_size": 13,
+            "text_color": "#555555",
+            "enable_bg": true,
+            "bg_color": "#f7f7f7",
+            "corner_radius": 5,
+            "padding": 5,
+            "border_size": 0,
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": "h1",
+            "title_alignment": "left",
+            "uppercase_title": false,
+            "margin_top": 0,
+            "margin_bottom": 3
+          }
+        },
+
+        "rating_stars": {
+          "type": "rating_stars",
+          "settings": {
+            "rating": 4.9,
+            "star_color": "#f5a623",
+            "bg_stars_style": "full",
+            "bg_star_color": "#ececec",
+            "label": "(500+ Reviews)",
+            "size": 14,
+            "alignment": "flex-start",
+            "scroll_id": "reviews",
+            "margin_top": 9,
+            "margin_bottom": 9
+          }
+        },
+
+        "price": {
+          "type": "price",
+          "settings": {
+            "layout": "price_first",
+            "price_color": "text",
+            "compare_price_color": "text",
+            "displayed_badge": "sale",
+            "custom_badge_text": "SAVE [percent]%",
+            "icon_1": "redeem",
+            "filled_icon_1": false,
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+
+        "description": {
+          "type": "description",
+          "settings": {
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+
+        "variant_picker_v": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_types": "quantity breaks",
+            "skip_unavailable": false,
+            "breaks_style": "normal",
+            "breaks_headline": "Select your bundle",
+            "breaks_display_selected_indicator": true,
+            "breaks_border_radius": 8,
+            "breaks_border_width": 2,
+            "breaks_color_scheme": "text",
+            "breaks_badges": "[empty], FREE SHIPPING, BEST VALUE",
+            "breaks_badge_style": "1",
+            "breaks_badge_color": "inverse",
+            "breaks_displayed_images": "variant_images",
+            "breaks_image_width": 70,
+            "breaks_space_images": true,
+            "breaks_vertical_prices_layout": "horizontal",
+            "margin_top": 0,
+            "margin_bottom": 12
+          }
+        },
+
+        "upsell_addon": {
+          "type": "product_upsell",
+          "settings": {
+            "style": "checkbox",
+            "btn_position": "right",
+            "toggle_element": "checkbox",
+            "add_btn_label": "<strong>Add</strong>",
+            "stacking": "column",
+            "accent_color": "text",
+            "color_scheme": "background-1",
+            "product_list": [],
+            "enable_dynamic_recommendations": false,
+            "prdouct_1_preselected": false,
+            "product_1_desc": "Weekly decoded transmissions — new frequencies, new symbols, new layers. Delivered directly to your inbox. Cancel anytime.",
+            "show_images": false,
+            "title_size": "1.3",
+            "desc_size": "1.2",
+            "price_position": "next_to_title",
+            "price_size": "1.3",
+            "hide_compare_price": true,
+            "show_border": true,
+            "regular_border_color": "#cccccc",
+            "selected_border_color": "#111111",
+            "border_width": "0.15",
+            "show_custom_bg": false,
+            "corner_radius": 10,
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+
+        "atc_btn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "skip_cart": false,
+            "uppercase_text": true,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "display_price": false,
+            "enable_custom_color": false,
+            "enable_secondary_btn": false,
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+
+        "trust_icons": {
+          "type": "icon_with_text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_color": "text",
+            "desktop_icon_size": 20,
+            "desktop_spacing": 6,
+            "desktop_text_size": 14,
+            "mobile_icon_size": 20,
+            "mobile_spacing": 6,
+            "mobile_text_size": 12,
+            "icon_1": "verified_user",
+            "icon_1_fill": false,
+            "heading_1": "30-Day Money-Back Guarantee",
+            "icon_2": "local_fire_department",
+            "icon_2_fill": false,
+            "heading_2": "Selling Out Fast",
+            "icon_3": "local_shipping",
+            "icon_3_fill": false,
+            "heading_3": "Free Shipping on Bundles",
+            "margin_top": 0,
+            "margin_bottom": 21
+          }
+        },
+
+        "faq_tab_1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is this book for me?",
+            "icon": "question_mark",
+            "filled_icon": false,
+            "heading_size": "medium",
+            "collapse_icon": "plus",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>If you…</p><ul><li>Feel there is a hidden layer to reality that no one around you seems to see</li><li>Sense that your thoughts, emotions, and environment are shaping your life in ways you can't fully explain</li><li>Have always been drawn to sound, frequency, or the invisible forces behind existence</li><li>Want to understand why ancient civilisations encoded geometry into their temples, scriptures, and monuments</li><li>Know there is a higher version of yourself that vibrates at a different frequency than who you are today</li></ul><p>Then The Frequency Codex was made for you.</p>",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+
+        "faq_tab_2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long does shipping take?",
+            "icon": "local_shipping",
+            "filled_icon": false,
+            "heading_size": "medium",
+            "collapse_icon": "plus",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Your order is shipped worldwide with full tracking. Delivery typically takes 5–14 business days depending on your location. You will receive a tracking number by email as soon as your order is dispatched.</p>",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+
+      },
+      "block_order": [
+        "testimonial_quote",
+        "title",
+        "rating_stars",
+        "price",
+        "description",
+        "variant_picker_v",
+        "upsell_addon",
+        "atc_btn",
+        "trust_icons",
+        "faq_tab_1",
+        "faq_tab_2"
+      ],
+      "settings": {
+        "display_id": false,
+        "enable_sticky_info": true,
+        "display_variant_image_first": false,
+        "disable_prepend": true,
+        "hide_variants": false,
+        "variant_image_filtering": "none",
+        "image_zoom": "none",
+        "thumbnails_ratio": "square",
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "video_player": "play_btn",
+        "enable_video_looping": false,
+        "media_size": "medium",
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "desktop_thumbnails_position": "bottom",
+        "desktop_thumbnails_count": 5,
+        "desktop_vertical_thumbnails_width": 16,
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "desktop_arrows_position": "hidden",
+        "mobile_media_corner_radius": 0,
+        "mobile_spacing_pixels": 0,
+        "mobile_arrows_position": "sides",
+        "mobile_pagination": "dots_overlay",
+        "mobile_thumbnails_position": "hidden",
+        "mobile_thumbnails_count": 5,
+        "mobile_scroll_padding_percentage": 0,
+        "mobile_scroll_padding_pixels": 0,
+        "mobile_slides_container_width": 100,
+        "mobile_slides_inner_width": 100,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36
+      }
+    },
+
+    "lf_rows": {
+      "type": "multirow",
+      "blocks": {
+
+        "row_1": {
+          "type": "row",
+          "settings": {
+            "title": "Sound does not vanish after it is heard — it enters matter and leaves instruction behind",
+            "title_highlight_color": "#111111",
+            "text": "<p>For centuries, scientists have watched what happens when vibration passes through sand, water, or powder. The matter does not remain in chaos. It separates. It gathers. It arranges itself into circles, stars, cells, and lattices — as though an invisible intelligence were guiding it from within.</p><p>This is cymatics. And it reveals a law so foundational that it changes everything: <strong>frequency is not passive. It is formative.</strong> What appears to the ear as tone appears to matter as command. The hidden architecture of reality is not built from atoms alone. It is organised by vibration.</p>",
+            "caption": ""
+          }
+        },
+
+        "row_2": {
+          "type": "row",
+          "settings": {
+            "title": "You are not merely a body. You are a living transmitter broadcasting a signal into the field of existence",
+            "title_highlight_color": "#111111",
+            "text": "<p>Your nervous system is the inner lightning of the human temple — the electrical tree through which you receive, translate, and obey frequencies from within and without. Your heartbeat is the first rhythm. Your breath is the invisible gate between the conscious mind and the unconscious body. Your vocal cords are where thought becomes physical vibration.</p><p>Everything you repeatedly expose yourself to does not simply pass through you. It finds what within you matches it — and once a match is found, it amplifies. This is the deeper secret of resonance. And once you understand it, you can never unsee it.</p>",
+            "caption": ""
+          }
+        },
+
+        "row_3": {
+          "type": "row",
+          "settings": {
+            "title": "The ancients encoded this knowledge into every temple, symbol, and sacred text — and it has been hiding in plain sight",
+            "title_highlight_color": "#111111",
+            "text": "<p>Sacred geometry is not the worship of shapes. It is the study of the hidden forms that appear when frequency becomes order. Leonardo's Vitruvian Man placed the human body within the circle and the square — showing man as the living bridge between the infinite field and the material world.</p><p>Before form, there was sound. Before matter, there was vibration. The Frequency Codex decodes this ancient science of resonance and places it directly in your hands — not as theory, but as a map. A map of what you are, how reality works, and how to align your inner field with the forces that shape existence itself.</p>",
+            "caption": ""
+          }
+        }
+
+      },
+      "block_order": ["row_1", "row_2", "row_3"],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image_layout": "alternate",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "heading_size": "h2",
+        "button_style": "secondary",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+
+    "secrets_dark": {
+      "type": "custom-liquid",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "custom_liquid": "<section style=\"background:#0d0d0d;color:#fff;padding:64px 32px;text-align:center;\"><div style=\"max-width:800px;margin:0 auto;\"><h2 style=\"font-family:Georgia,serif;font-size:clamp(22px,4vw,30px);font-weight:700;line-height:1.25;margin-bottom:10px;\">Everything hidden in one codex — decoded for the first time</h2><p style=\"font-size:14px;color:#aaa;margin-bottom:40px;\">Ancient knowledge. Modern science. One unified system of frequency.</p><div style=\"display:grid;grid-template-columns:repeat(2,1fr);gap:0;text-align:left;\"><div style=\"padding:13px 0;border-bottom:1px solid #222;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>Why sound physically rearranges matter — and what it does to your body</div><div style=\"padding:13px 0;border-bottom:1px solid #222;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>The secret of Chladni plates — geometry hidden inside every sound wave</div><div style=\"padding:13px 0;border-bottom:1px solid #222;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>The vagus nerve — the wandering signal line the ancients knew as the spirit path</div><div style=\"padding:13px 0;border-bottom:1px solid #222;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>Brain wave states — how music, chanting, and screens alter your inner frequency</div><div style=\"padding:13px 0;border-bottom:1px solid #222;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>Sacred geometry decoded — why every ancient temple carries the same hidden pattern</div><div style=\"padding:13px 0;border-bottom:1px solid #222;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>Why OM / AUM is the primordial vibration and how it maps to creation itself</div><div style=\"padding:13px 0;border-bottom:1px solid #222;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>Coherence vs. fragmentation — the state your inner field is in right now</div><div style=\"padding:13px 0;border-bottom:1px solid #222;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>Your vocal cords — living gates where invisible thought becomes waveform</div><div style=\"padding:13px 0;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>The heartbeat as the original drum — the first rhythm of the human instrument</div><div style=\"padding:13px 0;display:flex;align-items:center;gap:12px;font-size:14px;color:#e0e0e0;\"><span style=\"width:6px;height:6px;min-width:6px;background:#f5a623;border-radius:50%;\"></span>Frequency Synthesis — the unified science that connects sound, light, emotion, body, and matter</div></div></div></section>",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+
+    "testimonial_ticker": {
+      "type": "horizontal-ticker",
+      "blocks": {
+
+        "rev_1": {
+          "type": "reviews",
+          "settings": {
+            "color_scheme": "background-1",
+            "show_custom_bg": false,
+            "corner_radius": 10,
+            "border_width": 1,
+            "border_color": "#e8e8e8",
+            "avatar_alignment": "top",
+            "avatar_corner_radius": 40,
+            "star_color": "#f5a623",
+            "checkmark_color": "#111111",
+            "checkmark_icon_color": "#ffffff",
+            "author_1": "<em>Sarah K., United Kingdom</em> ★★★★★",
+            "text_1": "<p>\"The chapter on cymatics broke something open in me. I've been searching for this explanation my whole life. The way sound creates form — I wept reading it.\"</p>"
+          }
+        },
+
+        "rev_2": {
+          "type": "reviews",
+          "settings": {
+            "color_scheme": "background-1",
+            "show_custom_bg": false,
+            "corner_radius": 10,
+            "border_width": 1,
+            "border_color": "#e8e8e8",
+            "avatar_alignment": "top",
+            "avatar_corner_radius": 40,
+            "star_color": "#f5a623",
+            "checkmark_color": "#111111",
+            "checkmark_icon_color": "#ffffff",
+            "author_1": "<em>James R., Australia</em> ★★★★★",
+            "text_1": "<p>\"I'm a neuroscientist. The section on brain waves and the vagus nerve is one of the most accurate and beautifully written explanations I've ever read outside of academic literature.\"</p>"
+          }
+        },
+
+        "rev_3": {
+          "type": "reviews",
+          "settings": {
+            "color_scheme": "background-1",
+            "show_custom_bg": false,
+            "corner_radius": 10,
+            "border_width": 1,
+            "border_color": "#e8e8e8",
+            "avatar_alignment": "top",
+            "avatar_corner_radius": 40,
+            "star_color": "#f5a623",
+            "checkmark_color": "#111111",
+            "checkmark_icon_color": "#ffffff",
+            "author_1": "<em>Amara L., Nigeria</em> ★★★★★",
+            "text_1": "<p>\"I read it three times. Each time I find a new layer. This is not a book you finish — it's a book that finishes you and builds something new in your place.\"</p>"
+          }
+        },
+
+        "rev_4": {
+          "type": "reviews",
+          "settings": {
+            "color_scheme": "background-1",
+            "show_custom_bg": false,
+            "corner_radius": 10,
+            "border_width": 1,
+            "border_color": "#e8e8e8",
+            "avatar_alignment": "top",
+            "avatar_corner_radius": 40,
+            "star_color": "#f5a623",
+            "checkmark_color": "#111111",
+            "checkmark_icon_color": "#ffffff",
+            "author_1": "<em>Daniel F., Germany</em> ★★★★★",
+            "text_1": "<p>\"I was skeptical. I study physics. But the Chladni plates section stopped me cold. This book connects what science observes with what the ancients encoded. It's remarkable.\"</p>"
+          }
+        },
+
+        "rev_5": {
+          "type": "reviews",
+          "settings": {
+            "color_scheme": "background-1",
+            "show_custom_bg": false,
+            "corner_radius": 10,
+            "border_width": 1,
+            "border_color": "#e8e8e8",
+            "avatar_alignment": "top",
+            "avatar_corner_radius": 40,
+            "star_color": "#f5a623",
+            "checkmark_color": "#111111",
+            "checkmark_icon_color": "#ffffff",
+            "author_1": "<em>Yuna M., Japan</em> ★★★★★",
+            "text_1": "<p>\"The section on resonance changed how I understand every relationship in my life. What you amplify in others is what you carry inside yourself. This book cracked the code.\"</p>"
+          }
+        },
+
+        "rev_6": {
+          "type": "reviews",
+          "settings": {
+            "color_scheme": "background-1",
+            "show_custom_bg": false,
+            "corner_radius": 10,
+            "border_width": 1,
+            "border_color": "#e8e8e8",
+            "avatar_alignment": "top",
+            "avatar_corner_radius": 40,
+            "star_color": "#f5a623",
+            "checkmark_color": "#111111",
+            "checkmark_icon_color": "#ffffff",
+            "author_1": "<em>Carlos V., Brazil</em> ★★★★★",
+            "text_1": "<p>\"Read it slowly, like the warning at the front says. The first time I rushed it. The second time I decoded it. Page 23 — the vagus nerve chapter — changed my meditation practice permanently.\"</p>"
+          }
+        },
+
+        "rev_7": {
+          "type": "reviews",
+          "settings": {
+            "color_scheme": "background-1",
+            "show_custom_bg": false,
+            "corner_radius": 10,
+            "border_width": 1,
+            "border_color": "#e8e8e8",
+            "avatar_alignment": "top",
+            "avatar_corner_radius": 40,
+            "star_color": "#f5a623",
+            "checkmark_color": "#111111",
+            "checkmark_icon_color": "#ffffff",
+            "author_1": "<em>Priya N., India</em> ★★★★★",
+            "text_1": "<p>\"Finally, a book that explains why Om is the primordial vibration using science, not faith. This is the bridge I've been waiting for between ancient Vedic knowledge and modern physics.\"</p>"
+          }
+        },
+
+        "rev_8": {
+          "type": "reviews",
+          "settings": {
+            "color_scheme": "background-1",
+            "show_custom_bg": false,
+            "corner_radius": 10,
+            "border_width": 1,
+            "border_color": "#e8e8e8",
+            "avatar_alignment": "top",
+            "avatar_corner_radius": 40,
+            "star_color": "#f5a623",
+            "checkmark_color": "#111111",
+            "checkmark_icon_color": "#ffffff",
+            "author_1": "<em>Thomas B., France</em> ★★★★★",
+            "text_1": "<p>\"My anxiety has been consuming me for years. After understanding inner coherence vs. fragmentation in this book, I finally understood why. Not the symptoms — the actual cause. The frequency cause.\"</p>"
+          }
+        }
+
+      },
+      "block_order": ["rev_1","rev_2","rev_3","rev_4","rev_5","rev_6","rev_7","rev_8"],
+      "name": "Testimonial Ticker",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Over 500 people already know",
+        "title_highlight_color": "#111111",
+        "heading_size": "h2",
+        "text": "what you're about to decode",
+        "color_scheme": "background-1",
+        "speed": 5,
+        "direction": "normal",
+        "stop_on_hover": true,
+        "desktop_reviews_width": 300,
+        "mobile_reviews_width": 260,
+        "desktop_spacing": 100,
+        "mobile_spacing": 60,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": ""
+      }
+    },
+
+    "faq_section": {
+      "type": "collapsible-content",
+      "blocks": {
+
+        "faq_q1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I'm new to this topic. Will I understand it?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>The Frequency Codex begins with a full glossary of every term used in the book — from cymatics and resonance to brain waves and the vagus nerve. You don't need any prior knowledge. The book is layered: simple on the surface, infinitely deep as you return to it. First-time readers and experienced practitioners both find exactly what they need inside it.</p>"
+          }
+        },
+
+        "faq_q2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this a spiritual book or a scientific one?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>Both — and neither alone. The Frequency Codex bridges what science observes and what ancient traditions encoded. It references cymatics, polyvagal theory, EEG brain wave research, and the nervous system alongside sacred geometry, OM, and the ancient concept of primordial vibration. If you've felt that science and spirituality are pointing at the same thing from different directions, this book is the meeting point.</p>"
+          }
+        },
+
+        "faq_q3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What exactly do I get?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>You receive a premium printed paperback edition of The Frequency Codex by Elias B. Veyne — 103 dense, layered pages of vibrational philosophy, frequency synthesis, energetic anatomy, and symbolic interpretation. Printed on high-quality paper with a design that matches the depth of the content. This is not a book you rush through once — it is a codex you return to.</p>"
+          }
+        },
+
+        "faq_q4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I'm a logical, science-minded person. Will this feel too mystical?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>The Frequency Codex is grounded in observable phenomena — cymatics, Chladni plates, polyvagal theory, EEG research, and the bioelectric nature of the nervous system. The mystical and the scientific are not separated in this book. They are shown to be the same thing observed from different angles. Analytical readers consistently report it as the most satisfying integration of hard science and symbolic knowledge they've encountered.</p>"
+          }
+        },
+
+        "faq_q5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will this actually change something in me?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>The book itself says it plainly: it is not meant to be read quickly — it is meant to be decoded. Readers consistently report that specific chapters — cymatics, resonance, the vagus nerve, coherence — produced a shift that was immediate and permanent. What changes is not what you know. It is how you perceive. And perception, once altered, cannot return to what it was. If you're not satisfied for any reason, we offer a full 30-day money-back guarantee.</p>"
+          }
+        },
+
+        "faq_q6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I've already read many books on consciousness and spirituality. Will I find anything new?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>The Frequency Codex does not repeat what has already been said. It introduces Frequency Synthesis — a method that unifies sound, light, thought, emotion, rhythm, symbol, body, and matter into one indivisible structure. Most books on this subject cover one piece. This one decodes the entire system. Readers with years of background in this space consistently describe it as the book that finally connected all the dots.</p>"
+          }
+        },
+
+        "faq_q7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I'm religious? Will this conflict with my beliefs?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>The Frequency Codex draws from Hindu, Hebrew, Greek, Latin, Egyptian, and Christian traditions — not to challenge any of them, but to show the frequency principle they all share. The concept of the Word, of Om, of Ruach, of Pneuma — these are different names for the same primordial vibration. Readers of every faith have described the book as a deepening of their understanding, not a contradiction of it.</p>"
+          }
+        },
+
+        "faq_q8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "My mind feels scattered and I struggle to focus. Is this still for me?",
+            "icon": "",
+            "filled_icon": false,
+            "row_content": "<p>The section on coherence vs. fragmentation was written precisely for this. The Frequency Codex explains why the inner state of conflict — where thought, emotion, breath, and intention contradict each other — produces exactly the mental fog and anxiety most people are experiencing. Understanding the mechanism is the first step to resolving it. Many readers described clarity arriving while they were still mid-chapter.</p>"
+          }
+        }
+
+      },
+      "block_order": [
+        "faq_q1","faq_q2","faq_q3","faq_q4",
+        "faq_q5","faq_q6","faq_q7","faq_q8"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "caption": "",
+        "title": "Frequently Asked Questions",
+        "title_highlight_color": "#111111",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "row_heading_size": "medium",
+        "collapse_icon": "plus",
+        "display_top_border": true,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#111111",
+        "custom_contaner_colors_background": "#ffffff",
+        "custom_container_gradient_background": "",
+        "custom_contaner_colors_text": "#111111"
+      }
+    },
+
+    "trust_footer": {
+      "type": "multicolumn",
+      "blocks": {
+
+        "col_support": {
+          "type": "column",
+          "settings": {
+            "title": "24/7 Customer Support",
+            "text": "<p>We're here whenever you need us. Reach out at <strong>support@solesterius.com</strong> — we reply within 24 hours, always.</p>",
+            "link_label": "",
+            "link": "",
+            "image": null
+          }
+        },
+
+        "col_shipping": {
+          "type": "column",
+          "settings": {
+            "title": "Worldwide Shipping",
+            "text": "<p>We deliver to every corner of the world. Orders typically arrive within <strong>5–14 business days</strong>. Fully tracked from dispatch to door.</p>",
+            "link_label": "",
+            "link": "",
+            "image": null
+          }
+        },
+
+        "col_guarantee": {
+          "type": "column",
+          "settings": {
+            "title": "30-Day Money-Back Guarantee",
+            "text": "<p>If you're not completely satisfied for any reason — <strong>full refund, no questions asked</strong>. You carry zero risk. We carry all of it.</p>",
+            "link_label": "",
+            "link": "",
+            "image": null
+          }
+        }
+
+      },
+      "block_order": ["col_support","col_shipping","col_guarantee"],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "",
+        "heading_size": "h2",
+        "title_highlight_color": "#111111",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "background-2",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "custom_colors_background": "#f7f7f7",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#111111",
+        "custom_colors_solid_button_background": "#111111",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#111111",
+        "custom_cards_colors_background": "#ffffff",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_text": "#111111"
+      }
+    }
+
+  },
+  "order": [
+    "main",
+    "lf_rows",
+    "secrets_dark",
+    "testimonial_ticker",
+    "faq_section",
+    "trust_footer"
+  ]
+}
